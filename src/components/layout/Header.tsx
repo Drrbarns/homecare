@@ -108,7 +108,7 @@ export function Header() {
                         </div>
                     </div>
                     <Link href="/articles" className="hover:text-[#5cb3b1] transition-colors">Articles</Link>
-                    <Link href="/careers" className="hover:text-[#5cb3b1] transition-colors">Caregiver Jobs</Link>
+                    <Link href="/employment" className="hover:text-[#5cb3b1] transition-colors uppercase">Caregiver Jobs</Link>
                     <Link href="/contact-us" className="hover:text-[#5cb3b1] transition-colors">Contact Us</Link>
 
                     <button className="hover:text-[#5cb3b1] transition-colors ml-2" aria-label="Search">
@@ -169,7 +169,7 @@ export function Header() {
                                 <Link href="/articles" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Articles
                                 </Link>
-                                <Link href="/careers" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
+                                <Link href="/employment" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Caregiver Jobs
                                 </Link>
                                 <Link href="/contact-us" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">

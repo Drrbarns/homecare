@@ -1,0 +1,480 @@
+import Image from "next/image";
+import Link from "next/link";
+import { FloatingGetStarted } from "@/components/layout/FloatingGetStarted";
+import { FAQAccordion } from "@/components/shared/FAQAccordion";
+
+export const metadata = {
+    title: "Caregiver Jobs | Part-Time & Full-Time Home Care Careers",
+    description: "You're Set for Success from Day One When You Work for Visiting Angels! Part-Time & Full-Time Home Care Careers.",
+};
+
+export default function EmploymentPage() {
+    return (
+        <div className="bg-white">
+            {/* Hero Section */}
+            <div className="relative bg-[#043b67] w-full overflow-hidden mb-16">
+                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] relative">
+                    <div className="flex flex-col lg:flex-row h-auto lg:h-[450px]">
+                        
+                        {/* Left Content */}
+                        <div className="w-full lg:w-[45%] py-12 lg:py-0 flex flex-col justify-center relative z-20 pr-0 lg:pr-8">
+                            <h1 className="text-[36px] md:text-[42px] lg:text-[48px] font-bold text-[#dca626] font-sans leading-tight mb-4 tracking-tight">
+                                Caregiver Jobs
+                            </h1>
+                            <p className="text-[18px] md:text-[20px] text-white font-medium mb-6 leading-snug">
+                                You're Set for Success from Day One When You Work<br/>for Visiting Angels!
+                            </p>
+                            <p className="text-[16px] text-white mb-8">
+                                Part-Time & Full-Time Home Care Careers
+                            </p>
+                            
+                            {/* Zip Code Form */}
+                            <div className="flex max-w-[400px]">
+                                <input 
+                                    type="text" 
+                                    placeholder="Enter Zip Code" 
+                                    className="flex-1 px-4 py-3 rounded-l-[4px] border-none focus:outline-none text-[15px]"
+                                />
+                                <button className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold px-8 py-3 rounded-r-[4px] transition-colors">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+
+                        {/* Middle Curve Overlay (Desktop only) */}
+                        <div className="hidden lg:block absolute left-[40%] top-0 bottom-0 w-[15%] z-10">
+                            <svg className="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#043b67">
+                                <path d="M0,0 Q100,50 0,100 Z" />
+                                <path d="M20,0 Q120,50 20,100" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5" />
+                                <path d="M40,0 Q140,50 40,100" fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="0.5" />
+                            </svg>
+                        </div>
+
+                        {/* Right Image */}
+                        <div className="w-full lg:w-[60%] lg:absolute lg:right-0 lg:top-0 lg:bottom-0 h-[300px] lg:h-auto relative z-0">
+                            <Image
+                                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                                alt="Caregiver playing puzzle with senior man"
+                                fill
+                                className="object-cover object-center lg:object-left"
+                            />
+                            {/* Play Button Overlay */}
+                            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                                <div className="w-20 h-20 bg-white/70 rounded-full flex items-center justify-center pl-2 backdrop-blur-sm cursor-pointer pointer-events-auto hover:bg-white/90 transition-all shadow-lg">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="#043b67">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
+                
+                {/* What's Important To You in a Career Section */}
+                <div className="flex flex-col md:flex-row gap-12 lg:gap-16 mb-24 items-start">
+                    {/* Left Images Collage */}
+                    <div className="w-full md:w-[45%] flex gap-4 h-[500px]">
+                        {/* Tall Image */}
+                        <div className="w-[45%] relative rounded-[8px] overflow-hidden shadow-sm h-full">
+                            <Image
+                                src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                alt="Smiling caregiver"
+                                fill
+                                className="object-cover object-center"
+                            />
+                        </div>
+                        {/* Two Stacked Images */}
+                        <div className="w-[55%] flex flex-col gap-4 h-full">
+                            <div className="relative rounded-[8px] overflow-hidden shadow-sm h-[40%]">
+                                <Image
+                                    src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                    alt="Two caregivers smiling"
+                                    fill
+                                    className="object-cover object-center"
+                                />
+                            </div>
+                            <div className="relative rounded-[8px] overflow-hidden shadow-sm h-[60%]">
+                                <Image
+                                    src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                    alt="Caregiver reading with senior man"
+                                    fill
+                                    className="object-cover object-center"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Right Text Content */}
+                    <div className="w-full md:w-[55%]">
+                        <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight leading-tight">
+                            What's Important To You in a Career?
+                        </h2>
+                        <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                            Build a meaningful career that fits your life while making a real difference
+                            for others. As a <Link href="/caregivers" className="underline text-[#3b7ea1] hover:text-[#043b67]">Visiting Angels professional caregiver</Link>, you'll help seniors
+                            <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]"> live safely and comfortably at home</Link>, forming real connections and bringing
+                            peace of mind to families.
+                        </p>
+                        <p className="text-[15.5px] text-[#333333] mb-10 leading-[1.7]">
+                            With Visiting Angels, you'll find a vibrant, supportive workplace where
+                            caregivers feel truly valued. We're ready to welcome you with the support
+                            and ongoing training you need to succeed. Let's get started!
+                        </p>
+
+                        {/* 6 Reasons Box */}
+                        <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white">
+                            <h3 className="text-[20px] font-bold text-[#043b67] mb-6 font-sans">
+                                6 Reasons to Join the Visiting Angels Team:
+                            </h3>
+                            <ul className="space-y-4">
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Easy hiring process
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Competitive pay and benefits
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Flexible scheduling
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Caregiver Matching Program
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Training Programs
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Career Advancement
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Start Your New Career Search Banner */}
+            <div className="bg-[#fcf8e5] w-full py-16 mb-24 relative overflow-hidden text-center flex flex-col items-center justify-center">
+                {/* Subtle Wavy Pattern Overlay */}
+                <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%23dca626\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
+                
+                <div className="relative z-10 max-w-xl px-4 w-full">
+                    <h2 className="text-[26px] md:text-[30px] font-bold text-[#043b67] mb-4 font-sans">
+                        Start Your New Career with Visiting Angels
+                    </h2>
+                    <p className="text-[15.5px] text-[#333333] mb-6">
+                        Enter Your ZIP Code to Find Jobs Near You
+                    </p>
+                    <div className="flex w-full max-w-[400px] mx-auto shadow-sm">
+                        <input 
+                            type="text" 
+                            placeholder="Enter Zip Code" 
+                            className="flex-1 px-4 py-3.5 rounded-l-[4px] border border-gray-200 focus:outline-none focus:border-[#dca626] text-[15px]"
+                        />
+                        <button className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold px-8 py-3.5 rounded-r-[4px] transition-colors">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
+                
+                {/* Award-Winning Offices */}
+                <div className="bg-[#eaf6f9] rounded-[8px] p-8 md:p-12 mb-24 relative overflow-hidden">
+                    {/* Wavy Pattern overlay */}
+                    <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%233b7ea1\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
+
+                    <div className="flex flex-col lg:flex-row gap-8 items-center relative z-10">
+                        <div className="flex-1">
+                            <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
+                                Award-Winning Offices
+                            </h2>
+                            <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                                Many of our locations nationwide have won the <a href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">Best of Home Care® Employer of Choice
+                                award</a> from <a href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">Activated Insights</a> (formerly Home Care Pulse). This exclusive designation is
+                                awarded to agencies based on feedback from caregivers and determined by the
+                                organization's strength and culture of respect and support.
+                            </p>
+                            <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                                Visiting Angels is also among only 10 brands endorsed as a "Best of Home Care®
+                                National Provider."
+                            </p>
+                            <p className="text-[15.5px] text-[#333333] mb-8 leading-[1.7]">
+                                With more than 600 locations across the country, Visiting Angels has rewarding caregiver
+                                jobs close to home—no matter where you live.
+                            </p>
+                            <button className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold px-8 py-3.5 rounded-[4px] transition-colors shadow-sm">
+                                View Office Locations
+                            </button>
+                        </div>
+                        <div className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] shrink-0">
+                            <div className="bg-white rounded-full p-4 shadow-lg w-full h-full flex items-center justify-center border-[8px] border-[#4eb3a4]">
+                                <div className="text-center">
+                                    <p className="text-[20px] font-bold text-[#043b67] tracking-widest uppercase mb-2">BEST OF</p>
+                                    <div className="flex justify-center gap-1 mb-2">
+                                        <div className="w-2 h-8 bg-[#dca626] rounded-full transform -rotate-[20deg]"></div>
+                                        <div className="w-2 h-10 bg-[#dca626] rounded-full"></div>
+                                        <div className="w-2 h-8 bg-[#dca626] rounded-full transform rotate-[20deg]"></div>
+                                    </div>
+                                    <p className="text-[16px] font-bold text-white bg-[#4eb3a4] px-4 py-1 tracking-widest uppercase mb-2">PROVIDER</p>
+                                    <p className="text-[14px] font-bold text-[#043b67] tracking-widest uppercase">OF CHOICE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Easy Hiring Process */}
+                <div className="flex flex-col md:flex-row gap-12 lg:gap-16 mb-24">
+                    <div className="w-full md:w-[35%] shrink-0">
+                        <div className="relative h-[380px] md:h-full min-h-[450px] rounded-[8px] overflow-hidden shadow-sm">
+                            <Image
+                                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                alt="Male and female caregivers smiling"
+                                fill
+                                className="object-cover object-center"
+                            />
+                        </div>
+                    </div>
+                    <div className="w-full md:w-[65%] flex flex-col justify-center">
+                        <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
+                            Easy Hiring Process
+                        </h2>
+                        <h3 className="text-[18px] font-bold text-[#333333] mb-4 font-sans">
+                            New to caregiving?
+                        </h3>
+                        <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                            You can learn as you go with Visiting Angels. We take a "character first" approach, hiring
+                            caregivers who have caring hearts and a willingness to learn.
+                        </p>
+                        <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                            Applying with Visiting Angels is quick and easy. Our streamlined process makes it easy to
+                            start building your future:
+                        </p>
+                        
+                        <ul className="space-y-4 mb-8">
+                            <li className="flex items-start text-[15.5px] text-[#333333]">
+                                <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
+                                <span>View open positions at your local Visiting Angels office</span>
+                            </li>
+                            <li className="flex items-start text-[15.5px] text-[#333333]">
+                                <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
+                                <span>Submit your application online</span>
+                            </li>
+                            <li className="flex items-start text-[15.5px] text-[#333333]">
+                                <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
+                                <span>Complete an interview with your local office team</span>
+                            </li>
+                            <li className="flex items-start text-[15.5px] text-[#333333]">
+                                <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
+                                <span>Pass a drug screening and background check</span>
+                            </li>
+                            <li className="flex items-start text-[15.5px] text-[#333333]">
+                                <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
+                                <span>Start your Visiting Angels career with training</span>
+                            </li>
+                        </ul>
+
+                        <p className="text-[15.5px] text-[#333333] leading-[1.7]">
+                            When you're invited for an interview, you can expect to answer basic questions about your
+                            education and your work history. We'll also ask about the type of caregiving roles you're
+                            interested in and about your availability. <a href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">Find a Visiting Angels office location near you.</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Competitive Pay & Benefits Full Width Section */}
+            <div className="bg-[#fcf8e5] w-full py-20 mb-24 relative">
+                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
+                    <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+                        <div className="flex-1">
+                            <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
+                                Competitive Pay & Benefits
+                            </h2>
+                            <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                                The pay range for Visiting Angels caregivers varies depending on where you live, your
+                                duties, and the shifts you work. Your local office team will provide specifics when you apply.
+                            </p>
+                            <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                                If you work full-time, you may be eligible for career benefits including
+                            </p>
+                            
+                            <ul className="space-y-4">
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    401(K) retirement plan
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Annual performance reviews and raises
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Holiday pay
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Medical and dental insurance
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Paid onboarding and training
+                                </li>
+                                <li className="flex items-center text-[15.5px] text-[#333333]">
+                                    <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 shrink-0"></div>
+                                    Travel reimbursement
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="w-full lg:w-[45%] shrink-0">
+                            <div className="relative h-[350px] md:h-[450px] rounded-[8px] overflow-hidden shadow-md">
+                                <Image
+                                    src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop"
+                                    alt="Caregiver smiling on phone"
+                                    fill
+                                    className="object-cover object-center"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
+                
+                {/* Supporting Our Caregivers at Every Step */}
+                <div className="mb-24 text-center max-w-4xl mx-auto">
+                    <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
+                        Supporting Our Caregivers at Every Step
+                    </h2>
+                    <p className="text-[15.5px] text-[#333333] leading-[1.7]">
+                        Our caregivers are the heart of what we do. That's why we're committed to creating an environment where you feel supported, prepared,
+                        and valued from day one—so you can focus on building meaningful relationships and making a difference in the lives of others.
+                    </p>
+                </div>
+
+                {/* 3 Column Info Cards */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+                    {/* Flexible Scheduling */}
+                    <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
+                        <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">
+                            Flexible Scheduling
+                        </h3>
+                        <p className="text-[14.5px] text-[#333333] leading-[1.7]">
+                            Full-time and part-time positions
+                            are available in numerous
+                            caregiving roles. It's a great career
+                            for students, retirees, and parents
+                            of young kids—you can choose to
+                            work evenings, weekends, or even
+                            overnight shifts. Visiting Angels
+                            also offers holiday pay!
+                        </p>
+                    </div>
+
+                    {/* Caregiver Matching Program */}
+                    <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
+                        <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">
+                            Caregiver Matching<br/>Program
+                        </h3>
+                        <p className="text-[14.5px] text-[#333333] leading-[1.7]">
+                            One of the reasons why clients
+                            love Visiting Angels is our Select a
+                            Caregiver® program. We carefully
+                            match each senior with the right
+                            caregiver. That means you'll work
+                            with families who are compatible
+                            with your availability, experience,
+                            personality, and shared interests.
+                            It's how we set you up for success
+                            from the start.
+                        </p>
+                    </div>
+
+                    {/* Caregiver University */}
+                    <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
+                        <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">
+                            Caregiver University
+                        </h3>
+                        <p className="text-[14.5px] text-[#333333] leading-[1.7]">
+                            With Visiting Angels, you can take
+                            advantage of paid in-person or
+                            online training opportunities
+                            through your local office. Learn to
+                            specialize in caring for seniors
+                            with specific health needs, such
+                            as military veterans or older
+                            adults with Alzheimer's disease
+                            or dementia.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Career Advancement Box */}
+                <div className="border border-gray-200 rounded-[8px] p-8 md:p-12 mb-24 shadow-sm bg-white">
+                    <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
+                        Career Advancement
+                    </h2>
+                    <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
+                        Becoming a Visiting Angels caregiver is a great way to kick off a rewarding career. You can earn annual raises and participate in
+                        valuable training classes to boost your expertise.
+                    </p>
+                    <p className="text-[15.5px] text-[#333333] leading-[1.7]">
+                        As you gain confidence in your caregiving skills, you can assume a role with more responsibility, such as a care coordinator, training
+                        provider, or administrative support professional. Working with Visiting Angels is a great way to earn hands-on experience for a future
+                        career as a patient care assistant, home health aide, or certified nurse assistant (CNA).
+                    </p>
+                </div>
+
+            </div>
+
+            {/* Caregiver of The Year Banner */}
+            <div className="bg-[#1e7b75] w-full py-16 mb-24 text-white overflow-hidden">
+                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
+                    <div className="flex flex-col md:flex-row gap-12 items-center justify-between">
+                        <div className="flex-1 max-w-xl">
+                            <h2 className="text-[28px] md:text-[34px] font-bold mb-6 font-sans tracking-tight leading-tight">
+                                Caregiver of The Year Award
+                            </h2>
+                            <p className="text-[16px] mb-8 leading-[1.7]">
+                                Every year, Visiting Angels offices across the county celebrate
+                                the caregivers who go above and beyond to represent our
+                                special brand of caring.
+                            </p>
+                            <button className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold px-8 py-3.5 rounded-[4px] transition-colors">
+                                Meet The Finalists and Winner!
+                            </button>
+                        </div>
+                        <div className="flex-1 flex justify-center md:justify-end">
+                            {/* SVG Logo for Caregiver of the Year */}
+                            <div className="w-[300px] md:w-[400px]">
+                                <svg viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <text x="50%" y="30" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="20" fontFamily="sans-serif" letterSpacing="2">VISITING ANGELS 2025</text>
+                                    <text x="50%" y="70" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="48" fontWeight="bold" fontFamily="sans-serif">Caregiver</text>
+                                    <text x="50%" y="110" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="32" fontStyle="italic" fontFamily="serif">of The</text>
+                                    <text x="50%" y="140" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="56" fontWeight="bold" fontFamily="sans-serif">Year</text>
+                                    {/* Abstract Heart Icon */}
+                                    <path d="M 60,110 C 60,110 40,80 70,80 C 90,80 100,100 100,100 C 100,100 110,80 130,80 C 160,80 140,110 140,110 C 140,110 100,150 100,150 C 100,150 60,110 60,110 Z" fill="white"/>
+                                    <circle cx="100" cy="110" r="15" fill="#1e7b75"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <FloatingGetStarted />
+        </div>
+    );
+}
