@@ -30,6 +30,7 @@ export function Footer() {
         if (pathname === "/home-care-faqs") return "Home Care FAQs";
         if (pathname === "/how-we-assist") return "How We Assist";
         if (pathname === "/long-distance-care-giving") return "Long Distance Care Giving";
+        if (pathname === "/our-reviews") return "Our Reviews";
         
         // Remove leading slash and split by slash
         const parts = pathname.substring(1).split('/');
