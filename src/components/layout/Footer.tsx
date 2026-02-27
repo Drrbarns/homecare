@@ -34,6 +34,7 @@ export function Footer() {
         if (pathname === "/veterans-benefits") return "Veterans Benefits";
         if (pathname === "/articles") return "Articles";
         if (pathname === "/employment") return "Caregiver Jobs";
+        if (pathname === "/contact-us") return "Contact Us";
         
         // Remove leading slash and split by slash
         const parts = pathname.substring(1).split('/');
