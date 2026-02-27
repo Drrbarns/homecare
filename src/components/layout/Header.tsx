@@ -24,17 +24,17 @@ export const typesOfCareNav = [
 ];
 
 export const homeCareInfoNav = [
-    { label: "Caregivers", href: "/resources" },
-    { label: "Fall Prevention", href: "/resources" },
-    { label: "Give Us A Review", href: "/resources" },
-    { label: "GUIDE Model Program", href: "/resources" },
-    { label: "Home Care Costs", href: "/resources" },
-    { label: "Home Care FAQs", href: "/resources" },
-    { label: "How To Get Started", href: "/resources" },
-    { label: "How We Assist", href: "/resources" },
-    { label: "Long Distance Care Giving", href: "/resources" },
-    { label: "Our Reviews", href: "/resources" },
-    { label: "Veterans Benefits", href: "/resources" }
+    { label: "Caregivers", href: "/caregivers" },
+    { label: "Fall Prevention", href: "/fall-prevention" },
+    { label: "Give Us A Review", href: "/give-us-a-review" },
+    { label: "GUIDE Model Program", href: "/guide-model-program" },
+    { label: "Home Care Costs", href: "/home-care-costs" },
+    { label: "Home Care FAQs", href: "/home-care-faqs" },
+    { label: "How To Get Started", href: "/how-to-get-started" },
+    { label: "How We Assist", href: "/how-we-assist" },
+    { label: "Long Distance Care Giving", href: "/long-distance-care-giving" },
+    { label: "Our Reviews", href: "/our-reviews" },
+    { label: "Veterans Benefits", href: "/veterans-benefits" }
 ];
 
 export function Header() {
@@ -151,9 +151,21 @@ export function Header() {
                                         ))}
                                     </div>
                                 </div>
-                                <Link href="/resources" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
-                                    Home Care Info
-                                </Link>
+                                <div className="pt-2 pb-2">
+                                    <span className="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Home Care Info</span>
+                                    <div className="flex flex-col mt-2 space-y-1 pl-2 border-l-2 border-gray-100">
+                                        {homeCareInfoNav.map((item) => (
+                                            <Link
+                                                key={item.label}
+                                                href={item.href}
+                                                onClick={handleLinkClick}
+                                                className="text-[15px] font-medium text-[#1b3664] hover:text-[#5cb3b1] py-2 normal-case"
+                                            >
+                                                {item.label}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
                                 <Link href="/articles" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Articles
                                 </Link>
