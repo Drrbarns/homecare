@@ -61,67 +61,79 @@ export function HomeCareInfoSidebar() {
             </div>
 
             {/* Sidebar Contact Form Block - hidden on mobile */}
-            <div className="bg-[#eaf6f9] p-6 rounded-[3px] hidden lg:block">
-                <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans leading-snug">
-                    Contact Us About Our Home Care
+            <div className="bg-[#eaf6f9] p-6 md:p-8 rounded-[4px] hidden lg:block">
+                <h3 className="text-[22px] font-bold text-[#043b67] mb-4 font-sans leading-tight">
+                    Contact Us About<br/>Our Home Care
                 </h3>
-                <p className="text-[14px] text-[#333333] mb-6">
+                <p className="text-[15px] text-[#333333] mb-6">
                     Call <a href="tel:800-365-4189" className="text-[#3b7ea1] hover:underline">800-365-4189</a> or fill out the form below.
                 </p>
 
                 <form className="space-y-4">
-                    <div className="space-y-2 mb-4">
-                        <label className="text-[11px] font-bold text-[#333333] uppercase tracking-widest">PLEASE SELECT</label>
-                        <div className="flex flex-col space-y-2 mt-1">
+                    <div className="space-y-2 mb-5">
+                        <label className="text-[12px] font-bold text-[#333333] uppercase tracking-widest">PLEASE SELECT</label>
+                        <div className="flex flex-col space-y-2 mt-2">
                             <label className="flex items-center cursor-pointer">
-                                <input type="radio" name="type" value="Home Care Services" defaultChecked className="mr-2 w-3 h-3 border-gray-300 text-[#043b67]" />
-                                <span className="text-[14px] text-[#333333]">Home Care Services</span>
+                                <input type="radio" name="type" value="Home Care Services" defaultChecked className="mr-2 w-3.5 h-3.5 border-gray-300 text-[#043b67]" />
+                                <span className="text-[14.5px] text-[#333333]">Home Care Services</span>
                             </label>
                             <label className="flex items-center cursor-pointer">
-                                <input type="radio" name="type" value="Employment Opportunities" className="mr-2 w-3 h-3 border-gray-300 text-[#043b67]" />
-                                <span className="text-[14px] text-[#333333]">Employment Opportunities</span>
+                                <input type="radio" name="type" value="Employment Opportunities" className="mr-2 w-3.5 h-3.5 border-gray-300 text-[#043b67]" />
+                                <span className="text-[14.5px] text-[#333333]">Employment Opportunities</span>
                             </label>
                         </div>
                     </div>
 
-                    <div>
-                        <input type="text" placeholder="Name *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Email Address *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
-                    </div>
-                    <div>
-                        <input type="tel" placeholder="Phone *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Zip Code *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
-                    </div>
-                    
-                    <div>
-                        <select required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] bg-white text-[14px] text-gray-500">
-                            <option value="" disabled hidden>Person who needs care: Please select</option>
-                            <option value="Self">Self</option>
-                            <option value="Parent">Parent</option>
-                            <option value="Spouse">Spouse</option>
-                            <option value="Other">Other</option>
-                        </select>
+                    <div className="space-y-3">
+                        <div>
+                            <input type="text" placeholder="Name *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email Address *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Phone *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Zip Code *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                        </div>
+                        
+                        <div className="relative">
+                            <select required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] text-gray-500 shadow-sm appearance-none">
+                                <option value="" disabled hidden>Person who needs care: Please select</option>
+                                <option value="Self">Self</option>
+                                <option value="Parent">Parent</option>
+                                <option value="Spouse">Spouse</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div className="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L5 5L9 1" stroke="#666666" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div className="relative">
+                            <select required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] text-gray-500 shadow-sm appearance-none">
+                                <option value="" disabled hidden>How did you hear about us? Please select</option>
+                                <option value="Google">Google</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Friend/Family">Friend/Family</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div className="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L5 5L9 1" stroke="#666666" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
 
-                    <div>
-                        <select required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] bg-white text-[14px] text-gray-500">
-                            <option value="" disabled hidden>How did you hear about us? Please select</option>
-                            <option value="Google">Google</option>
-                            <option value="Facebook">Facebook</option>
-                            <option value="Friend/Family">Friend/Family</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-
-                    <button type="submit" className="w-full mt-4 transition-opacity hover:opacity-90 rounded-[3px] py-3 font-bold shadow-sm" style={{ backgroundColor: '#dca626', color: '#000000', fontSize: '15px' }}>
+                    <button type="submit" className="w-full mt-6 transition-opacity hover:opacity-90 rounded-[3px] py-3.5 font-bold shadow-sm" style={{ backgroundColor: '#dca626', color: '#043b67', fontSize: '15px' }}>
                         Send Message
                     </button>
 
-                    <p className="text-[11px] text-[#666] leading-[1.5] mt-3">
+                    <p className="text-[12px] text-[#666666] leading-[1.6] mt-4">
                         By submitting this form, I agree to be contacted by Visiting Angels via call, email and text. To opt out, you can reply 'stop' at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <a href="/privacy-policy" className="text-[#3b7ea1] hover:underline">Privacy Policy</a> page.
                     </p>
                 </form>

@@ -35,16 +35,18 @@ export default function HowToGetStartedPage() {
                             Easy, Personalized Onboarding
                         </h2>
 
-                        <p className="mb-6 text-[15.5px]">
+                        <p className="mb-10 text-[15.5px]">
                             Your first step to starting professional home care services with Visiting Angels is a free, in-person
                             consultation with a care coordinator (also known as a &quot;care manager&quot;). The meeting is an excellent
                             opportunity for you and your family to ask questions and receive personalized guidance. The
                             consultation also helps your care coordinator become acquainted with you and your loved one.
                         </p>
 
-                        {/* Text + Two Vertical Images Layout */}
-                        <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 mb-12">
-                            <div className="w-full lg:w-[55%]">
+                        {/* 2-Column Grid Layout for Text, Images, and Cards */}
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 mb-16">
+                            
+                            {/* Row 1, Left: Text + Physical Needs Card */}
+                            <div className="flex flex-col h-full">
                                 <p className="mb-6 text-[15.5px]">
                                     During the visit, your coordinator will review the
                                     required care, schedule, specific requests, and
@@ -54,13 +56,37 @@ export default function HowToGetStartedPage() {
                                     your personality and care preferences.
                                 </p>
 
-                                <p className="mb-0 text-[15.5px] font-bold text-[#043b67]" style={{ fontSize: "17px" }}>
-                                    The following home care aspects are
-                                    commonly discussed:
+                                <p className="mb-8 text-[16px] font-bold text-[#043b67]">
+                                    The following home care aspects are<br/>commonly discussed:
                                 </p>
+
+                                {/* Physical Needs Card - pushed to bottom to align with right side */}
+                                <div className="border border-gray-200 rounded-[8px] p-8 hover:shadow-md transition-shadow bg-white mt-auto">
+                                    <div className="flex justify-between items-start mb-4">
+                                        <h3 className="text-[20px] font-bold text-[#043b67] font-sans">Physical Needs</h3>
+                                        {/* Dumbbell Icon */}
+                                        <svg className="text-[#9c4958] shrink-0 ml-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                                            <path d="M14.4 14.4L9.6 9.6" />
+                                            <path d="M18.6 21.4l-5-5" />
+                                            <path d="M5.4 2.6l5 5" />
+                                            <rect x="14" y="14" width="4" height="4" rx="1" transform="rotate(-45 16 16)" />
+                                            <rect x="6" y="6" width="4" height="4" rx="1" transform="rotate(-45 8 8)" />
+                                            <path d="M19 19l2-2" />
+                                            <path d="M3 5l2-2" />
+                                        </svg>
+                                    </div>
+                                    <p className="text-[14.5px] text-[#333333] leading-[1.7]">
+                                        A determination of specific care assistance will be made by your coordinator and you.{" "}
+                                        <Link href="/personal-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Personal care</Link> requests
+                                        may include bathing and grooming, dressing, meals and diet, mobility, incontinence, etc.
+                                    </p>
+                                </div>
                             </div>
-                            <div className="w-full lg:w-[45%] flex gap-4">
-                                <div className="flex-1 relative h-[300px] md:h-[360px] rounded-[6px] overflow-hidden shadow-sm">
+
+                            {/* Row 1, Right: Image Block */}
+                            <div className="relative w-full h-full min-h-[450px] lg:min-h-[550px]">
+                                {/* Cleaning Image (Left, vertically centered/offset) */}
+                                <div className="absolute left-0 top-[12%] w-[47%] h-[65%] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
                                         src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
                                         alt="Caregiver cleaning counter"
@@ -68,54 +94,23 @@ export default function HowToGetStartedPage() {
                                         className="object-cover object-center"
                                     />
                                 </div>
-                                <div className="flex-1 relative h-[300px] md:h-[360px] rounded-[6px] overflow-hidden shadow-sm">
+                                {/* Walker Image (Right, full height) */}
+                                <div className="absolute right-0 top-0 w-[48%] h-full rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
-                                        alt="Caregiver walking with senior"
+                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                        alt="Senior using walker"
                                         fill
                                         className="object-cover object-center"
                                     />
                                 </div>
                             </div>
-                        </div>
 
-                        {/* Care Aspect Cards - 2 columns */}
-                        <div className="grid md:grid-cols-2 gap-6 mb-16">
-                            
-                            {/* Row 1: Physical Needs (Left) | Walker Image (Right) */}
-                            <div className="border border-gray-200 rounded-[6px] p-7 hover:shadow-md transition-shadow relative">
-                                <div className="absolute top-6 right-6">
-                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#9c4958" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                                        <path d="M14.4 14.4L9.6 9.6" />
-                                        <path d="M18.6 21.4l-5-5" />
-                                        <path d="M5.4 2.6l5 5" />
-                                        <rect x="14" y="14" width="4" height="4" rx="1" transform="rotate(-45 16 16)" />
-                                        <rect x="6" y="6" width="4" height="4" rx="1" transform="rotate(-45 8 8)" />
-                                        <path d="M19 19l2-2" />
-                                        <path d="M3 5l2-2" />
-                                    </svg>
-                                </div>
-                                <h3 className="text-[18px] font-bold text-[#043b67] mb-3 font-sans pr-12">Physical Needs</h3>
-                                <p className="text-[14.5px] text-[#333333] leading-[1.7]">
-                                    A determination of specific care assistance will be made by your coordinator and you.{" "}
-                                    <Link href="/personal-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Personal care</Link> requests
-                                    may include bathing and grooming, dressing, meals and diet, mobility, incontinence, etc.
-                                </p>
-                            </div>
-                            
-                            <div className="relative rounded-[6px] overflow-hidden min-h-[240px] h-full shadow-sm">
-                                <Image
-                                    src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
-                                    alt="Senior using walker"
-                                    fill
-                                    className="object-cover object-center"
-                                />
-                            </div>
-
-                            {/* Row 2: Emotional Needs (Left) | Homemaking Assistance (Right) */}
-                            <div className="border border-gray-200 rounded-[6px] p-7 hover:shadow-md transition-shadow relative">
-                                <div className="absolute top-6 right-6">
-                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#9c4958" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            {/* Row 2, Left: Emotional Needs */}
+                            <div className="border border-gray-200 rounded-[8px] p-8 hover:shadow-md transition-shadow bg-white">
+                                <div className="flex justify-between items-start mb-4">
+                                    <h3 className="text-[20px] font-bold text-[#043b67] font-sans">Emotional Needs</h3>
+                                    {/* Faces Icon */}
+                                    <svg className="text-[#9c4958] shrink-0 ml-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                                         <circle cx="9" cy="9" r="7" />
                                         <path d="M6 8h.01" />
                                         <path d="M12 8h.01" />
@@ -126,7 +121,6 @@ export default function HowToGetStartedPage() {
                                         <path d="M12 18a3 3 0 0 1 6 0" />
                                     </svg>
                                 </div>
-                                <h3 className="text-[18px] font-bold text-[#043b67] mb-3 font-sans pr-12">Emotional Needs</h3>
                                 <p className="text-[14.5px] text-[#333333] leading-[1.7]">
                                     Your loved one can receive elderly{" "}
                                     <Link href="/elderly-companion-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">companion care</Link>{" "}
@@ -134,9 +128,12 @@ export default function HowToGetStartedPage() {
                                 </p>
                             </div>
 
-                            <div className="border border-gray-200 rounded-[6px] p-7 hover:shadow-md transition-shadow relative">
-                                <div className="absolute top-6 right-6">
-                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#9c4958" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            {/* Row 2, Right: Homemaking Assistance */}
+                            <div className="border border-gray-200 rounded-[8px] p-8 hover:shadow-md transition-shadow bg-white">
+                                <div className="flex justify-between items-start mb-4">
+                                    <h3 className="text-[20px] font-bold text-[#043b67] font-sans">Homemaking Assistance</h3>
+                                    {/* Spray Bottle Icon */}
+                                    <svg className="text-[#9c4958] shrink-0 ml-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M14 4h-4v4h4V4z" />
                                         <path d="M10 8v4c0 1.1-.9 2-2 2H6v8h12v-8h-2c-1.1 0-2-.9-2-2V8" />
                                         <path d="M10 4c0-1.1.9-2 2-2h2" />
@@ -145,17 +142,18 @@ export default function HowToGetStartedPage() {
                                         <path d="M20 18h-2" />
                                     </svg>
                                 </div>
-                                <h3 className="text-[18px] font-bold text-[#043b67] mb-3 font-sans pr-12">Homemaking Assistance</h3>
                                 <p className="text-[14.5px] text-[#333333] leading-[1.7]">
                                     If your loved one is unable to tend to housework or needs a little assistance, we&apos;ll develop a program that
-                                    includes meal preparation, groceries, linens, and light housekeeping.
+                                    includes meal preparation, groceries, linens, laundry, and light housekeeping.
                                 </p>
                             </div>
 
-                            {/* Row 3: Schedules (Left) | Logistics (Right) */}
-                            <div className="border border-gray-200 rounded-[6px] p-7 hover:shadow-md transition-shadow relative">
-                                <div className="absolute top-6 right-6">
-                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#9c4958" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            {/* Row 3, Left: Schedules */}
+                            <div className="border border-gray-200 rounded-[8px] p-8 hover:shadow-md transition-shadow bg-white">
+                                <div className="flex justify-between items-start mb-4">
+                                    <h3 className="text-[20px] font-bold text-[#043b67] font-sans">Schedules</h3>
+                                    {/* Clock/Calendar Icon */}
+                                    <svg className="text-[#9c4958] shrink-0 ml-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                                         <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
                                         <path d="M16 2v4" />
                                         <path d="M8 2v4" />
@@ -164,16 +162,18 @@ export default function HowToGetStartedPage() {
                                         <path d="M12 14v2l1.5 1.5" />
                                     </svg>
                                 </div>
-                                <h3 className="text-[18px] font-bold text-[#043b67] mb-3 font-sans pr-12">Schedules</h3>
                                 <p className="text-[14.5px] text-[#333333] leading-[1.7]">
                                     We&apos;ll tailor a specialized program that works with your loved one&apos;s daily activities, including sleep,
                                     eating, and medication reminders.
                                 </p>
                             </div>
 
-                            <div className="border border-gray-200 rounded-[6px] p-7 hover:shadow-md transition-shadow relative">
-                                <div className="absolute top-6 right-6">
-                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#9c4958" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            {/* Row 3, Right: Logistics */}
+                            <div className="border border-gray-200 rounded-[8px] p-8 hover:shadow-md transition-shadow bg-white">
+                                <div className="flex justify-between items-start mb-4">
+                                    <h3 className="text-[20px] font-bold text-[#043b67] font-sans">Logistics</h3>
+                                    {/* Clipboard Icon */}
+                                    <svg className="text-[#9c4958] shrink-0 ml-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
                                         <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
                                         <path d="M9 14h6" />
@@ -181,7 +181,6 @@ export default function HowToGetStartedPage() {
                                         <path d="M9 10h6" />
                                     </svg>
                                 </div>
-                                <h3 className="text-[18px] font-bold text-[#043b67] mb-3 font-sans pr-12">Logistics</h3>
                                 <p className="text-[14.5px] text-[#333333] leading-[1.7]">
                                     We&apos;ll cover everything you need to know about the home care process, such as access to the home,
                                     documentation, communication with your caregiver(s), and how to contact your local office.
