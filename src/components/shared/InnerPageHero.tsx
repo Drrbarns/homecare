@@ -16,9 +16,9 @@ export function InnerPageHero({
     showPlayButton = false 
 }: InnerPageHeroProps) {
     return (
-        <section className="relative w-full flex bg-[#173559] overflow-hidden" style={{ height: "460px" }}>
+        <section className="relative w-full flex bg-[#173559] overflow-hidden" style={{ minHeight: "320px" }}>
             {/* Background Image (Right side) */}
-            <div className="absolute inset-0 z-0 hidden md:block w-full h-full">
+            <div className="absolute inset-0 z-0 hidden md:block w-full h-full" style={{ height: "460px" }}>
                 <Image
                     src={imageSrc}
                     alt={imageAlt}
@@ -29,7 +29,7 @@ export function InnerPageHero({
             </div>
 
             {/* Mobile Image */}
-            <div className="absolute inset-0 z-0 md:hidden opacity-40 w-full h-full">
+            <div className="absolute inset-0 z-0 md:hidden opacity-30 w-full h-full">
                 <Image
                     src={imageSrc}
                     alt={imageAlt}
@@ -70,15 +70,15 @@ export function InnerPageHero({
             </div>
 
             {/* Content Container */}
-            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px]">
+            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-10 md:py-16">
                 <div className="w-full max-w-[520px]">
                     <h1
-                        className="font-bold leading-[1.1] mb-6 tracking-tight font-sans"
-                        style={{ fontSize: "48px", color: "#dca626" }}
+                        className="font-bold leading-[1.1] mb-4 md:mb-6 tracking-tight font-sans text-[32px] sm:text-[40px] md:text-[48px]"
+                        style={{ color: "#dca626" }}
                     >
                         {title}
                     </h1>
-                    <p className="font-normal text-white tracking-wide max-w-[480px] font-sans" style={{ fontSize: "18px", lineHeight: "1.6" }}>
+                    <p className="font-normal text-white tracking-wide max-w-[480px] font-sans text-[15px] sm:text-[16px] md:text-[18px]" style={{ lineHeight: "1.6" }}>
                         {description}
                     </p>
                 </div>

@@ -36,8 +36,8 @@ export function Footer() {
 
     return (
         <footer className="w-full mt-auto text-white" style={{ backgroundColor: '#043b67' }}>
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] pt-8 md:pt-12 pb-12">
-                <div className="flex flex-col lg:flex-row justify-between lg:items-start gap-12 lg:gap-0">
+            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] pt-8 md:pt-12 pb-8 md:pb-12">
+                <div className="flex flex-col lg:flex-row justify-between lg:items-start gap-8 lg:gap-0">
                     
                     {/* Left Side: Brand, Address, Phone, Links */}
                     <div className="lg:w-2/3">
@@ -56,8 +56,8 @@ export function Footer() {
                             </p>
                         </div>
 
-                        <div className="mb-8">
-                            <a href="tel:800-365-4189" className="text-[28px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
+                        <div className="mb-6 md:mb-8">
+                            <a href="tel:800-365-4189" className="text-[24px] sm:text-[28px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
                                 800-365-4189
                             </a>
                         </div>
@@ -118,8 +118,8 @@ export function Footer() {
             </div>
 
             {/* Bottom Legal / Disclaimer on White Background */}
-            <div className="w-full bg-white text-black pt-12 pb-16 px-4 lg:px-6 xl:px-8 relative z-20">
-                <div className="text-center font-sans text-[12.5px] text-[#333333] leading-[1.8] max-w-[1000px] mx-auto space-y-4">
+            <div className="w-full bg-white text-black pt-8 md:pt-12 pb-10 md:pb-16 px-4 lg:px-6 xl:px-8 relative z-20">
+                <div className="text-center font-sans text-[11px] sm:text-[12.5px] text-[#333333] leading-[1.8] max-w-[1000px] mx-auto space-y-3 md:space-y-4">
                     <p className="italic">
                         Not all services are available at all locations. Please check with your <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">local agency</Link>.
                     </p>

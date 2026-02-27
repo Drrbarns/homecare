@@ -26,7 +26,7 @@ export function RelatedArticles({
                     {title}
                 </h2>
                 
-                <div className="grid md:grid-cols-3 gap-6 mb-10">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
                     {articles.map((article, index) => (
                         <Link 
                             key={index}

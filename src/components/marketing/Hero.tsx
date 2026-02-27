@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
     return (
-        <section className="relative w-full flex bg-[#173559]" style={{ height: '480px' }}>
+        <section className="relative w-full flex bg-[#173559]" style={{ minHeight: '380px' }}>
             {/* Background Image (Right side) */}
             <div className="absolute inset-0 z-0 hidden md:block w-full h-full">
                 <Image
@@ -58,33 +58,32 @@ export function Hero() {
             </div>
 
             {/* Content Container */}
-            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px]">
+            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-10 md:py-16">
                 <div className="w-full max-w-[480px]">
-                    <h1 className="font-bold leading-[1.1] mb-6 tracking-tight text-white" style={{ fontSize: '42px' }}>
+                    <h1 className="font-bold leading-[1.1] mb-4 md:mb-6 tracking-tight text-white text-[30px] sm:text-[36px] md:text-[42px]">
                         <span className="block" style={{ color: '#dca626' }}>Compassionate</span>
                         <span className="block" style={{ color: '#dca626' }}>In-Home Senior Care</span>
                     </h1>
 
-                    <p className="font-normal mb-5 text-white tracking-wide" style={{ fontSize: '18px' }}>
+                    <p className="font-normal mb-4 md:mb-5 text-white tracking-wide text-[15px] sm:text-[16px] md:text-[18px]">
                         Find a Visiting Angels home care office near you:
                     </p>
 
-                    <div className="flex bg-white overflow-hidden mb-3 shadow-sm" style={{ borderRadius: '3px', maxWidth: '420px', height: '42px' }}>
+                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-3 shadow-sm rounded-[3px] max-w-[420px]">
                         <input
                             type="text"
                             placeholder="Where is Care Needed?"
-                            className="flex-grow px-4 text-gray-700 outline-none w-full placeholder:text-gray-400"
-                            style={{ fontSize: '14px' }}
+                            className="flex-grow px-4 py-3 sm:py-0 text-gray-700 outline-none w-full placeholder:text-gray-400 text-[14px]"
                         />
                         <button
-                            className="font-bold px-6 transition-opacity hover:opacity-90 shrink-0"
-                            style={{ backgroundColor: '#dca626', color: '#173559', fontSize: '14px' }}
+                            className="font-bold px-6 py-3 sm:py-0 transition-opacity hover:opacity-90 shrink-0 text-[14px]"
+                            style={{ backgroundColor: '#dca626', color: '#173559' }}
                         >
                             Find Care
                         </button>
                     </div>
 
-                    <div className="text-white mt-2" style={{ fontSize: '12px' }}>
+                    <div className="text-white mt-2 text-[12px]">
                         For services in Connecticut, <Link href="/office-locator" className="underline hover:text-gray-200 transition-colors">click here</Link>.
                     </div>
                 </div>

@@ -28,15 +28,15 @@ export function Newsletter() {
     };
 
     return (
-        <section className="relative bg-[#043b67] w-full pt-10 pb-2 mt-[60px] md:mt-[100px]">
+        <section className="relative bg-[#043b67] w-full pt-10 pb-2 mt-[40px] sm:mt-[60px] md:mt-[100px]">
             <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] relative z-20">
                 {/* The overlap tan box */}
-                <div className="bg-[#f1ebdb] rounded-[4px] px-6 py-12 md:py-16 text-center max-w-[1200px] mx-auto relative mt-[-100px] md:mt-[-140px] shadow-[0_-5px_15px_rgba(0,0,0,0.03)] z-30">
+                <div className="bg-[#f1ebdb] rounded-[4px] px-4 sm:px-6 py-10 sm:py-12 md:py-16 text-center max-w-[1200px] mx-auto relative mt-[-80px] sm:mt-[-100px] md:mt-[-140px] shadow-[0_-5px_15px_rgba(0,0,0,0.03)] z-30">
                     <div className="max-w-[700px] mx-auto">
-                        <h2 className="text-[24px] md:text-[28px] font-bold text-[#043b67] mb-4 font-sans tracking-tight">
+                        <h2 className="text-[20px] sm:text-[24px] md:text-[28px] font-bold text-[#043b67] mb-3 md:mb-4 font-sans tracking-tight">
                             Get Expert Caregiving Tips Directly to Your Inbox!
                         </h2>
-                        <p className="mb-8 text-[#333333] text-[16px] md:text-[18px] leading-[1.6]">
+                        <p className="mb-6 md:mb-8 text-[#333333] text-[14px] sm:text-[16px] md:text-[18px] leading-[1.6]">
                             Sign up for our newsletter to receive helpful resources, caregiving advice, and updates on how we can support your loved ones.
                         </p>
 

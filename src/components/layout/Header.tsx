@@ -43,11 +43,10 @@ export function Header() {
 
     return (
         <header className="bg-white z-50 shadow-sm border-b border-gray-100 relative">
-            <div className="container mx-auto flex h-[88px] items-center justify-between px-4 lg:px-6 max-w-[1440px]">
+            <div className="container mx-auto flex h-[64px] md:h-[88px] items-center justify-between px-4 lg:px-6 max-w-[1440px]">
                 {/* Left: Logo */}
                 <Link href="/" className="flex items-center h-full">
-                    {/* Next.js Image component to handle the logo perfectly */}
-                    <div className="relative w-[340px] h-[75px] md:w-[380px] md:h-[85px] ml-[-15px]">
+                    <div className="relative w-[200px] h-[50px] sm:w-[280px] sm:h-[65px] md:w-[380px] md:h-[85px] ml-[-8px] md:ml-[-15px]">
                         <Image
                             src="https://www.visitingangels.com/images/layout/VA_Logo_Color.svg"
                             alt="Visiting Angels Logo"
@@ -70,14 +69,14 @@ export function Header() {
                             <ChevronDown className="w-4 h-4 ml-1" />
                         </div>
 
-                        {/* Dropdown Menu */}
-                        <div className="absolute left-0 top-[64px] invisible opacity-0 group-hover:visible group-hover:opacity-100 group-hover:top-[88px] transition-all duration-300 w-[260px] bg-white shadow-[0_15px_30px_rgba(0,0,0,0.1)] z-50 py-4 pointer-events-none group-hover:pointer-events-auto border-t-2 border-[#1b3664]">
-                            <div className="flex flex-col">
+                        {/* Dropdown Menu - pt-2 creates bridge so mouse never leaves group when moving to dropdown */}
+                        <div className="absolute left-0 top-full pt-2 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 w-[260px] z-50 pointer-events-none group-hover:pointer-events-auto">
+                            <div className="bg-white shadow-[0_15px_30px_rgba(0,0,0,0.1)] py-4 border-t-2 border-[#1b3664]">
                                 {typesOfCareNav.map((item, idx) => (
                                     <Link
                                         key={idx}
                                         href={item.href}
-                                        className="px-6 py-3.5 text-[15px] font-semibold text-[#1b3664] hover:text-[#5cb3b1] hover:bg-gray-50 transition-colors normal-case tracking-normal"
+                                        className="block px-6 py-3.5 text-[15px] font-semibold text-[#1b3664] hover:text-[#5cb3b1] hover:bg-gray-50 transition-colors normal-case tracking-normal"
                                     >
                                         {item.label}
                                     </Link>
@@ -94,13 +93,13 @@ export function Header() {
                         </div>
 
                         {/* Dropdown Menu */}
-                        <div className="absolute left-0 top-[64px] invisible opacity-0 group-hover:visible group-hover:opacity-100 group-hover:top-[88px] transition-all duration-300 w-[260px] bg-white shadow-[0_15px_30px_rgba(0,0,0,0.1)] z-50 py-4 pointer-events-none group-hover:pointer-events-auto border-t-2 border-[#1b3664]">
-                            <div className="flex flex-col">
+                        <div className="absolute left-0 top-full pt-2 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 w-[260px] z-50 pointer-events-none group-hover:pointer-events-auto">
+                            <div className="bg-white shadow-[0_15px_30px_rgba(0,0,0,0.1)] py-4 border-t-2 border-[#1b3664]">
                                 {homeCareInfoNav.map((item, idx) => (
                                     <Link
                                         key={idx}
                                         href={item.href}
-                                        className="px-6 py-3.5 text-[15px] font-semibold text-[#1b3664] hover:text-[#5cb3b1] hover:bg-gray-50 transition-colors normal-case tracking-normal"
+                                        className="block px-6 py-3.5 text-[15px] font-semibold text-[#1b3664] hover:text-[#5cb3b1] hover:bg-gray-50 transition-colors normal-case tracking-normal"
                                     >
                                         {item.label}
                                     </Link>
@@ -129,27 +128,39 @@ export function Header() {
                                 <span className="sr-only">Toggle menu</span>
                             </Button>
                         </SheetTrigger>
-                        <SheetContent side="right" className="bg-white">
-                            <div className="flex flex-col space-y-6 mt-8">
-                                <Link href="/office-locator" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664]">
+                        <SheetContent side="right" className="bg-white w-[300px] sm:w-[360px] overflow-y-auto">
+                            <div className="flex flex-col space-y-2 mt-8">
+                                <Link href="/office-locator" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Find Care
                                 </Link>
-                                <Link href="/about-us" onClick={handleLinkClick} className="text-lg font-medium text-[#5cb3b1] uppercase">
+                                <Link href="/about-us" onClick={handleLinkClick} className="text-lg font-medium text-[#5cb3b1] uppercase py-3">
                                     About Us
                                 </Link>
-                                <Link href="/home-care-services" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664]">
-                                    Types of Care
-                                </Link>
-                                <Link href="/resources" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664]">
+                                <div className="pt-2 pb-2">
+                                    <span className="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Types of Care</span>
+                                    <div className="flex flex-col mt-2 space-y-1 pl-2 border-l-2 border-gray-100">
+                                        {typesOfCareNav.map((item) => (
+                                            <Link
+                                                key={item.label}
+                                                href={item.href}
+                                                onClick={handleLinkClick}
+                                                className="text-[15px] font-medium text-[#1b3664] hover:text-[#5cb3b1] py-2 normal-case"
+                                            >
+                                                {item.label}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
+                                <Link href="/resources" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Home Care Info
                                 </Link>
-                                <Link href="/articles" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664]">
+                                <Link href="/articles" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Articles
                                 </Link>
-                                <Link href="/careers" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664]">
+                                <Link href="/careers" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Caregiver Jobs
                                 </Link>
-                                <Link href="/contact-us" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664]">
+                                <Link href="/contact-us" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                     Contact Us
                                 </Link>
                             </div>

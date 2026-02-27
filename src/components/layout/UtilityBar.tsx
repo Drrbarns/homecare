@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
 export function UtilityBar() {
     return (
         <div className="text-white py-[6px] relative z-50" style={{ backgroundColor: '#275596' }}>
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-6 max-w-7xl">
+            <div className="container mx-auto flex justify-between items-center px-4 md:px-6 max-w-7xl">
                 {/* Left: Phone */}
                 <div className="flex items-center space-x-2">
                     <a href="tel:800-365-4189" className="flex items-center text-[15px] font-bold hover:opacity-80 transition-opacity tracking-wide">
@@ -12,7 +12,7 @@ export function UtilityBar() {
                 </div>
 
                 {/* Right: Social Icons */}
-                <div className="flex items-center space-x-4 mt-2 md:mt-0">
+                <div className="flex items-center space-x-3 sm:space-x-4">
                     <a href="#" className="hover:opacity-80 transition-opacity" aria-label="Facebook">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                     </a>

@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className={`${outfit.variable} font-sans antialiased flex flex-col min-h-screen`}>
         <UtilityBar />
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow pb-14 lg:pb-0">{children}</main>
         <Footer />
       </body>
     </html>
