@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FloatingGetStarted } from "@/components/layout/FloatingGetStarted";
 import { FAQAccordion } from "@/components/shared/FAQAccordion";
+import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "Caregiver Jobs | Part-Time & Full-Time Home Care Careers",
@@ -9,6 +10,37 @@ export const metadata = {
 };
 
 export default function EmploymentPage() {
+    const faqItems = [
+        {
+            question: "What Is a Professional Caregiver?",
+            answer: "A professional caregiver provides non-medical assistance to individuals who need help with daily activities. This can include seniors, people with disabilities, or those recovering from illness or injury. Caregivers help clients maintain their independence and quality of life in their own homes."
+        },
+        {
+            question: "Where Are Visiting Angels Offices Located?",
+            answer: "Visiting Angels has hundreds of locally owned and operated franchise locations across the United States. You can find an office near you by using our Office Locator tool on our website."
+        },
+        {
+            question: "What Types of Senior Care Jobs Are Available?",
+            answer: "We offer a variety of caregiver jobs, including companion care, personal care, specialized dementia and Alzheimer's care, respite care, and end-of-life care. Both full-time and part-time positions are available."
+        },
+        {
+            question: "Do I Need Special Certifications, Training, or Experience to Apply?",
+            answer: "Requirements vary by location and the specific role. Some offices may require previous experience or certifications like a CNA or HHA, while others offer training for individuals new to caregiving who possess a compassionate and caring personality."
+        },
+        {
+            question: "How Much Do Caregivers Make Per Hour?",
+            answer: "Pay rates vary depending on your location, experience, and the specific duties required. Our local offices offer competitive pay and may provide additional benefits."
+        },
+        {
+            question: "What Scheduling Options Are Available?",
+            answer: "We offer flexible scheduling to accommodate your lifestyle. Options may include part-time, full-time, weekends, overnights, or live-in shifts. You can work with your local office to create a schedule that fits your needs."
+        },
+        {
+            question: "What Kind of Qualifications Do You Look For In a Caregiver?",
+            answer: "We look for individuals who are compassionate, patient, reliable, and trustworthy. Good communication skills and a genuine desire to help others are essential. All candidates must pass a comprehensive background check."
+        }
+    ];
+
     return (
         <div className="bg-white">
             {/* Hero Section */}
@@ -474,6 +506,18 @@ export default function EmploymentPage() {
                 </div>
             </div>
 
+            {/* FAQ Section */}
+            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-16">
+                <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-8 font-sans tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <FAQAccordion items={faqItems} />
+                <p className="text-[14.5px] text-[#666666] italic mt-6 font-sans">
+                    *Visiting Angels offices determine their own benefits, pay, training opportunities, and hours. Talk with your local office for details.
+                </p>
+            </div>
+
+            <Newsletter />
             <FloatingGetStarted />
         </div>
     );
