@@ -20,10 +20,10 @@ export function AmericasChoice() {
     return (
         <section className="py-10 sm:py-14 lg:py-20 bg-white overflow-hidden">
             <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px]">
-                <div className="flex flex-col lg:flex-row gap-0 sm:gap-8 lg:gap-12 xl:gap-16 items-start">
+                <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12 xl:gap-16 items-start">
                     
                     {/* Left Image Grid */}
-                    <div className="w-full lg:w-[55%] xl:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-[600px] order-3 lg:order-1 mt-8 lg:mt-0">
+                    <div className="w-full lg:w-[55%] xl:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-[600px]">
                         {/* Main large image */}
                         <div className="relative h-[280px] sm:h-[340px] md:h-full w-full col-span-1 overflow-hidden rounded-[4px]">
                             <Image
@@ -59,12 +59,12 @@ export function AmericasChoice() {
                     </div>
 
                     {/* Right Content */}
-                    <div className="contents lg:block w-full lg:w-[45%] xl:w-[40%] pt-0 lg:pt-4 order-2">
-                        <h2 className="order-4 lg:order-none w-full lg:w-auto text-[24px] sm:text-[28px] md:text-[34px] font-bold text-[#1b3664] mt-8 lg:mt-0 mb-4 sm:mb-6 font-serif leading-tight">
+                    <div className="w-full lg:w-[45%] xl:w-[40%] pt-0 lg:pt-4">
+                        <h2 className="text-[24px] sm:text-[28px] md:text-[34px] font-bold text-[#1b3664] mb-4 sm:mb-6 font-serif leading-tight">
                             America’s Choice in Senior Home Care
                         </h2>
                         
-                        <div className="order-5 lg:order-none w-full lg:w-auto space-y-4 text-[#4a4a4a] mb-8 lg:mb-8 text-[14px]" style={{ lineHeight: '1.6' }}>
+                        <div className="space-y-4 text-[#4a4a4a] mb-8 text-[14px]" style={{ lineHeight: '1.6' }}>
                             <p>
                                 If you're looking for a professional help at home to assist your aging loved one with their daily needs, look no further than Visiting Angels—an esteemed name families have relied on since 1998. Thousands across the country rely on us for the best in-home senior care.
                             </p>
@@ -77,7 +77,7 @@ export function AmericasChoice() {
                         </div>
 
                         {/* Services List - Styled as a card on mobile, grid on desktop */}
-                        <div className="order-1 lg:order-none w-full lg:w-auto bg-white rounded-[4px] shadow-[0_2px_15px_rgba(0,0,0,0.06)] border border-gray-100 p-6 sm:p-0 sm:shadow-none sm:border-none sm:bg-transparent mb-6 lg:mb-8">
+                        <div className="bg-white rounded-[4px] shadow-[0_2px_15px_rgba(0,0,0,0.06)] border border-gray-100 p-6 sm:p-0 sm:shadow-none sm:border-none sm:bg-transparent mb-6 lg:mb-8">
                             <ul className="flex flex-col sm:grid sm:grid-cols-2 gap-y-4 sm:gap-y-2 sm:gap-x-2">
                                 {services.map((service, index) => (
                                     <li key={index} className="flex items-center sm:items-start text-[15px] sm:text-[13px]">
@@ -95,7 +95,7 @@ export function AmericasChoice() {
 
                         <Link 
                             href="/home-care-services"
-                            className="order-2 lg:order-none w-full lg:w-auto block sm:inline-block text-center transition-opacity hover:opacity-90 mt-0 lg:mt-2 mb-8 lg:mb-0 text-[16px] sm:text-[19px] px-6 sm:px-8 py-3.5 sm:py-3.5 rounded-[6px] font-bold sm:font-medium"
+                            className="block sm:inline-block text-center transition-opacity hover:opacity-90 mt-0 lg:mt-2 text-[16px] sm:text-[19px] px-6 sm:px-8 py-3.5 sm:py-3.5 rounded-[6px] font-bold sm:font-medium w-full sm:w-auto"
                             style={{ backgroundColor: '#dca626', color: '#000000' }}
                         >
                             View All Home Care Services
