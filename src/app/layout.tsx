@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${outfit.variable} font-sans antialiased flex flex-col min-h-screen`}>
+      <body className={`${outfit.variable} font-sans antialiased flex flex-col min-h-screen overflow-x-hidden`}>
         <UtilityBar />
         <Header />
         <main className="flex-grow pb-14 lg:pb-0">{children}</main>

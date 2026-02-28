@@ -41,7 +41,7 @@ export default function FallPreventionPage() {
                 showPlayButton={true}
             />
 
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] py-16 lg:py-24">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-10 sm:py-16 lg:py-24">
                 <div className="flex flex-col lg:flex-row gap-12 xl:gap-16">
                     {/* Left Sidebar */}
                     <div className="w-full lg:w-[320px] shrink-0">

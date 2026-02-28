@@ -44,24 +44,24 @@ export default function EmploymentPage() {
     return (
         <div className="bg-white">
             {/* Hero Section */}
-            <div className="relative bg-[#043b67] w-full overflow-hidden mb-16">
-                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] relative">
+            <div className="relative bg-[#043b67] w-full overflow-hidden mb-8 sm:mb-12 md:mb-16">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] relative">
                     <div className="flex flex-col lg:flex-row h-auto lg:h-[450px]">
                         
                         {/* Left Content */}
-                        <div className="w-full lg:w-[45%] py-12 lg:py-0 flex flex-col justify-center relative z-20 pr-0 lg:pr-8">
-                            <h1 className="text-[36px] md:text-[42px] lg:text-[48px] font-bold text-[#dca626] font-sans leading-tight mb-4 tracking-tight">
+                        <div className="w-full lg:w-[45%] py-8 sm:py-10 lg:py-0 flex flex-col justify-center relative z-20 pr-0 lg:pr-8">
+                            <h1 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-bold text-[#dca626] font-sans leading-tight mb-3 sm:mb-4 tracking-tight">
                                 Caregiver Jobs
                             </h1>
-                            <p className="text-[18px] md:text-[20px] text-white font-medium mb-6 leading-snug">
-                                You're Set for Success from Day One When You Work<br/>for Visiting Angels!
+                            <p className="text-[15px] sm:text-[18px] md:text-[20px] text-white font-medium mb-4 sm:mb-6 leading-snug">
+                                You&apos;re Set for Success from Day One When You Work for Visiting Angels!
                             </p>
-                            <p className="text-[16px] text-white mb-8">
+                            <p className="text-[14px] sm:text-[16px] text-white mb-6 sm:mb-8">
                                 Part-Time & Full-Time Home Care Careers
                             </p>
                             
                             {/* Zip Code Form */}
-                            <div className="flex max-w-[400px]">
+                            <div className="flex max-w-full sm:max-w-[400px]">
                                 <input 
                                     type="text" 
                                     placeholder="Enter Zip Code" 
@@ -83,7 +83,7 @@ export default function EmploymentPage() {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full lg:w-[60%] lg:absolute lg:right-0 lg:top-0 lg:bottom-0 h-[300px] lg:h-auto relative z-0">
+                        <div className="w-full lg:w-[60%] lg:absolute lg:right-0 lg:top-0 lg:bottom-0 h-[220px] sm:h-[280px] lg:h-auto relative z-0">
                             <Image
                                 src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                                 alt="Caregiver playing puzzle with senior man"
@@ -103,12 +103,12 @@ export default function EmploymentPage() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] mb-12 sm:mb-16 md:mb-24">
                 
                 {/* What's Important To You in a Career Section */}
-                <div className="flex flex-col md:flex-row gap-12 lg:gap-16 mb-24 items-start">
+                <div className="flex flex-col md:flex-row gap-8 sm:gap-10 lg:gap-16 mb-12 sm:mb-16 md:mb-24 items-start">
                     {/* Left Images Collage */}
-                    <div className="w-full md:w-[45%] flex gap-4 h-[500px]">
+                    <div className="w-full md:w-[45%] flex gap-3 sm:gap-4 h-[300px] sm:h-[400px] md:h-[500px]">
                         {/* Tall Image */}
                         <div className="w-[45%] relative rounded-[8px] overflow-hidden shadow-sm h-full">
                             <Image
@@ -157,7 +157,7 @@ export default function EmploymentPage() {
                         </p>
 
                         {/* 6 Reasons Box */}
-                        <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white">
+                        <div className="border border-gray-200 rounded-[8px] p-5 sm:p-8 md:p-10 shadow-sm bg-white">
                             <h3 className="text-[20px] font-bold text-[#043b67] mb-6 font-sans">
                                 6 Reasons to Join the Visiting Angels Team:
                             </h3>
@@ -194,7 +194,7 @@ export default function EmploymentPage() {
             </div>
 
             {/* Start Your New Career Search Banner */}
-            <div className="bg-[#fcf8e5] w-full py-16 mb-0 relative overflow-hidden text-center flex flex-col items-center justify-center">
+            <div className="bg-[#fcf8e5] w-full py-10 sm:py-14 md:py-16 mb-0 relative overflow-hidden text-center flex flex-col items-center justify-center">
                 {/* Subtle Wavy Pattern Overlay */}
                 <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%23dca626\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
                 
@@ -219,14 +219,14 @@ export default function EmploymentPage() {
             </div>
 
             {/* Award-Winning Offices - Full Width Background */}
-            <div className="bg-[#eaf6f9] w-full py-20 mb-24 relative overflow-hidden">
+            <div className="bg-[#eaf6f9] w-full py-12 sm:py-16 md:py-20 mb-12 sm:mb-16 md:mb-24 relative overflow-hidden">
                 {/* Wavy Pattern overlay */}
                 <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%233b7ea1\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
 
-                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] relative z-10">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] relative z-10">
                     <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
                         <div className="flex-1 max-w-3xl">
-                            <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
+                            <h2 className="text-[24px] sm:text-[28px] md:text-[32px] font-bold text-[#043b67] mb-4 sm:mb-6 font-sans tracking-tight">
                                 Award-Winning Offices
                             </h2>
                             <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
@@ -247,7 +247,7 @@ export default function EmploymentPage() {
                                 View Office Locations
                             </button>
                         </div>
-                        <div className="w-[240px] h-[240px] md:w-[280px] md:h-[280px] shrink-0 lg:ml-12">
+                        <div className="w-[200px] h-[200px] sm:w-[240px] sm:h-[240px] md:w-[280px] md:h-[280px] shrink-0 lg:ml-12">
                             <div className="bg-white rounded-full shadow-lg w-full h-full flex flex-col items-center justify-center border-[8px] border-[#4eb3a4] relative overflow-hidden">
                                 <div className="absolute top-0 left-0 right-0 h-[65%] flex flex-col items-center justify-center pt-2">
                                     <svg viewBox="0 0 200 60" className="w-[160px] h-[48px] overflow-visible">
@@ -289,12 +289,12 @@ export default function EmploymentPage() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] mb-12 sm:mb-16 md:mb-24">
 
                 {/* Easy Hiring Process */}
-                <div className="flex flex-col md:flex-row gap-12 lg:gap-16 mb-24">
+                <div className="flex flex-col md:flex-row gap-8 sm:gap-10 lg:gap-16 mb-12 sm:mb-16 md:mb-24">
                     <div className="w-full md:w-[35%] shrink-0">
-                        <div className="relative h-[380px] md:h-full min-h-[450px] rounded-[8px] overflow-hidden shadow-sm">
+                        <div className="relative h-[280px] sm:h-[350px] md:h-full min-h-[300px] md:min-h-[450px] rounded-[8px] overflow-hidden shadow-sm">
                             <Image
                                 src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
                                 alt="Male and female caregivers smiling"
@@ -353,8 +353,8 @@ export default function EmploymentPage() {
             </div>
 
             {/* Competitive Pay & Benefits Full Width Section */}
-            <div className="bg-[#fcf8e5] w-full py-20 mb-24 relative">
-                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
+            <div className="bg-[#fcf8e5] w-full py-12 sm:py-16 md:py-20 mb-12 sm:mb-16 md:mb-24 relative">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px]">
                     <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
                         <div className="flex-1">
                             <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
@@ -396,7 +396,7 @@ export default function EmploymentPage() {
                             </ul>
                         </div>
                         <div className="w-full lg:w-[45%] shrink-0">
-                            <div className="relative h-[350px] md:h-[450px] rounded-[8px] overflow-hidden shadow-md">
+                            <div className="relative h-[250px] sm:h-[320px] md:h-[450px] rounded-[8px] overflow-hidden shadow-md">
                                 <Image
                                     src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop"
                                     alt="Caregiver smiling on phone"
@@ -409,10 +409,10 @@ export default function EmploymentPage() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] mb-12 sm:mb-16 md:mb-24">
                 
                 {/* Supporting Our Caregivers at Every Step */}
-                <div className="mb-24 text-center max-w-4xl mx-auto">
+                <div className="mb-12 sm:mb-16 md:mb-24 text-center max-w-4xl mx-auto">
                     <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
                         Supporting Our Caregivers at Every Step
                     </h2>
@@ -423,9 +423,9 @@ export default function EmploymentPage() {
                 </div>
 
                 {/* 3 Column Info Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 md:gap-8 mb-12 sm:mb-16 md:mb-24">
                     {/* Flexible Scheduling */}
-                    <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
+                    <div className="border border-gray-200 rounded-[8px] p-5 sm:p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
                         <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">
                             Flexible Scheduling
                         </h3>
@@ -442,7 +442,7 @@ export default function EmploymentPage() {
                     </div>
 
                     {/* Caregiver Matching Program */}
-                    <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
+                    <div className="border border-gray-200 rounded-[8px] p-5 sm:p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
                         <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">
                             Caregiver Matching<br/>Program
                         </h3>
@@ -461,7 +461,7 @@ export default function EmploymentPage() {
                     </div>
 
                     {/* Caregiver University */}
-                    <div className="border border-gray-200 rounded-[8px] p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow">
+                    <div className="border border-gray-200 rounded-[8px] p-5 sm:p-8 md:p-10 shadow-sm bg-white hover:shadow-md transition-shadow sm:col-span-2 md:col-span-1">
                         <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">
                             Caregiver University
                         </h3>
@@ -480,7 +480,7 @@ export default function EmploymentPage() {
                 </div>
 
                 {/* Career Advancement Box */}
-                <div className="border border-gray-200 rounded-[8px] p-8 md:p-12 mb-24 shadow-sm bg-white">
+                <div className="border border-gray-200 rounded-[8px] p-5 sm:p-8 md:p-12 mb-12 sm:mb-16 md:mb-24 shadow-sm bg-white">
                     <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
                         Career Advancement
                     </h2>
@@ -498,9 +498,9 @@ export default function EmploymentPage() {
             </div>
 
             {/* Caregiver of The Year Banner */}
-            <div className="bg-[#1e7b75] w-full py-16 mb-24 text-white overflow-hidden">
-                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
-                    <div className="flex flex-col md:flex-row gap-12 items-center justify-between">
+            <div className="bg-[#1e7b75] w-full py-10 sm:py-14 md:py-16 mb-12 sm:mb-16 md:mb-24 text-white overflow-hidden">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px]">
+                    <div className="flex flex-col md:flex-row gap-8 sm:gap-10 md:gap-12 items-center justify-between">
                         <div className="flex-1 max-w-xl">
                             <h2 className="text-[28px] md:text-[34px] font-bold mb-6 font-sans tracking-tight leading-tight">
                                 Caregiver of The Year Award
@@ -516,7 +516,7 @@ export default function EmploymentPage() {
                         </div>
                         <div className="flex-1 flex justify-center md:justify-end">
                             {/* SVG Logo for Caregiver of the Year */}
-                            <div className="w-[300px] md:w-[400px]">
+                            <div className="w-[240px] sm:w-[300px] md:w-[400px]">
                                 <svg viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <text x="50%" y="30" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="20" fontFamily="sans-serif" letterSpacing="2">VISITING ANGELS 2025</text>
                                     <text x="50%" y="70" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="48" fontWeight="bold" fontFamily="sans-serif">Caregiver</text>
@@ -533,7 +533,7 @@ export default function EmploymentPage() {
             </div>
 
             {/* FAQ Section */}
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-16">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] mb-10 sm:mb-16">
                 <FAQAccordion faqs={faqItems} title="Frequently Asked Questions" />
                 <p className="text-[14.5px] text-[#666666] italic mt-6 font-sans">
                     *Visiting Angels offices determine their own benefits, pay, training opportunities, and hours. Talk with your local office for details.

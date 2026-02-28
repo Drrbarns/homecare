@@ -3,10 +3,10 @@ import { Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
 export function UtilityBar() {
     return (
         <div className="text-white py-[6px] relative z-50" style={{ backgroundColor: '#275596' }}>
-            <div className="container mx-auto flex justify-between items-center px-4 md:px-6 max-w-7xl">
+            <div className="container mx-auto flex justify-between items-center px-4 sm:px-5 md:px-6 max-w-7xl">
                 {/* Left: Phone */}
                 <div className="flex items-center space-x-2">
-                    <a href="tel:800-365-4189" className="flex items-center text-[15px] font-bold hover:opacity-80 transition-opacity tracking-wide">
+                    <a href="tel:800-365-4189" className="flex items-center text-[13px] sm:text-[15px] font-bold hover:opacity-80 transition-opacity tracking-wide">
                         <span>800-365-4189</span>
                     </a>
                 </div>

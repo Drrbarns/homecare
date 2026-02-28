@@ -20,20 +20,20 @@ export function RelatedArticles({
     viewAllHref = "/articles"
 }: RelatedArticlesProps) {
     return (
-        <section className="py-16">
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px]">
-                <h2 className="text-[26px] md:text-[32px] font-bold text-[#043b67] mb-10 font-sans tracking-tight text-center">
+        <section className="py-10 sm:py-14 md:py-16">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1200px]">
+                <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-bold text-[#043b67] mb-6 sm:mb-8 md:mb-10 font-sans tracking-tight text-center">
                     {title}
                 </h2>
                 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 mb-8 sm:mb-10">
                     {articles.map((article, index) => (
                         <Link 
                             key={index}
                             href={article.href}
                             className="group block bg-white rounded-[4px] overflow-hidden border border-gray-100 shadow-[0_2px_15px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
                         >
-                            <div className="relative h-[220px] w-full overflow-hidden">
+                            <div className="relative h-[180px] sm:h-[200px] md:h-[220px] w-full overflow-hidden">
                                 <Image
                                     src={article.imageSrc}
                                     alt={article.imageAlt}

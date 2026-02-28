@@ -57,9 +57,9 @@ export default function ServicesPage() {
             </div>
 
             {/* Custom Hero Section */}
-            <section className="relative w-full h-[500px] bg-[#1b3664] overflow-hidden">
+            <section className="relative w-full h-[360px] sm:h-[420px] md:h-[500px] bg-[#1b3664] overflow-hidden">
                 {/* Right side image */}
-                <div className="absolute inset-0 left-auto right-0 w-[55%] h-full z-0">
+                <div className="absolute inset-0 left-auto right-0 w-full md:w-[55%] h-full z-0">
                     <img
                         src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1600&q=80"
                         alt="Caregiver helping senior on stairs"
@@ -71,7 +71,7 @@ export default function ServicesPage() {
 
                 {/* Left side dark blue arc overlay */}
                 <div
-                    className="absolute inset-0 bg-[#1b3664] z-10 w-[70%]"
+                    className="absolute inset-0 bg-[#1b3664] z-10 w-full md:w-[70%]"
                     style={{
                         clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
                     }}
@@ -91,19 +91,19 @@ export default function ServicesPage() {
                 </div>
 
                 {/* Play Button Overlay on image */}
-                <div className="absolute right-[20%] top-[45%] -translate-y-1/2 z-20 flex items-center justify-center">
+                <div className="absolute right-[20%] top-[45%] -translate-y-1/2 z-20 hidden md:flex items-center justify-center">
                     <div className="w-24 h-24 rounded-full bg-white/70 flex items-center justify-center cursor-pointer hover:bg-white/80 transition-colors backdrop-blur-sm shadow-xl">
                         <div className="w-0 h-0 border-t-[14px] border-t-transparent border-l-[22px] border-l-[#333] border-b-[14px] border-b-transparent ml-2"></div>
                     </div>
                 </div>
 
                 {/* Hero Content */}
-                <div className="container relative z-20 mx-auto px-4 lg:px-6 max-w-[1440px] h-full flex flex-col justify-center">
+                <div className="container relative z-20 mx-auto px-5 sm:px-6 lg:px-6 max-w-[1440px] h-full flex flex-col justify-center">
                     <div className="max-w-[550px]">
-                        <h1 className="text-[44px] lg:text-[52px] font-bold text-[#f2b926] mb-6 leading-[1.1]">
+                        <h1 className="text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px] font-bold text-[#f2b926] mb-4 sm:mb-6 leading-[1.1]">
                             Home Care Services
                         </h1>
-                        <p className="text-[20px] text-white font-normal leading-relaxed">
+                        <p className="text-[15px] sm:text-[17px] md:text-[20px] text-white font-normal leading-relaxed">
                             Visiting Angels has made aging in place possible for older adults across the country for more than 25 years.
                         </p>
                     </div>
@@ -111,9 +111,9 @@ export default function ServicesPage() {
             </section>
 
             {/* Intro Content Section */}
-            <section className="py-20 lg:py-24 bg-white">
-                <div className="container mx-auto px-4 lg:px-6 max-w-[1440px]">
-                    <div className="flex flex-col lg:flex-row items-center gap-16 max-w-[1100px] mx-auto">
+            <section className="py-12 sm:py-16 lg:py-24 bg-white">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-6 max-w-[1440px]">
+                    <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-12 lg:gap-16 max-w-[1100px] mx-auto">
 
                         {/* Image Left */}
                         <div className="w-full lg:w-[45%] shrink-0">
@@ -128,10 +128,10 @@ export default function ServicesPage() {
 
                         {/* Text Right */}
                         <div className="w-full lg:w-[55%]">
-                            <h2 className="text-[32px] lg:text-[38px] font-bold text-[#1b3664] mb-8 leading-[1.2]">
+                            <h2 className="text-[26px] sm:text-[30px] lg:text-[38px] font-bold text-[#1b3664] mb-5 sm:mb-8 leading-[1.2]">
                                 Helping Seniors Thrive in Familiar Surroundings
                             </h2>
-                            <div className="text-[17px] text-[#333333] space-y-6 leading-[1.7] font-sans">
+                            <div className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] space-y-5 sm:space-y-6 leading-[1.7] font-sans">
                                 <p>
                                     Our compassionate services have empowered seniors to navigate their later years gracefully on their own terms, allowing them to thrive in the comfort of their own homes—the place where they raised a family, built a career, and made cherished memories.
                                 </p>
@@ -175,7 +175,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Services Card Grid */}
-            <section className="pb-24 pt-4 bg-transparent relative">
+            <section className="pb-12 sm:pb-16 md:pb-24 pt-4 bg-transparent relative">
                 {/* Wavy subtle background continuation */}
                 <div className="absolute inset-0 pointer-events-none opacity-50 z-0"
                     style={{
@@ -184,8 +184,8 @@ export default function ServicesPage() {
                     }}>
                 </div>
 
-                <div className="container mx-auto px-4 lg:px-6 max-w-[1280px] relative z-10">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12 lg:gap-x-10 lg:gap-y-14">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-6 max-w-[1280px] relative z-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 gap-y-8 sm:gap-y-10 lg:gap-x-10 lg:gap-y-14">
                         {servicesGrid.map((card, i) => (
                             <div key={i} className="bg-white rounded-[20px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] overflow-hidden flex flex-col h-full border border-gray-100 hover:shadow-[0_12px_40px_rgba(0,0,0,0.1)] transition-shadow">
                                 <div className="h-[220px] w-full overflow-hidden shrink-0">
@@ -195,7 +195,7 @@ export default function ServicesPage() {
                                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                                     />
                                 </div>
-                                <div className="p-8 md:p-10 flex flex-col items-center flex-grow text-center">
+                                <div className="p-5 sm:p-6 md:p-10 flex flex-col items-center flex-grow text-center">
                                     <Link href={card.link} className="inline-block mb-5 pb-1 border-b-[3px] border-[#1b3664] hover:text-[#3b7ea1] hover:border-[#3b7ea1] transition-colors">
                                         <h3 className="text-[22px] font-bold text-[#1b3664] font-sans">
                                             {card.title}
@@ -212,7 +212,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Contact Form Section */}
-            <section className="py-16 bg-[#f8f6ee] relative overflow-hidden">
+            <section className="py-10 sm:py-14 md:py-16 bg-[#f8f6ee] relative overflow-hidden">
                 {/* Wavy background texture */}
                 <div className="absolute inset-0 opacity-40 z-0 pointer-events-none mix-blend-multiply"
                     style={{
@@ -221,9 +221,9 @@ export default function ServicesPage() {
                     }}>
                 </div>
 
-                <div className="container mx-auto px-4 lg:px-6 max-w-[1100px] relative z-10">
-                    <div className="text-center mb-10">
-                        <h2 className="text-[36px] font-bold text-[#1b3664] mb-2 font-sans tracking-tight">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-6 max-w-[1100px] relative z-10">
+                    <div className="text-center mb-8 sm:mb-10">
+                        <h2 className="text-[26px] sm:text-[30px] md:text-[36px] font-bold text-[#1b3664] mb-2 font-sans tracking-tight">
                             We're Here For You
                         </h2>
                         <p className="text-[20px] text-[#1b3664] font-medium font-sans">
@@ -248,7 +248,7 @@ export default function ServicesPage() {
                         </div>
 
                         {/* Form Body */}
-                        <div className="p-8 md:p-10">
+                        <div className="p-5 sm:p-8 md:p-10">
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-8 mb-8">
                                 {/* Row 1 */}
                                 <div>
@@ -311,9 +311,9 @@ export default function ServicesPage() {
             </section>
 
             {/* FAQ Section */}
-            <section className="py-20 bg-white">
-                <div className="container mx-auto px-4 lg:px-6 max-w-[1280px]">
-                    <h2 className="text-[34px] font-bold text-[#1b3664] mb-10 font-sans tracking-tight">
+            <section className="py-12 sm:py-16 md:py-20 bg-white">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-6 max-w-[1280px]">
+                    <h2 className="text-[26px] sm:text-[30px] md:text-[34px] font-bold text-[#1b3664] mb-6 sm:mb-8 md:mb-10 font-sans tracking-tight">
                         Frequently Asked Questions
                     </h2>
 

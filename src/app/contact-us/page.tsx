@@ -12,12 +12,12 @@ export default function ContactUsPage() {
     return (
         <div className="bg-white min-h-screen">
             {/* Header Banner */}
-            <div className="w-full bg-[#f0f9fb] py-16 md:py-24 relative overflow-hidden text-center flex flex-col items-center">
+            <div className="w-full bg-[#f0f9fb] py-10 sm:py-14 md:py-24 relative overflow-hidden text-center flex flex-col items-center">
                 {/* Wavy Background Pattern */}
                 <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%233b7ea1\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
                 
-                <div className="container mx-auto px-4 relative z-10 max-w-3xl">
-                    <h1 className="text-[36px] md:text-[46px] font-bold text-[#043b67] font-sans tracking-tight mb-6">
+                <div className="container mx-auto px-5 sm:px-6 relative z-10 max-w-3xl">
+                    <h1 className="text-[28px] sm:text-[36px] md:text-[46px] font-bold text-[#043b67] font-sans tracking-tight mb-4 sm:mb-6">
                         Contact Us
                     </h1>
                     <p className="text-[16.5px] text-[#333333] mb-4 leading-relaxed">
@@ -31,7 +31,7 @@ export default function ContactUsPage() {
             </div>
 
             {/* Contact Form Section */}
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1000px] -mt-8 relative z-20 mb-24">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1000px] -mt-8 relative z-20 mb-12 sm:mb-16 md:mb-24">
                 <div className="bg-white rounded-[8px] shadow-[0_4px_20px_rgba(0,0,0,0.08)] overflow-hidden border border-gray-100">
                     
                     {/* Dark Blue Header */}
@@ -68,7 +68,7 @@ export default function ContactUsPage() {
                     </div>
 
                     {/* Form Body */}
-                    <div className="p-8 md:p-12">
+                    <div className="p-5 sm:p-8 md:p-12">
                         <p className="text-[14px] text-[#666666] mb-8">
                             Items marked with <span className="text-red-500">*</span> are required.
                         </p>

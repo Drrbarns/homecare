@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 export function CaregiverAward() {
     return (
-        <section className="py-20" style={{ backgroundColor: '#28756c' }}>
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px]">
-                <div className="flex flex-col md:flex-row items-center justify-between gap-12 max-w-[1100px] mx-auto">
+        <section className="py-12 sm:py-16 md:py-20 overflow-hidden" style={{ backgroundColor: '#28756c' }}>
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px]">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 max-w-[1100px] mx-auto">
                     
                     {/* Left - Content */}
                     <div className="w-full md:w-[45%] text-left text-white">

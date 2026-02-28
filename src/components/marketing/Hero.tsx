@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
     return (
-        <section className="relative w-full flex bg-[#043b67]" style={{ minHeight: '480px' }}>
+        <section className="relative w-full flex bg-[#043b67] overflow-hidden" style={{ minHeight: '380px' }}>
             {/* Background Image (Right side) */}
             <div className="absolute inset-0 z-0 hidden md:block w-full h-full">
                 <Image
@@ -58,32 +58,32 @@ export function Hero() {
             </div>
 
             {/* Content Container */}
-            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-16 md:py-24">
+            <div className="container mx-auto relative z-20 flex h-full items-center px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-12 sm:py-16 md:py-24">
                 <div className="w-full max-w-[580px]">
-                    <h1 className="font-bold leading-[1.2] mb-6 tracking-tight text-[36px] sm:text-[44px] md:text-[52px]" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+                    <h1 className="font-bold leading-[1.2] mb-4 sm:mb-6 tracking-tight text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px]" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
                         <span className="block" style={{ color: '#d39e24' }}>Compassionate</span>
                         <span className="block" style={{ color: '#d39e24' }}>In-Home Senior Care</span>
                     </h1>
 
-                    <p className="font-normal mb-8 text-white text-[16px] sm:text-[18px] md:text-[20px] font-sans">
+                    <p className="font-normal mb-5 sm:mb-8 text-white text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-sans">
                         Find a Visiting Angels home care office near you:
                     </p>
 
-                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-4 rounded-[4px] max-w-[420px]">
+                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-4 rounded-[4px] max-w-full sm:max-w-[420px]">
                         <input
                             type="text"
                             placeholder="Where is Care Needed?"
-                            className="flex-grow px-4 py-3 sm:py-0 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[15px]"
+                            className="flex-grow px-4 py-3.5 sm:py-3 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[15px]"
                         />
                         <button
-                            className="font-bold px-8 py-3.5 sm:py-0 transition-opacity hover:opacity-90 shrink-0 text-[15px]"
+                            className="font-bold px-8 py-3.5 transition-opacity hover:opacity-90 shrink-0 text-[15px]"
                             style={{ backgroundColor: '#d39e24', color: '#043b67' }}
                         >
                             Find Care
                         </button>
                     </div>
 
-                    <div className="text-white mt-4 text-[13px] font-sans">
+                    <div className="text-white mt-3 sm:mt-4 text-[12px] sm:text-[13px] font-sans">
                         For services in Connecticut, <Link href="/office-locator" className="underline hover:text-gray-200 transition-colors">click here</Link>.
                     </div>
                 </div>
@@ -101,11 +101,11 @@ export function Hero() {
             </div>
             
             {/* Mobile floating button */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-30 md:hidden w-[90%] max-w-xs">
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 md:hidden">
                 <Button 
                     asChild 
                     size="lg" 
-                    className="hover:opacity-90 text-white rounded-full w-full py-6 text-lg font-bold shadow-xl border border-white/20"
+                    className="hover:opacity-90 text-white rounded-full px-8 py-5 text-base font-bold shadow-xl border border-white/20"
                     style={{ backgroundColor: '#043b67' }}
                 >
                     <Link href="/contact-us">Get Started</Link>

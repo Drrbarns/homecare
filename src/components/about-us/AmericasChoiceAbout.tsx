@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 
 export function AmericasChoiceAbout() {
     return (
-        <section className="py-16 lg:py-24 bg-white relative">
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px]">
-                <div className="flex flex-col md:flex-row gap-12 lg:gap-16 items-start">
+        <section className="py-12 sm:py-16 md:py-24 bg-white relative overflow-hidden">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1200px]">
+                <div className="flex flex-col md:flex-row gap-8 sm:gap-12 lg:gap-16 items-start">
                     {/* Left - Single vertical image */}
                     <div className="w-full md:w-[40%] lg:w-[38%]">
-                        <div className="relative h-[380px] md:h-[480px] w-full rounded-[8px] overflow-hidden shadow-md">
+                        <div className="relative h-[250px] sm:h-[320px] md:h-[400px] lg:h-[480px] w-full rounded-[8px] overflow-hidden shadow-md">
                             <Image
                                 src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
                                 alt="Caregiver and senior woman holding hands"
@@ -21,10 +21,10 @@ export function AmericasChoiceAbout() {
 
                     {/* Right - Content */}
                     <div className="w-full md:w-[60%] lg:w-[62%] pt-2">
-                        <h2 className="text-[28px] md:text-[34px] font-bold text-[#043b67] mb-6 font-serif leading-tight">
+                        <h2 className="text-[24px] sm:text-[28px] md:text-[34px] font-bold text-[#043b67] mb-6 font-serif leading-tight">
                             America&apos;s Choice in Senior Home Care®
                         </h2>
-                        <div className="space-y-5 text-[15px] text-[#333333] leading-[1.65] font-sans">
+                        <div className="space-y-5 text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65] font-sans">
                             <p>
                                 For more than 25 years, Visiting Angels has provided exceptional <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">home care</Link> to families across the country. Every day, our nationwide network of offices provides vital care and support to hundreds of thousands of older adults.
                             </p>

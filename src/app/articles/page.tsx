@@ -74,13 +74,13 @@ export default async function ArticlesPage({
     return (
         <div className="bg-white min-h-screen">
             {/* Header Banner */}
-            <div className="w-full bg-[#f0f9fb] py-12 md:py-16 relative overflow-hidden">
+            <div className="w-full bg-[#f0f9fb] py-8 sm:py-12 md:py-16 relative overflow-hidden">
                 {/* Wavy Background Pattern */}
                 <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%233b7ea1\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
                 
-                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] relative z-10">
-                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-                        <h1 className="text-[32px] md:text-[42px] font-bold text-[#043b67] font-sans tracking-tight">
+                <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] relative z-10">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 sm:gap-6">
+                        <h1 className="text-[26px] sm:text-[32px] md:text-[42px] font-bold text-[#043b67] font-sans tracking-tight">
                             Articles of Interest
                         </h1>
                         
@@ -102,12 +102,12 @@ export default async function ArticlesPage({
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] py-12">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] py-8 sm:py-12">
                 
                 {/* Filter Bar */}
-                <div className="flex bg-[#f2e6b5] rounded-[4px] mb-12 shadow-sm overflow-hidden">
-                    <div className="flex-1 px-8 py-4 flex items-center">
-                        <span className="text-[#333333] font-medium tracking-wide">FILTER BY TOPIC</span>
+                <div className="flex bg-[#f2e6b5] rounded-[4px] mb-8 sm:mb-12 shadow-sm overflow-hidden">
+                    <div className="flex-1 px-4 sm:px-8 py-3 sm:py-4 flex items-center">
+                        <span className="text-[#333333] font-medium tracking-wide text-sm sm:text-base">FILTER BY TOPIC</span>
                     </div>
                     <button className="bg-[#dca626] px-6 py-4 hover:bg-[#c99722] transition-colors flex items-center justify-center">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -118,10 +118,10 @@ export default async function ArticlesPage({
                 </div>
 
                 {/* Articles Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8 mb-12 sm:mb-16">
                     {currentArticles.map((article, index) => (
                         <div key={index} className="border border-gray-200 rounded-[8px] overflow-hidden bg-white shadow-sm hover:shadow-md transition-all flex flex-col h-full group">
-                            <div className="relative h-[240px] w-full overflow-hidden">
+                            <div className="relative h-[200px] sm:h-[220px] md:h-[240px] w-full overflow-hidden">
                                 <Image
                                     src={article.image}
                                     alt={article.title}
@@ -129,9 +129,9 @@ export default async function ArticlesPage({
                                     className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
-                            <div className="p-8 flex-1 flex flex-col justify-center items-center text-center bg-white min-h-[140px]">
+                            <div className="p-5 sm:p-6 md:p-8 flex-1 flex flex-col justify-center items-center text-center bg-white min-h-[120px] sm:min-h-[140px]">
                                 <Link href={article.link} className="text-[#043b67] hover:text-[#3b7ea1] transition-colors">
-                                    <h3 className="text-[20px] font-bold font-sans leading-tight underline decoration-2 underline-offset-4">
+                                    <h3 className="text-[17px] sm:text-[18px] md:text-[20px] font-bold font-sans leading-tight underline decoration-2 underline-offset-4">
                                         {article.title}
                                     </h3>
                                 </Link>
@@ -142,7 +142,7 @@ export default async function ArticlesPage({
 
                 {/* Pagination */}
                 {totalPages > 1 && (
-                    <div className="flex justify-center items-center gap-2 pb-16">
+                    <div className="flex justify-center items-center gap-2 flex-wrap pb-10 sm:pb-16">
                         {Array.from({ length: totalPages }).map((_, index) => {
                             const pageNum = index + 1;
                             const isCurrent = pageNum === validCurrentPage;
@@ -151,7 +151,7 @@ export default async function ArticlesPage({
                                 <Link 
                                     key={pageNum}
                                     href={`/articles${pageNum > 1 ? `?page=${pageNum}` : ''}`}
-                                    className={`w-10 h-10 flex items-center justify-center border rounded-[4px] text-[15px] transition-colors ${
+                                    className={`w-10 h-10 sm:w-10 sm:h-10 flex items-center justify-center border rounded-[4px] text-[14px] sm:text-[15px] transition-colors ${
                                         isCurrent 
                                             ? 'bg-[#d0e9ef] border-[#d0e9ef] text-[#043b67] font-medium' 
                                             : 'bg-white border-gray-200 text-[#333333] hover:border-[#3b7ea1] hover:text-[#3b7ea1]'

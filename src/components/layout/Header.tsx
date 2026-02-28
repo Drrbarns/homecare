@@ -46,7 +46,7 @@ export function Header() {
             <div className="container mx-auto flex h-[64px] md:h-[88px] items-center justify-between px-4 lg:px-6 max-w-[1440px]">
                 {/* Left: Logo */}
                 <Link href="/" className="flex items-center h-full">
-                    <div className="relative w-[200px] h-[50px] sm:w-[280px] sm:h-[65px] md:w-[380px] md:h-[85px] ml-[-8px] md:ml-[-15px]">
+                    <div className="relative w-[160px] h-[42px] sm:w-[220px] sm:h-[55px] md:w-[320px] md:h-[75px] lg:w-[380px] lg:h-[85px]">
                         <Image
                             src="/images/logo.svg"
                             alt="Visiting Angels Logo"

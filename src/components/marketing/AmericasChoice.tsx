@@ -11,14 +11,14 @@ export function AmericasChoice() {
     ];
 
     return (
-        <section className="py-16 lg:py-20 bg-white">
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px]">
+        <section className="py-10 sm:py-14 lg:py-20 bg-white overflow-hidden">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px]">
                 <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12 xl:gap-16 items-start">
                     
                     {/* Left Image Grid */}
                     <div className="w-full lg:w-[55%] xl:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-[600px]">
                         {/* Main large image */}
-                        <div className="relative h-[400px] md:h-full w-full col-span-1 overflow-hidden rounded-[4px]">
+                        <div className="relative h-[280px] sm:h-[340px] md:h-full w-full col-span-1 overflow-hidden rounded-[4px]">
                             <Image
                                 src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                                 alt="Caregiver helping senior woman with hair"
@@ -53,7 +53,7 @@ export function AmericasChoice() {
 
                     {/* Right Content */}
                     <div className="w-full lg:w-[45%] xl:w-[40%] pt-4">
-                        <h2 className="text-[28px] md:text-[34px] font-bold text-[#1b3664] mb-6 font-serif leading-tight">
+                        <h2 className="text-[24px] sm:text-[28px] md:text-[34px] font-bold text-[#1b3664] mb-4 sm:mb-6 font-serif leading-tight">
                             America’s Choice in Senior Home Care
                         </h2>
                         
@@ -81,8 +81,8 @@ export function AmericasChoice() {
 
                         <Link 
                             href="/home-care-services"
-                            className="inline-block transition-opacity hover:opacity-90 mt-2"
-                            style={{ backgroundColor: '#ce9b36', color: '#000000', borderRadius: '6px', padding: '14px 32px', fontSize: '19px', fontWeight: '500' }}
+                            className="inline-block transition-opacity hover:opacity-90 mt-2 text-[16px] sm:text-[19px] px-6 sm:px-8 py-3 sm:py-3.5 rounded-[6px] font-medium"
+                            style={{ backgroundColor: '#ce9b36', color: '#000000' }}
                         >
                             View All Home Care Services
                         </Link>

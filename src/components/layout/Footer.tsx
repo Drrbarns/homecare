@@ -49,7 +49,7 @@ export function Footer() {
 
     return (
         <footer className="w-full mt-auto text-white" style={{ backgroundColor: '#043b67' }}>
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] pt-8 md:pt-12 pb-8 md:pb-12">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] pt-8 md:pt-12 pb-8 md:pb-12">
                 <div className="flex flex-col lg:flex-row justify-between lg:items-start gap-8 lg:gap-0">
                     
                     {/* Left Side: Brand, Address, Phone, Links */}
@@ -70,7 +70,7 @@ export function Footer() {
                         </div>
 
                         <div className="mb-6 md:mb-8">
-                            <a href="tel:800-365-4189" className="text-[24px] sm:text-[28px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
+                            <a href="tel:800-365-4189" className="text-[22px] sm:text-[26px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
                                 800-365-4189
                             </a>
                         </div>

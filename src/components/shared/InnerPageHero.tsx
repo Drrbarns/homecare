@@ -16,7 +16,7 @@ export function InnerPageHero({
     showPlayButton = false 
 }: InnerPageHeroProps) {
     return (
-        <section className="relative w-full flex bg-[#173559] overflow-hidden" style={{ minHeight: "320px" }}>
+        <section className="relative w-full flex bg-[#173559] overflow-hidden" style={{ minHeight: "260px" }}>
             {/* Background Image (Right side) */}
             <div className="absolute inset-0 z-0 hidden md:block w-full h-full" style={{ height: "460px" }}>
                 <Image
@@ -70,15 +70,15 @@ export function InnerPageHero({
             </div>
 
             {/* Content Container */}
-            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-10 md:py-16">
+            <div className="container mx-auto relative z-20 flex h-full items-center px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-8 sm:py-10 md:py-16">
                 <div className="w-full max-w-[520px]">
                     <h1
-                        className="font-bold leading-[1.1] mb-4 md:mb-6 tracking-tight font-sans text-[32px] sm:text-[40px] md:text-[48px]"
+                        className="font-bold leading-[1.1] mb-3 sm:mb-4 md:mb-6 tracking-tight font-sans text-[26px] sm:text-[34px] md:text-[42px] lg:text-[48px]"
                         style={{ color: "#dca626" }}
                     >
                         {title}
                     </h1>
-                    <p className="font-normal text-white tracking-wide max-w-[480px] font-sans text-[15px] sm:text-[16px] md:text-[18px]" style={{ lineHeight: "1.6" }}>
+                    <p className="font-normal text-white tracking-wide max-w-[480px] font-sans text-[14px] sm:text-[15px] md:text-[17px]" style={{ lineHeight: "1.6" }}>
                         {description}
                     </p>
                 </div>

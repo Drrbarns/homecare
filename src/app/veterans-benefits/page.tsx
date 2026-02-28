@@ -61,10 +61,10 @@ export default function VeteransBenefitsPage() {
                 description="As the number of aging veterans with chronic conditions grows, so does the need for affordable in-home senior care."
                 imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Group of veterans and caregivers smiling"
-                hasPlayButton={true}
+                showPlayButton={true}
             />
 
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] py-16 lg:py-24">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-10 sm:py-16 lg:py-24">
                 <div className="flex flex-col lg:flex-row gap-12 xl:gap-16">
                     {/* Left Sidebar */}
                     <div className="w-full lg:w-[320px] shrink-0">

@@ -24,10 +24,10 @@ export function GetStartedInner({
     const defaultDesc2 = null;
 
     return (
-        <section className={`${layout === "vertical" ? "py-12 md:py-16 text-white overflow-hidden rounded-[8px] mx-0 mb-16" : "py-20 text-white overflow-hidden"}`} style={{ backgroundColor }}>
-            <div className={layout === "vertical" ? "container mx-auto px-6 lg:px-8 max-w-[1200px]" : "container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px]"}>
-                <div className="mb-14 text-center">
-                    <h2 className="text-[26px] md:text-[32px] font-bold text-white mb-6 font-sans tracking-tight">
+        <section className={`${layout === "vertical" ? "py-10 sm:py-12 md:py-16 text-white overflow-hidden rounded-[8px] mx-0 mb-10 sm:mb-16" : "py-12 sm:py-16 md:py-20 text-white overflow-hidden"}`} style={{ backgroundColor }}>
+            <div className={layout === "vertical" ? "container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1200px]" : "container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1200px]"}>
+                <div className="mb-8 sm:mb-10 md:mb-14 text-center">
+                    <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-bold text-white mb-4 sm:mb-6 font-sans tracking-tight">
                         {title}
                     </h2>
                     <p className="text-white leading-[1.65] mb-5 text-[15px] max-w-[900px] mx-auto">
@@ -40,9 +40,9 @@ export function GetStartedInner({
                     )}
                 </div>
 
-                <div className={layout === "vertical" ? "flex flex-col gap-6 md:gap-10 relative" : "grid md:grid-cols-3 gap-6 relative"}>
+                <div className={layout === "vertical" ? "flex flex-col gap-6 md:gap-10 relative" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 relative"}>
                     {/* Step 1 */}
-                    <div className="bg-white p-8 rounded-[4px] relative text-left flex flex-col h-full shadow-lg">
+                    <div className="bg-white p-5 sm:p-6 md:p-8 rounded-[4px] relative text-left flex flex-col h-full shadow-lg">
                         <div className="flex justify-between items-start mb-6">
                             {/* Icon */}
                             <div className="text-[#8c2d38]">
@@ -78,7 +78,7 @@ export function GetStartedInner({
                     </div>
 
                     {/* Step 2 */}
-                    <div className="bg-white p-8 rounded-[4px] relative text-left flex flex-col h-full shadow-lg">
+                    <div className="bg-white p-5 sm:p-6 md:p-8 rounded-[4px] relative text-left flex flex-col h-full shadow-lg">
                         <div className="flex justify-between items-start mb-6">
                             {/* Icon */}
                             <div className="text-[#8c2d38]">
@@ -116,7 +116,7 @@ export function GetStartedInner({
                     </div>
 
                     {/* Step 3 */}
-                    <div className="bg-white p-8 rounded-[4px] relative text-left flex flex-col h-full shadow-lg">
+                    <div className="bg-white p-5 sm:p-6 md:p-8 rounded-[4px] relative text-left flex flex-col h-full shadow-lg">
                         <div className="flex justify-between items-start mb-6">
                             {/* Icon */}
                             <div className="text-[#8c2d38]">

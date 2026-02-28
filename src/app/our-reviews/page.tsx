@@ -20,7 +20,7 @@ export default function OurReviewsPage() {
                 imageAlt="Caregiver standing with senior woman looking in mirror"
             />
 
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] py-16 lg:py-24">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-10 sm:py-16 lg:py-24">
                 <div className="flex flex-col lg:flex-row gap-12 xl:gap-16">
                     {/* Left Sidebar */}
                     <div className="w-full lg:w-[320px] shrink-0">
@@ -31,9 +31,9 @@ export default function OurReviewsPage() {
                     <div className="flex-1 w-full text-[15px] md:text-[16px] text-[#333333] leading-[1.7] font-sans">
                         
                         {/* Intro Section - Image Left, Text Right */}
-                        <div className="flex flex-col md:flex-row gap-8 lg:gap-12 mb-16">
+                        <div className="flex flex-col md:flex-row gap-6 sm:gap-8 lg:gap-12 mb-10 sm:mb-16">
                             <div className="w-full md:w-[40%]">
-                                <div className="relative h-[400px] md:h-[500px] rounded-[8px] overflow-hidden shadow-sm">
+                                <div className="relative h-[280px] sm:h-[360px] md:h-[500px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
                                         src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
                                         alt="Caregiver standing with senior woman"
@@ -67,10 +67,10 @@ export default function OurReviewsPage() {
                         </div>
 
                         {/* Reviews Grid */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 md:gap-8 mb-10 sm:mb-16">
                             
                             {/* Review 1 - Teal */}
-                            <div className="bg-[#4eb3a4] text-white p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
+                            <div className="bg-[#4eb3a4] text-white p-6 sm:p-8 md:p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
                                 {/* Quote Icon */}
                                 <div className="absolute top-6 left-8 bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center opacity-90">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="#4eb3a4" xmlns="http://www.w3.org/2000/svg">
@@ -102,7 +102,7 @@ export default function OurReviewsPage() {
                             </div>
 
                             {/* Review 2 - Purple */}
-                            <div className="bg-[#7871aa] text-white p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
+                            <div className="bg-[#7871aa] text-white p-6 sm:p-8 md:p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
                                 {/* Quote Icon */}
                                 <div className="absolute top-6 left-8 bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center opacity-90">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="#7871aa" xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +132,7 @@ export default function OurReviewsPage() {
                             </div>
 
                             {/* Review 3 - Blue */}
-                            <div className="bg-[#618ac2] text-white p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
+                            <div className="bg-[#618ac2] text-white p-6 sm:p-8 md:p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
                                 {/* Quote Icon */}
                                 <div className="absolute top-6 left-8 bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center opacity-90">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="#618ac2" xmlns="http://www.w3.org/2000/svg">
@@ -161,7 +161,7 @@ export default function OurReviewsPage() {
                             </div>
 
                             {/* Review 4 - Rose */}
-                            <div className="bg-[#bb6e6a] text-white p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
+                            <div className="bg-[#bb6e6a] text-white p-6 sm:p-8 md:p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
                                 {/* Quote Icon */}
                                 <div className="absolute top-6 left-8 bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center opacity-90">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="#bb6e6a" xmlns="http://www.w3.org/2000/svg">
@@ -189,7 +189,7 @@ export default function OurReviewsPage() {
                             </div>
 
                             {/* Review 5 - Brown */}
-                            <div className="bg-[#b38258] text-white p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
+                            <div className="bg-[#b38258] text-white p-6 sm:p-8 md:p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
                                 {/* Quote Icon */}
                                 <div className="absolute top-6 left-8 bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center opacity-90">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="#b38258" xmlns="http://www.w3.org/2000/svg">
@@ -215,7 +215,7 @@ export default function OurReviewsPage() {
                             </div>
 
                             {/* Review 6 - Dark Teal */}
-                            <div className="bg-[#5f847d] text-white p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
+                            <div className="bg-[#5f847d] text-white p-6 sm:p-8 md:p-10 rounded-[8px] relative overflow-hidden shadow-sm flex flex-col">
                                 {/* Quote Icon */}
                                 <div className="absolute top-6 left-8 bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center opacity-90">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="#5f847d" xmlns="http://www.w3.org/2000/svg">

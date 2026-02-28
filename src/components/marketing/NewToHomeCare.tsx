@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export function NewToHomeCare() {
     return (
-        <section className="py-20 bg-[#043b67] text-white">
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px]">
-                <div className="mb-14">
-                    <h2 className="text-[28px] md:text-[34px] font-bold text-white mb-8 font-serif text-center">
+        <section className="py-12 sm:py-16 md:py-20 bg-[#043b67] text-white overflow-hidden">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1200px]">
+                <div className="mb-8 sm:mb-10 md:mb-14">
+                    <h2 className="text-[22px] sm:text-[26px] md:text-[34px] font-bold text-white mb-5 sm:mb-8 font-serif text-center">
                         New to Professional Home Care?
                     </h2>
                     <p className="text-white leading-relaxed mb-6 text-[15px]">
@@ -16,9 +16,9 @@ export function NewToHomeCare() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6 relative">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 relative">
                     {/* Step 1 */}
-                    <div className="bg-white p-8 rounded-[6px] relative text-left flex flex-col h-full shadow-lg">
+                    <div className="bg-white p-5 sm:p-6 md:p-8 rounded-[6px] relative text-left flex flex-col h-full shadow-lg">
                         <div className="flex justify-between items-start mb-6">
                             {/* Icon */}
                             <div className="text-[#8c2d38]">
@@ -48,7 +48,7 @@ export function NewToHomeCare() {
                     </div>
 
                     {/* Step 2 */}
-                    <div className="bg-white p-8 rounded-[6px] relative text-left flex flex-col h-full shadow-lg">
+                    <div className="bg-white p-5 sm:p-6 md:p-8 rounded-[6px] relative text-left flex flex-col h-full shadow-lg">
                         <div className="flex justify-between items-start mb-6">
                             {/* Icon */}
                             <div className="text-[#8c2d38]">
@@ -80,7 +80,7 @@ export function NewToHomeCare() {
                     </div>
 
                     {/* Step 3 */}
-                    <div className="bg-white p-8 rounded-[6px] relative text-left flex flex-col h-full shadow-lg">
+                    <div className="bg-white p-5 sm:p-6 md:p-8 rounded-[6px] relative text-left flex flex-col h-full shadow-lg">
                         <div className="flex justify-between items-start mb-6">
                             {/* Icon */}
                             <div className="text-[#8c2d38]">

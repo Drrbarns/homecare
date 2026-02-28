@@ -21,18 +21,18 @@ export function ArticlesPreview() {
     ];
 
     return (
-        <section className="pt-20 pb-24 bg-white relative z-10">
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px]">
-                <div className="text-center mb-10 relative z-10">
-                    <h2 className="text-[28px] md:text-[34px] font-bold text-[#043b67] mb-2 font-sans tracking-tight">
+        <section className="pt-12 sm:pt-16 md:pt-20 pb-16 sm:pb-20 md:pb-24 bg-white relative z-10">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1200px]">
+                <div className="text-center mb-8 sm:mb-10 relative z-10">
+                    <h2 className="text-[22px] sm:text-[26px] md:text-[34px] font-bold text-[#043b67] mb-2 font-sans tracking-tight">
                         Navigating Senior Care
                     </h2>
-                    <p className="text-[18px] md:text-[20px] text-gray-500 font-sans font-light">
+                    <p className="text-[16px] sm:text-[18px] md:text-[20px] text-gray-500 font-sans font-light">
                         Tips, Advice, & Information
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6 mb-12">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 mb-8 sm:mb-10 md:mb-12">
                     {articles.map((article, i) => (
                         <Link href={article.link} key={i} className="group block bg-white rounded-[6px] border border-gray-200 overflow-hidden shadow-sm hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-shadow p-5 md:p-6">
                             <div className="relative h-[200px] md:h-[220px] w-full rounded-[4px] overflow-hidden">
@@ -51,7 +51,7 @@ export function ArticlesPreview() {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="pt-6 pb-2 text-center h-[90px] flex items-center justify-center">
+                            <div className="pt-4 sm:pt-6 pb-2 text-center min-h-[70px] sm:min-h-[80px] md:h-[90px] flex items-center justify-center">
                                 <h3 className="text-[17px] md:text-[18px] font-bold text-[#043b67] underline decoration-2 underline-offset-4 leading-snug group-hover:text-[#5cb3b1] transition-colors">
                                     {article.title}
                                 </h3>

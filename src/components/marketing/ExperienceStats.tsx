@@ -62,7 +62,7 @@ function CountUp({ end, duration = 2000, suffix = "", prefix = "", decimals = 0 
 
 export function ExperienceStats() {
     return (
-        <section className="py-20 relative bg-[#f1ebdb] border-t border-slate-200 overflow-hidden">
+        <section className="py-12 sm:py-16 md:py-20 relative bg-[#f1ebdb] border-t border-slate-200 overflow-hidden">
             {/* Wave Pattern Background */}
             <div 
                 className="absolute inset-0 z-0 opacity-40 pointer-events-none" 
@@ -72,31 +72,31 @@ export function ExperienceStats() {
                 }} 
             />
             
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px] relative z-10">
-                <div className="text-center mb-10">
-                    <h2 className="text-[28px] md:text-[34px] font-bold font-serif text-[#043b67]">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1200px] relative z-10">
+                <div className="text-center mb-6 sm:mb-8 md:mb-10">
+                    <h2 className="text-[22px] sm:text-[26px] md:text-[34px] font-bold font-serif text-[#043b67]">
                         Home Care Experience & Excellence
                     </h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 md:gap-6 text-center">
                     {/* Card 1 */}
-                    <div className="bg-white py-12 px-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] rounded-[2px]">
-                        <div className="text-[44px] md:text-[50px] font-bold text-[#043b67] mb-1 leading-none font-sans tracking-tight">
+                    <div className="bg-white py-8 sm:py-10 md:py-12 px-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] rounded-[2px]">
+                        <div className="text-[36px] sm:text-[40px] md:text-[50px] font-bold text-[#043b67] mb-1 leading-none font-sans tracking-tight">
                             <CountUp end={25} suffix="+" duration={2000} />
                         </div>
                         <div className="text-[16px] text-gray-800 mt-3">Years of Service</div>
                     </div>
                     {/* Card 2 */}
-                    <div className="bg-white py-12 px-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] rounded-[2px]">
-                        <div className="text-[44px] md:text-[50px] font-bold text-[#043b67] mb-1 leading-none font-sans tracking-tight">
+                    <div className="bg-white py-8 sm:py-10 md:py-12 px-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] rounded-[2px]">
+                        <div className="text-[36px] sm:text-[40px] md:text-[50px] font-bold text-[#043b67] mb-1 leading-none font-sans tracking-tight">
                             <CountUp end={600} suffix="+" duration={2200} />
                         </div>
                         <div className="text-[16px] text-gray-800 mt-3">Local Offices Nationwide</div>
                     </div>
                     {/* Card 3 */}
-                    <div className="bg-white py-12 px-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] rounded-[2px]">
-                        <div className="text-[44px] md:text-[50px] font-bold text-[#043b67] mb-1 leading-none font-sans tracking-tight">
+                    <div className="bg-white py-8 sm:py-10 md:py-12 px-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] rounded-[2px]">
+                        <div className="text-[36px] sm:text-[40px] md:text-[50px] font-bold text-[#043b67] mb-1 leading-none font-sans tracking-tight">
                             <CountUp end={4.8} decimals={1} duration={2400} />
                         </div>
                         <div className="text-[16px] text-gray-800 mt-3">Google Review Rating</div>

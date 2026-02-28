@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function ApproachSection() {
     return (
-        <section className="py-20 lg:py-32 bg-white relative z-20">
+        <section className="py-12 sm:py-16 lg:py-32 bg-white relative z-20 overflow-hidden">
             <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1200px]">
                 <div className="relative flex flex-col md:flex-row items-center justify-between">
                     
@@ -25,9 +25,9 @@ export function ApproachSection() {
                     </div>
 
                     {/* Right - Tilted Flipbook Graphic */}
-                    <div className="w-full md:w-[50%] lg:w-[45%] mt-16 md:mt-0 flex justify-center md:justify-end relative h-[400px]">
+                    <div className="w-full md:w-[50%] lg:w-[45%] mt-12 md:mt-0 flex justify-center md:justify-end relative h-[340px] sm:h-[380px] md:h-[400px]">
                         {/* The Book */}
-                        <div className="absolute right-0 lg:-right-[20px] top-[10%] w-[320px] md:w-[400px] lg:w-[460px] transform rotate-[6deg] transition-transform hover:rotate-[2deg] duration-500 shadow-[0_15px_40px_rgba(0,0,0,0.2)] rounded-sm overflow-hidden bg-white z-50 border border-gray-100 flex flex-col">
+                        <div className="absolute right-auto md:right-0 lg:-right-[20px] top-[10%] w-[260px] sm:w-[300px] md:w-[400px] lg:w-[460px] transform rotate-[6deg] transition-transform hover:rotate-[2deg] duration-500 shadow-[0_15px_40px_rgba(0,0,0,0.2)] rounded-sm overflow-hidden bg-white z-50 border border-gray-100 flex flex-col">
                             
                             {/* Top header of brochure */}
                             <div className="w-full h-[75px] bg-white relative flex items-center justify-center border-b border-gray-100">
@@ -45,7 +45,7 @@ export function ApproachSection() {
                             </div>
 
                             {/* Photo of brochure */}
-                            <div className="relative w-full h-[280px]">
+                            <div className="relative w-full h-[180px] sm:h-[220px] md:h-[280px]">
                                 <Image
                                     src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
                                     alt="Caregiver helping senior"

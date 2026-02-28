@@ -41,11 +41,11 @@ export function ContactSection() {
                 />
             </div>
 
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1440px] relative z-10 py-16 lg:py-24">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] relative z-10 py-10 sm:py-16 lg:py-24">
                 <div className="flex flex-col md:flex-row gap-0 max-w-[1200px] mx-auto bg-transparent border border-gray-200 md:border-none shadow-[0_4px_20px_rgba(0,0,0,0.03)] md:shadow-none">
                     
                     {/* Left - Contact Form inside Card */}
-                    <div className="w-full md:w-[55%] lg:w-[48%] bg-white p-8 md:p-10 border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.04)] rounded-[4px] z-20 md:my-4">
+                    <div className="w-full md:w-[55%] lg:w-[48%] bg-white p-5 sm:p-8 md:p-10 border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.04)] rounded-[4px] z-20 md:my-4">
                         <h2 className="text-[26px] md:text-[30px] font-bold text-[#043b67] mb-4 font-sans tracking-tight">
                             Contact Us About Our Home Care
                         </h2>
@@ -133,7 +133,7 @@ export function ContactSection() {
                             </div>
 
                             <div className="pt-2 pb-2">
-                                <button type="submit" className="transition-opacity hover:opacity-90 rounded-[4px] px-8 py-[12px] font-bold shadow-sm inline-flex font-sans tracking-wide w-[200px] justify-center" style={{ backgroundColor: '#ce9b36', color: '#000000', fontSize: '15px' }}>
+                                <button type="submit" className="transition-opacity hover:opacity-90 rounded-[4px] px-8 py-[12px] font-bold shadow-sm inline-flex font-sans tracking-wide w-full sm:w-[200px] justify-center" style={{ backgroundColor: '#ce9b36', color: '#000000', fontSize: '15px' }}>
                                     Send Message
                                 </button>
                             </div>
@@ -145,7 +145,7 @@ export function ContactSection() {
                     </div>
 
                     {/* Right - Info Area mapped over the light blue background */}
-                    <div className="w-full md:w-[45%] lg:w-[52%] p-8 md:p-12 lg:p-16 flex flex-col justify-center text-[#043b67] relative z-10 bg-[#eaf6f9] md:bg-transparent">
+                    <div className="w-full md:w-[45%] lg:w-[52%] p-5 sm:p-8 md:p-12 lg:p-16 flex flex-col justify-center text-[#043b67] relative z-10 bg-[#eaf6f9] md:bg-transparent">
                         <h2 className="text-[28px] md:text-[34px] lg:text-[40px] font-bold mb-6 font-sans leading-[1.1] tracking-tight text-[#043b67]">
                             Support to help families spend more quality time together.
                         </h2>

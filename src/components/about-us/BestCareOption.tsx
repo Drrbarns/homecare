@@ -27,7 +27,7 @@ function CheckIcon() {
 
 export function BestCareOption() {
     return (
-        <section className="pt-20 pb-10 relative bg-[#eaf6f9] overflow-hidden">
+        <section className="pt-12 sm:pt-16 md:pt-20 pb-10 relative bg-[#eaf6f9] overflow-hidden">
             <div
                 className="absolute inset-0 z-0 opacity-50 pointer-events-none"
                 style={{
@@ -35,19 +35,19 @@ export function BestCareOption() {
                     backgroundSize: "100px 20px",
                 }}
             />
-            <div className="container mx-auto px-4 lg:px-6 xl:px-8 max-w-[1000px] relative z-10 text-center">
-                <h2 className="text-[28px] md:text-[34px] font-bold text-[#043b67] mb-6 font-serif">
+            <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1000px] relative z-10 text-center">
+                <h2 className="text-[24px] sm:text-[28px] md:text-[34px] font-bold text-[#043b67] mb-6 font-serif">
                     The Best Care Option for Seniors
                 </h2>
-                <p className="text-[15px] md:text-[16px] text-[#333333] leading-[1.6] max-w-[720px] mx-auto mb-10">
+                <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.6] max-w-[720px] mx-auto mb-10">
                     When looking for the best care for your loved one, an assisted living facility or nursing home aren't the only options. With a nationally recognized home care provider like Visiting Angels, your loved one can continue to <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">age in place at home.</Link>
                 </p>
-                <p className="text-[15px] md:text-[16px] text-[#333333] font-bold mb-10">
+                <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] font-bold mb-10">
                     Our in-home care professionals are available to provide:
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-6 max-w-[800px] mx-auto text-left">
-                    <div className="bg-white rounded-[6px] p-8 shadow-[0_2px_12px_rgba(0,0,0,0.06)] border border-gray-100">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-[800px] mx-auto text-left">
+                    <div className="bg-white rounded-[6px] p-5 sm:p-8 md:p-10 shadow-[0_2px_12px_rgba(0,0,0,0.06)] border border-gray-100">
                         <h3 className="text-[18px] font-bold text-[#043b67] mb-6 text-center font-sans">
                             Activities of Daily Living
                         </h3>
@@ -60,7 +60,7 @@ export function BestCareOption() {
                             ))}
                         </ul>
                     </div>
-                    <div className="bg-white rounded-[6px] p-8 shadow-[0_2px_12px_rgba(0,0,0,0.06)] border border-gray-100">
+                    <div className="bg-white rounded-[6px] p-5 sm:p-8 md:p-10 shadow-[0_2px_12px_rgba(0,0,0,0.06)] border border-gray-100">
                         <h3 className="text-[18px] font-bold text-[#043b67] mb-6 text-center font-sans">
                             Flexible Scheduling
                         </h3>
