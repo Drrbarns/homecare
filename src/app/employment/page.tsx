@@ -194,7 +194,7 @@ export default function EmploymentPage() {
             </div>
 
             {/* Start Your New Career Search Banner */}
-            <div className="bg-[#fcf8e5] w-full py-16 mb-24 relative overflow-hidden text-center flex flex-col items-center justify-center">
+            <div className="bg-[#fcf8e5] w-full py-16 mb-0 relative overflow-hidden text-center flex flex-col items-center justify-center">
                 {/* Subtle Wavy Pattern Overlay */}
                 <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%23dca626\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
                 
@@ -218,15 +218,14 @@ export default function EmploymentPage() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
-                
-                {/* Award-Winning Offices */}
-                <div className="bg-[#eaf6f9] rounded-[8px] p-8 md:p-12 mb-24 relative overflow-hidden">
-                    {/* Wavy Pattern overlay */}
-                    <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%233b7ea1\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
+            {/* Award-Winning Offices - Full Width Background */}
+            <div className="bg-[#eaf6f9] w-full py-20 mb-24 relative overflow-hidden">
+                {/* Wavy Pattern overlay */}
+                <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'100\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 20 Q 25 0, 50 20 T 100 20\' fill=\'none\' stroke=\'%233b7ea1\' stroke-width=\'2\'/%3E%3C/svg%3E")', backgroundSize: '100px 40px' }}></div>
 
-                    <div className="flex flex-col lg:flex-row gap-8 items-center relative z-10">
-                        <div className="flex-1">
+                <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] relative z-10">
+                    <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
+                        <div className="flex-1 max-w-3xl">
                             <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
                                 Award-Winning Offices
                             </h2>
@@ -248,22 +247,49 @@ export default function EmploymentPage() {
                                 View Office Locations
                             </button>
                         </div>
-                        <div className="w-[200px] h-[200px] md:w-[250px] md:h-[250px] shrink-0">
-                            <div className="bg-white rounded-full p-4 shadow-lg w-full h-full flex items-center justify-center border-[8px] border-[#4eb3a4]">
-                                <div className="text-center">
-                                    <p className="text-[20px] font-bold text-[#043b67] tracking-widest uppercase mb-2">BEST OF</p>
-                                    <div className="flex justify-center gap-1 mb-2">
-                                        <div className="w-2 h-8 bg-[#dca626] rounded-full transform -rotate-[20deg]"></div>
-                                        <div className="w-2 h-10 bg-[#dca626] rounded-full"></div>
-                                        <div className="w-2 h-8 bg-[#dca626] rounded-full transform rotate-[20deg]"></div>
+                        <div className="w-[240px] h-[240px] md:w-[280px] md:h-[280px] shrink-0 lg:ml-12">
+                            <div className="bg-white rounded-full shadow-lg w-full h-full flex flex-col items-center justify-center border-[8px] border-[#4eb3a4] relative overflow-hidden">
+                                <div className="absolute top-0 left-0 right-0 h-[65%] flex flex-col items-center justify-center pt-2">
+                                    <svg viewBox="0 0 200 60" className="w-[160px] h-[48px] overflow-visible">
+                                        <path id="curve" d="M 20 60 A 80 80 0 0 1 180 60" fill="transparent" />
+                                        <text width="200" className="text-[20px] font-bold fill-[#043b67] tracking-[4px] uppercase" style={{fontFamily: "sans-serif"}}>
+                                            <textPath href="#curve" startOffset="50%" textAnchor="middle">
+                                                BEST OF HOME CARE
+                                            </textPath>
+                                        </text>
+                                    </svg>
+                                    <div className="flex justify-center gap-1.5 mt-1 mb-2">
+                                        <div className="w-2.5 h-8 bg-[#dca626] rounded-full transform -rotate-[20deg]"></div>
+                                        <div className="w-2.5 h-10 bg-[#dca626] rounded-full"></div>
+                                        <div className="w-2.5 h-8 bg-[#dca626] rounded-full transform rotate-[20deg]"></div>
                                     </div>
-                                    <p className="text-[16px] font-bold text-white bg-[#4eb3a4] px-4 py-1 tracking-widest uppercase mb-2">PROVIDER</p>
-                                    <p className="text-[14px] font-bold text-[#043b67] tracking-widest uppercase">OF CHOICE</p>
+                                </div>
+                                
+                                {/* Teal Ribbon Banner */}
+                                <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 z-10 w-[110%] -ml-[5%]">
+                                    <div className="bg-[#4eb3a4] text-white py-2 text-center relative shadow-md">
+                                        {/* Ribbon ends */}
+                                        <div className="absolute top-0 bottom-0 left-[-15px] w-[30px] bg-[#3a8b7f] transform skew-x-[30deg] -z-10"></div>
+                                        <div className="absolute top-0 bottom-0 right-[-15px] w-[30px] bg-[#3a8b7f] transform -skew-x-[30deg] -z-10"></div>
+                                        
+                                        <p className="text-[20px] font-bold tracking-[3px] uppercase" style={{fontFamily: "sans-serif", textShadow: "1px 1px 2px rgba(0,0,0,0.2)"}}>
+                                            PROVIDER
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div className="absolute bottom-6 left-0 right-0 text-center">
+                                    <p className="text-[14px] font-bold text-[#043b67] tracking-[3px] uppercase" style={{fontFamily: "sans-serif"}}>
+                                        OF CHOICE
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-24">
 
                 {/* Easy Hiring Process */}
                 <div className="flex flex-col md:flex-row gap-12 lg:gap-16 mb-24">
