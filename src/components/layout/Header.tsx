@@ -2,9 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Search, Menu, ChevronDown } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Search, ChevronDown } from "lucide-react";
 import Image from "next/image";
 
 export const typesOfCareNav = [
@@ -38,20 +36,17 @@ export const homeCareInfoNav = [
 ];
 
 export function Header() {
-    const [isOpen, setIsOpen] = React.useState(false);
-    const handleLinkClick = () => setIsOpen(false);
-
     return (
         <header className="bg-white z-50 shadow-sm border-b border-gray-100 relative">
-            <div className="container mx-auto flex h-[64px] md:h-[88px] items-center justify-between px-4 lg:px-6 max-w-[1440px]">
+            <div className="container mx-auto flex h-[64px] md:h-[88px] items-center justify-center xl:justify-between px-4 lg:px-6 max-w-[1440px]">
                 {/* Left: Logo */}
                 <Link href="/" className="flex items-center h-full">
-                    <div className="relative w-[160px] h-[42px] sm:w-[220px] sm:h-[55px] md:w-[320px] md:h-[75px] lg:w-[380px] lg:h-[85px]">
+                    <div className="relative w-[200px] h-[50px] sm:w-[220px] sm:h-[55px] md:w-[320px] md:h-[75px] lg:w-[380px] lg:h-[85px]">
                         <Image
                             src="/images/logo.svg"
                             alt="Visiting Angels Logo"
                             fill
-                            className="object-contain object-left"
+                            className="object-contain object-center xl:object-left"
                             priority
                         />
                     </div>
@@ -116,68 +111,11 @@ export function Header() {
                     </button>
                 </nav>
 
-                {/* Mobile Menu Toggle */}
-                <div className="xl:hidden flex items-center gap-4">
-                    <button aria-label="Search" className="text-[#1b3664]">
+                {/* Mobile Menu Toggle (Moved to UtilityBar) */}
+                <div className="xl:hidden absolute right-4 sm:right-6">
+                    <button aria-label="Search" className="text-[#1b3664] hidden sm:block">
                         <Search className="w-5 h-5" />
                     </button>
-                    <Sheet open={isOpen} onOpenChange={setIsOpen}>
-                        <SheetTrigger asChild>
-                            <Button variant="ghost" size="icon" className="text-[#1b3664]">
-                                <Menu className="h-8 w-8" />
-                                <span className="sr-only">Toggle menu</span>
-                            </Button>
-                        </SheetTrigger>
-                        <SheetContent side="right" className="bg-white w-[300px] sm:w-[360px] overflow-y-auto">
-                            <div className="flex flex-col space-y-2 mt-8">
-                                <Link href="/office-locator" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
-                                    Find Care
-                                </Link>
-                                <Link href="/about-us" onClick={handleLinkClick} className="text-lg font-medium text-[#5cb3b1] uppercase py-3">
-                                    About Us
-                                </Link>
-                                <div className="pt-2 pb-2">
-                                    <span className="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Types of Care</span>
-                                    <div className="flex flex-col mt-2 space-y-1 pl-2 border-l-2 border-gray-100">
-                                        {typesOfCareNav.map((item) => (
-                                            <Link
-                                                key={item.label}
-                                                href={item.href}
-                                                onClick={handleLinkClick}
-                                                className="text-[15px] font-medium text-[#1b3664] hover:text-[#5cb3b1] py-2 normal-case"
-                                            >
-                                                {item.label}
-                                            </Link>
-                                        ))}
-                                    </div>
-                                </div>
-                                <div className="pt-2 pb-2">
-                                    <span className="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Home Care Info</span>
-                                    <div className="flex flex-col mt-2 space-y-1 pl-2 border-l-2 border-gray-100">
-                                        {homeCareInfoNav.map((item) => (
-                                            <Link
-                                                key={item.label}
-                                                href={item.href}
-                                                onClick={handleLinkClick}
-                                                className="text-[15px] font-medium text-[#1b3664] hover:text-[#5cb3b1] py-2 normal-case"
-                                            >
-                                                {item.label}
-                                            </Link>
-                                        ))}
-                                    </div>
-                                </div>
-                                <Link href="/articles" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
-                                    Articles
-                                </Link>
-                                <Link href="/employment" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
-                                    Caregiver Jobs
-                                </Link>
-                                <Link href="/contact-us" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
-                                    Contact Us
-                                </Link>
-                            </div>
-                        </SheetContent>
-                    </Sheet>
                 </div>
             </div>
         </header>

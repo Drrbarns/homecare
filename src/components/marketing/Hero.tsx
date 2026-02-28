@@ -59,31 +59,31 @@ export function Hero() {
 
             {/* Content Container */}
             <div className="container mx-auto relative z-20 flex h-full items-center px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-12 sm:py-16 md:py-24">
-                <div className="w-full max-w-[580px]">
-                    <h1 className="font-bold leading-[1.2] mb-4 sm:mb-6 tracking-tight text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px]" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+                <div className="w-full max-w-[580px] text-center sm:text-left mx-auto sm:mx-0">
+                    <h1 className="font-bold leading-[1.2] mb-4 sm:mb-6 tracking-tight text-[32px] sm:text-[36px] md:text-[44px] lg:text-[52px]" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
                         <span className="block" style={{ color: '#d39e24' }}>Compassionate</span>
                         <span className="block" style={{ color: '#d39e24' }}>In-Home Senior Care</span>
                     </h1>
 
-                    <p className="font-normal mb-5 sm:mb-8 text-white text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-sans">
+                    <p className="font-normal mb-5 sm:mb-8 text-white text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-sans">
                         Find a Visiting Angels home care office near you:
                     </p>
 
-                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-4 rounded-[4px] max-w-full sm:max-w-[420px]">
+                    <div className="flex flex-row bg-white overflow-hidden mb-4 rounded-[4px] w-full max-w-[420px] mx-auto sm:mx-0">
                         <input
                             type="text"
                             placeholder="Where is Care Needed?"
-                            className="flex-grow px-4 py-3.5 sm:py-3 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[15px]"
+                            className="flex-grow px-3 sm:px-4 py-3.5 sm:py-3 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[14px] sm:text-[15px] min-w-0"
                         />
                         <button
-                            className="font-bold px-8 py-3.5 transition-opacity hover:opacity-90 shrink-0 text-[15px]"
+                            className="font-bold px-4 sm:px-8 py-3.5 transition-opacity hover:opacity-90 shrink-0 text-[14px] sm:text-[15px]"
                             style={{ backgroundColor: '#d39e24', color: '#043b67' }}
                         >
                             Find Care
                         </button>
                     </div>
 
-                    <div className="text-white mt-3 sm:mt-4 text-[12px] sm:text-[13px] font-sans">
+                    <div className="text-white mt-3 sm:mt-4 text-[14px] font-sans">
                         For services in Connecticut, <Link href="/office-locator" className="underline hover:text-gray-200 transition-colors">click here</Link>.
                     </div>
                 </div>
@@ -95,18 +95,6 @@ export function Hero() {
                     asChild 
                     className="hover:opacity-90 text-white rounded-l-full rounded-r-none px-10 py-7 font-bold shadow-xl border border-white/10"
                     style={{ backgroundColor: '#043b67', fontSize: '16px' }}
-                >
-                    <Link href="/contact-us">Get Started</Link>
-                </Button>
-            </div>
-            
-            {/* Mobile floating button */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 md:hidden">
-                <Button 
-                    asChild 
-                    size="lg" 
-                    className="hover:opacity-90 text-white rounded-full px-8 py-5 text-base font-bold shadow-xl border border-white/20"
-                    style={{ backgroundColor: '#043b67' }}
                 >
                     <Link href="/contact-us">Get Started</Link>
                 </Button>
