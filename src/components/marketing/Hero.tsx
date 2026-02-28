@@ -59,31 +59,31 @@ export function Hero() {
 
             {/* Content Container */}
             <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-16 md:py-24">
-                <div className="w-full max-w-[550px]">
-                    <h1 className="font-bold leading-[1.15] mb-6 tracking-tight text-[36px] sm:text-[44px] md:text-[54px] font-sans">
-                        <span className="block" style={{ color: '#dca626' }}>Compassionate</span>
-                        <span className="block" style={{ color: '#dca626' }}>In-Home Senior Care</span>
+                <div className="w-full max-w-[580px]">
+                    <h1 className="font-bold leading-[1.2] mb-6 tracking-tight text-[36px] sm:text-[44px] md:text-[52px]" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+                        <span className="block" style={{ color: '#d39e24' }}>Compassionate</span>
+                        <span className="block" style={{ color: '#d39e24' }}>In-Home Senior Care</span>
                     </h1>
 
-                    <p className="font-normal mb-8 text-white tracking-wide text-[16px] sm:text-[18px] md:text-[20px]">
+                    <p className="font-normal mb-8 text-white text-[16px] sm:text-[18px] md:text-[20px] font-sans">
                         Find a Visiting Angels home care office near you:
                     </p>
 
-                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-4 shadow-sm rounded-[4px] max-w-[460px]">
+                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-4 rounded-[4px] max-w-[420px]">
                         <input
                             type="text"
                             placeholder="Where is Care Needed?"
-                            className="flex-grow px-5 py-4 sm:py-0 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[15px]"
+                            className="flex-grow px-4 py-3 sm:py-0 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[15px]"
                         />
                         <button
-                            className="font-bold px-8 py-4 sm:py-0 transition-opacity hover:opacity-90 shrink-0 text-[15px]"
-                            style={{ backgroundColor: '#dca626', color: '#043b67' }}
+                            className="font-bold px-8 py-3.5 sm:py-0 transition-opacity hover:opacity-90 shrink-0 text-[15px]"
+                            style={{ backgroundColor: '#d39e24', color: '#043b67' }}
                         >
                             Find Care
                         </button>
                     </div>
 
-                    <div className="text-white mt-4 text-[14.5px]">
+                    <div className="text-white mt-4 text-[13px] font-sans">
                         For services in Connecticut, <Link href="/office-locator" className="underline hover:text-gray-200 transition-colors">click here</Link>.
                     </div>
                 </div>
