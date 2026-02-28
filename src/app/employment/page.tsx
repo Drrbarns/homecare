@@ -508,10 +508,7 @@ export default function EmploymentPage() {
 
             {/* FAQ Section */}
             <div className="container mx-auto px-4 lg:px-8 max-w-[1440px] mb-16">
-                <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-8 font-sans tracking-tight">
-                    Frequently Asked Questions
-                </h2>
-                <FAQAccordion items={faqItems} />
+                <FAQAccordion faqs={faqItems} title="Frequently Asked Questions" />
                 <p className="text-[14.5px] text-[#666666] italic mt-6 font-sans">
                     *Visiting Angels offices determine their own benefits, pay, training opportunities, and hours. Talk with your local office for details.
                 </p>

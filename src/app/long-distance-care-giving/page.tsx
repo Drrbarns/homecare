@@ -236,10 +236,7 @@ export default function LongDistanceCareGivingPage() {
 
                         {/* FAQ Section */}
                         <div className="mb-16">
-                            <h2 className="text-[28px] md:text-[32px] font-bold text-[#043b67] mb-8 font-sans tracking-tight">
-                                Frequently Asked Questions
-                            </h2>
-                            <FAQAccordion items={faqItems} />
+                            <FAQAccordion faqs={faqItems} title="Frequently Asked Questions" />
                         </div>
 
                     </div>
