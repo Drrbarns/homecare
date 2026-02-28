@@ -48,7 +48,7 @@ export function Header() {
                 <Link href="/" className="flex items-center h-full">
                     <div className="relative w-[200px] h-[50px] sm:w-[280px] sm:h-[65px] md:w-[380px] md:h-[85px] ml-[-8px] md:ml-[-15px]">
                         <Image
-                            src="https://www.visitingangels.com/images/layout/VA_Logo_Color.svg"
+                            src="/images/logo.svg"
                             alt="Visiting Angels Logo"
                             fill
                             className="object-contain object-left"

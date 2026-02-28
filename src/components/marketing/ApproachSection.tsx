@@ -36,7 +36,7 @@ export function ApproachSection() {
                                 </div>
                                 <div className="relative w-[200px] h-[45px] mt-2">
                                     <Image
-                                        src="https://www.visitingangels.com/images/layout/VA_Logo_Color.svg" 
+                                        src="/images/logo.svg" 
                                         alt="Visiting Angels Logo"
                                         fill
                                         className="object-contain"
