@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
     return (
-        <section className="relative w-full flex bg-[#173559]" style={{ minHeight: '380px' }}>
+        <section className="relative w-full flex bg-[#043b67]" style={{ minHeight: '480px' }}>
             {/* Background Image (Right side) */}
             <div className="absolute inset-0 z-0 hidden md:block w-full h-full">
                 <Image
-                    src="/images/hero.png" // Ensure this image is in public/images/
-                    alt="Senior woman smiling with caregiver"
+                    src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=1200&auto=format&fit=crop"
+                    alt="Senior woman looking at phone with caregiver"
                     fill
                     className="object-cover object-right"
                     priority
@@ -19,8 +19,8 @@ export function Hero() {
             {/* Mobile Image */}
             <div className="absolute inset-0 z-0 md:hidden opacity-30 w-full h-full">
                 <Image
-                    src="/images/hero.png"
-                    alt="Senior woman smiling with caregiver"
+                    src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=1200&auto=format&fit=crop"
+                    alt="Senior woman looking at phone with caregiver"
                     fill
                     className="object-cover object-center"
                     priority
@@ -37,19 +37,19 @@ export function Hero() {
                 >
                     {/* Dark Blue Base Curve */}
                     <path
-                        d="M0,0 L700,0 C740,0 800,100 800,240 C800,380 740,480 700,480 L0,480 Z"
-                        fill="#173559"
+                        d="M0,0 L700,0 C780,0 850,120 850,240 C850,360 780,480 700,480 L0,480 Z"
+                        fill="#043b67"
                     />
                     {/* First decorative white line */}
                     <path
-                        d="M720,0 C760,0 820,100 820,240 C820,380 760,480 720,480"
+                        d="M720,0 C800,0 870,120 870,240 C870,360 800,480 720,480"
                         fill="none"
                         stroke="rgba(255,255,255,0.4)"
                         strokeWidth="1"
                     />
                     {/* Second decorative light line */}
                     <path
-                        d="M740,0 C780,0 840,100 840,240 C840,380 780,480 740,480"
+                        d="M740,0 C820,0 890,120 890,240 C890,360 820,480 740,480"
                         fill="none"
                         stroke="rgba(255,255,255,0.2)"
                         strokeWidth="1"
@@ -58,43 +58,43 @@ export function Hero() {
             </div>
 
             {/* Content Container */}
-            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-10 md:py-16">
-                <div className="w-full max-w-[480px]">
-                    <h1 className="font-bold leading-[1.1] mb-4 md:mb-6 tracking-tight text-white text-[30px] sm:text-[36px] md:text-[42px]">
+            <div className="container mx-auto relative z-20 flex h-full items-center px-4 lg:px-6 xl:px-8 max-w-[1440px] py-16 md:py-24">
+                <div className="w-full max-w-[550px]">
+                    <h1 className="font-bold leading-[1.15] mb-6 tracking-tight text-[36px] sm:text-[44px] md:text-[54px] font-sans">
                         <span className="block" style={{ color: '#dca626' }}>Compassionate</span>
                         <span className="block" style={{ color: '#dca626' }}>In-Home Senior Care</span>
                     </h1>
 
-                    <p className="font-normal mb-4 md:mb-5 text-white tracking-wide text-[15px] sm:text-[16px] md:text-[18px]">
+                    <p className="font-normal mb-8 text-white tracking-wide text-[16px] sm:text-[18px] md:text-[20px]">
                         Find a Visiting Angels home care office near you:
                     </p>
 
-                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-3 shadow-sm rounded-[3px] max-w-[420px]">
+                    <div className="flex flex-col sm:flex-row bg-white overflow-hidden mb-4 shadow-sm rounded-[4px] max-w-[460px]">
                         <input
                             type="text"
                             placeholder="Where is Care Needed?"
-                            className="flex-grow px-4 py-3 sm:py-0 text-gray-700 outline-none w-full placeholder:text-gray-400 text-[14px]"
+                            className="flex-grow px-5 py-4 sm:py-0 text-[#333333] outline-none w-full placeholder:text-gray-500 text-[15px]"
                         />
                         <button
-                            className="font-bold px-6 py-3 sm:py-0 transition-opacity hover:opacity-90 shrink-0 text-[14px]"
-                            style={{ backgroundColor: '#dca626', color: '#173559' }}
+                            className="font-bold px-8 py-4 sm:py-0 transition-opacity hover:opacity-90 shrink-0 text-[15px]"
+                            style={{ backgroundColor: '#dca626', color: '#043b67' }}
                         >
                             Find Care
                         </button>
                     </div>
 
-                    <div className="text-white mt-2 text-[12px]">
+                    <div className="text-white mt-4 text-[14.5px]">
                         For services in Connecticut, <Link href="/office-locator" className="underline hover:text-gray-200 transition-colors">click here</Link>.
                     </div>
                 </div>
             </div>
 
             {/* Floating 'Get Started' Button */}
-            <div className="absolute bottom-6 right-0 z-30 hidden md:block">
+            <div className="absolute bottom-8 right-0 z-30 hidden md:block">
                 <Button 
                     asChild 
-                    className="hover:opacity-90 text-white rounded-l-full rounded-r-none px-8 py-6 font-bold shadow-lg"
-                    style={{ backgroundColor: '#173559', fontSize: '15px' }}
+                    className="hover:opacity-90 text-white rounded-l-full rounded-r-none px-10 py-7 font-bold shadow-xl border border-white/10"
+                    style={{ backgroundColor: '#043b67', fontSize: '16px' }}
                 >
                     <Link href="/contact-us">Get Started</Link>
                 </Button>
@@ -106,7 +106,7 @@ export function Hero() {
                     asChild 
                     size="lg" 
                     className="hover:opacity-90 text-white rounded-full w-full py-6 text-lg font-bold shadow-xl border border-white/20"
-                    style={{ backgroundColor: '#173559' }}
+                    style={{ backgroundColor: '#043b67' }}
                 >
                     <Link href="/contact-us">Get Started</Link>
                 </Button>
