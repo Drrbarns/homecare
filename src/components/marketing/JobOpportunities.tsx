@@ -43,7 +43,7 @@ export function JobOpportunities() {
                             }}
                         >
                             <Image
-                                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=2000&auto=format&fit=crop"
+                                src="/images/Whisk_e32bc940bc8e40cbbbb4f2faff8d6c40dr.jpeg"
                                 alt="Caregiver helping senior woman"
                                 fill
                                 className="object-cover object-center"

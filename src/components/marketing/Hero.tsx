@@ -8,7 +8,7 @@ export function Hero() {
             {/* Background Image (Right side) */}
             <div className="absolute inset-0 z-0 hidden md:block w-full h-full">
                 <Image
-                    src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=1200&auto=format&fit=crop"
+                    src="/images/Whisk_4777d1aca768ca183634529eb0d1b567dr.jpeg"
                     alt="Senior woman looking at phone with caregiver"
                     fill
                     className="object-cover object-right"
@@ -19,7 +19,7 @@ export function Hero() {
             {/* Mobile Image */}
             <div className="absolute inset-0 z-0 md:hidden opacity-30 w-full h-full">
                 <Image
-                    src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=1200&auto=format&fit=crop"
+                    src="/images/Whisk_4777d1aca768ca183634529eb0d1b567dr.jpeg"
                     alt="Senior woman looking at phone with caregiver"
                     fill
                     className="object-cover object-center"

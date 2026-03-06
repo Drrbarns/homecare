@@ -27,7 +27,7 @@ export function AmericasChoice() {
                         {/* Main large image */}
                         <div className="relative h-[280px] sm:h-[340px] md:h-full w-full col-span-1 overflow-hidden rounded-[4px]">
                             <Image
-                                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                                src="/images/Whisk_3534d7aee46948fb7b64a612dfa73244dr.jpeg"
                                 alt="Caregiver helping senior woman with hair"
                                 fill
                                 className="object-cover"
@@ -39,7 +39,7 @@ export function AmericasChoice() {
                             {/* Top right smaller image */}
                             <div className="relative h-[292px] w-full overflow-hidden rounded-[4px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                    src="/images/Whisk_2a4042d5510e64db7de4df7be6fe6a79dr.jpeg"
                                     alt="Caregiver looking at photo album with senior"
                                     fill
                                     className="object-cover object-top"
@@ -49,7 +49,7 @@ export function AmericasChoice() {
                             {/* Bottom right smaller image */}
                             <div className="relative h-[292px] w-full overflow-hidden rounded-[4px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop"
+                                    src="/images/Whisk_99b4191266111339932431094d275042dr.jpeg"
                                     alt="Male caregiver walking with senior man"
                                     fill
                                     className="object-cover object-top"

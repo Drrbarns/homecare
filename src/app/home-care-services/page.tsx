@@ -12,37 +12,37 @@ const servicesGrid = [
         title: "Companion Care",
         desc: "If your loved one needs companionship, interaction, or emotional support, a companion caregiver can be a friendly, familiar face to help them get through the day and reignite their enjoyment of life.",
         link: "/home-care-services",
-        imgUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80"
+        imgUrl: "/images/Whisk_5284f1c79ad188d96ea40c3c552f6a8ddr.jpeg"
     },
     {
         title: "Personal Care",
         desc: "If mobility or health issues threaten your loved one’s independence, a personal caregiver can help them with essential daily tasks to maintain their independence.",
         link: "/home-care-services",
-        imgUrl: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=800&q=80"
+        imgUrl: "/images/Whisk_b6a603f7825005bbef04d2682078e1dadr.jpeg"
     },
     {
         title: "Respite Care",
         desc: "Our expert team can give you a break and relieve your caregiving duties for an afternoon, a day, or a week so you can focus on other personal and work obligations.",
         link: "/home-care-services",
-        imgUrl: "https://images.unsplash.com/photo-1581584288029-7caadab869cd?auto=format&fit=crop&w=800&q=80"
+        imgUrl: "/images/Whisk_8e2337f3d2e7aa385fd491b1b03a33eddr.jpeg"
     },
     {
         title: "Hospital Transition Care",
         desc: "Our “Ready, Set, Go Home” program provides non-medical support to help seniors successfully adapt to their homes after hospitalization.",
         link: "/home-care-services",
-        imgUrl: "https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=800&q=80"
+        imgUrl: "/images/Whisk_58fde24840a7474b7a14908eb9963268dr.jpeg"
     },
     {
         title: "Dementia Care",
         desc: "Our caregivers will provide compassionate and personalized support for your loved one facing the challenges and obstacles of dementia.",
         link: "/home-care-services",
-        imgUrl: "https://images.unsplash.com/photo-1505685679686-24f1528b8120?auto=format&fit=crop&w=800&q=80"
+        imgUrl: "/images/Whisk_c5faabb9e52a3ccab5d4b76b9c26bf9ddr.jpeg"
     },
     {
         title: "Alzheimer's Care",
         desc: "Every day with Alzheimer’s can be unpredictable. Professional caregivers can guide your loved one’s path and prepare your family for the road ahead.",
         link: "/home-care-services",
-        imgUrl: "https://images.unsplash.com/photo-1552697843-c0d11be4f605?auto=format&fit=crop&w=800&q=80"
+        imgUrl: "/images/Whisk_211a92a631317e69afe444d0f71b5259dr.jpeg"
     }
 ];
 
@@ -61,7 +61,7 @@ export default function ServicesPage() {
                 {/* Right side image */}
                 <div className="absolute inset-0 left-auto right-0 w-full md:w-[55%] h-full z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1600&q=80"
+                        src="/images/Whisk_746067bfd3a638b986c41556e27fe594dr.jpeg"
                         alt="Caregiver helping senior on stairs"
                         className="w-full h-full object-cover"
                     />
@@ -119,7 +119,7 @@ export default function ServicesPage() {
                         <div className="w-full lg:w-[45%] shrink-0">
                             <div className="rounded-[25px] overflow-hidden shadow-lg w-full aspect-square relative">
                                 <img
-                                    src="https://images.unsplash.com/photo-1520627998-6da8673a21cb?auto=format&fit=crop&w=1000&q=80"
+                                    src="/images/Whisk_00dc63d6413722fa54242c75b9901c48dr.jpeg"
                                     alt="Senior man and caregiver smiling outside"
                                     className="object-cover w-full h-full"
                                 />

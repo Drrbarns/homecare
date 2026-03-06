@@ -11,7 +11,7 @@ export function LocallyOwned() {
                     <div className="w-full md:w-[45%] lg:w-[42%]">
                         <div className="relative h-[250px] sm:h-[320px] md:h-[400px] lg:h-[420px] w-full rounded-[8px] overflow-hidden shadow-md">
                             <Image
-                                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
+                                src="/images/Whisk_9894734fe0cb7bb81334f0608272d26adr.jpeg"
                                 alt="Caregiver and senior in kitchen"
                                 fill
                                 className="object-cover object-center"

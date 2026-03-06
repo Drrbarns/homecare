@@ -5,17 +5,17 @@ export function ArticlesPreview() {
     const articles = [
         {
             title: "Heart-Healthy Living for Seniors Starts at Home",
-            image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop",
+            image: "/images/Whisk_914806e89940474aca940ad32d6321f2dr.jpeg",
             link: "/articles/heart-healthy-living"
         },
         {
             title: "How Busy Family Caregivers Can Prioritize Self-Care",
-            image: "https://images.unsplash.com/photo-1544367567-0f2fcb046eb9?q=80&w=800&auto=format&fit=crop",
+            image: "/images/Whisk_9894734fe0cb7bb81334f0608272d26adr.jpeg",
             link: "/articles/caregiver-self-care"
         },
         {
             title: "Winter Craft Ideas to Connect With Seniors",
-            image: "https://images.unsplash.com/photo-1518335345758-c0b9356ce733?q=80&w=800&auto=format&fit=crop",
+            image: "/images/Whisk_d8f9606292b5ad791334d8674e7dd92ddr.jpeg",
             link: "/articles/winter-craft-ideas"
         }
     ];

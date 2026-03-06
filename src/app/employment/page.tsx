@@ -85,7 +85,7 @@ export default function EmploymentPage() {
                         {/* Right Image */}
                         <div className="w-full lg:w-[60%] lg:absolute lg:right-0 lg:top-0 lg:bottom-0 h-[220px] sm:h-[280px] lg:h-auto relative z-0">
                             <Image
-                                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                                src="/images/Whisk_f607feefacd88ffab8b4904b9598c762dr.jpeg"
                                 alt="Caregiver playing puzzle with senior man"
                                 fill
                                 className="object-cover object-center lg:object-left"
@@ -112,7 +112,7 @@ export default function EmploymentPage() {
                         {/* Tall Image */}
                         <div className="w-[45%] relative rounded-[8px] overflow-hidden shadow-sm h-full">
                             <Image
-                                src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                src="/images/Whisk_99e8dc142646dc682654031eda6618cfdr.jpeg"
                                 alt="Smiling caregiver"
                                 fill
                                 className="object-cover object-center"
@@ -122,7 +122,7 @@ export default function EmploymentPage() {
                         <div className="w-[55%] flex flex-col gap-4 h-full">
                             <div className="relative rounded-[8px] overflow-hidden shadow-sm h-[40%]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                    src="/images/Whisk_194bc4765147d5eaa2d4c6b166f535b7dr.jpeg"
                                     alt="Two caregivers smiling"
                                     fill
                                     className="object-cover object-center"
@@ -130,7 +130,7 @@ export default function EmploymentPage() {
                             </div>
                             <div className="relative rounded-[8px] overflow-hidden shadow-sm h-[60%]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                    src="/images/Whisk_e52f1882674f17c98224937c1a4defb9dr.jpeg"
                                     alt="Caregiver reading with senior man"
                                     fill
                                     className="object-cover object-center"
@@ -296,7 +296,7 @@ export default function EmploymentPage() {
                     <div className="w-full md:w-[35%] shrink-0">
                         <div className="relative h-[280px] sm:h-[350px] md:h-full min-h-[300px] md:min-h-[450px] rounded-[8px] overflow-hidden shadow-sm">
                             <Image
-                                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                src="/images/Whisk_e52f1882674f17c98224937c1a4defb9dr.jpeg"
                                 alt="Male and female caregivers smiling"
                                 fill
                                 className="object-cover object-center"
@@ -398,7 +398,7 @@ export default function EmploymentPage() {
                         <div className="w-full lg:w-[45%] shrink-0">
                             <div className="relative h-[250px] sm:h-[320px] md:h-[450px] rounded-[8px] overflow-hidden shadow-md">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop"
+                                    src="/images/Whisk_4777d1aca768ca183634529eb0d1b567dr.jpeg"
                                     alt="Caregiver smiling on phone"
                                     fill
                                     className="object-cover object-center"

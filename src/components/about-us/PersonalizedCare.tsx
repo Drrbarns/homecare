@@ -32,7 +32,7 @@ export function PersonalizedCare() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div className="relative h-[200px] sm:h-[240px] md:h-[280px] rounded-[8px] overflow-hidden shadow-md">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
+                                    src="/images/Whisk_0fba9ea9ff184aba83f4de22c8809506dr.jpeg"
                                     alt="Senior with walker and caregiver"
                                     fill
                                     className="object-cover object-center"
@@ -40,7 +40,7 @@ export function PersonalizedCare() {
                             </div>
                             <div className="relative h-[200px] sm:h-[240px] md:h-[280px] rounded-[8px] overflow-hidden shadow-md">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop"
+                                    src="/images/Whisk_d8f9606292b5ad791334d8674e7dd92ddr.jpeg"
                                     alt="Caregiver assisting senior on stairs"
                                     fill
                                     className="object-cover object-center"
@@ -48,7 +48,7 @@ export function PersonalizedCare() {
                             </div>
                             <div className="relative h-[180px] sm:h-[200px] md:h-[240px] rounded-[8px] overflow-hidden shadow-md sm:col-span-2">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                    src="/images/Whisk_255b99548e1e1a1ac1e487b499f6f4f7dr.jpeg"
                                     alt="Caregiver and senior smiling"
                                     fill
                                     className="object-cover object-center"

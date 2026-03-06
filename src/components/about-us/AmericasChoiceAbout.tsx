@@ -11,7 +11,7 @@ export function AmericasChoiceAbout() {
                     <div className="w-full md:w-[40%] lg:w-[38%]">
                         <div className="relative h-[250px] sm:h-[320px] md:h-[400px] lg:h-[480px] w-full rounded-[8px] overflow-hidden shadow-md">
                             <Image
-                                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                src="/images/Whisk_01dfc7367c2a6e295be482b77f61fe58dr.jpeg"
                                 alt="Caregiver and senior woman holding hands"
                                 fill
                                 className="object-cover object-center"

@@ -47,7 +47,7 @@ export function ApproachSection() {
                             {/* Photo of brochure */}
                             <div className="relative w-full h-[180px] sm:h-[220px] md:h-[280px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
+                                    src="/images/Whisk_e6c4b0dcbd99f4ba7b8403fc959577aadr.jpeg"
                                     alt="Caregiver helping senior"
                                     fill
                                     className="object-cover"

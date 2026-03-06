@@ -19,7 +19,7 @@ export default function AboutUsPage() {
             <InnerPageHero 
                 title="About Us"
                 description="At Visiting Angels, we specialize in providing compassionate, personalized care that enriches the lives of aging adults and ensures their thriving in the comfort of home."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_e190e781f3497f990c843fa14d6d7133dr.jpeg"
                 imageAlt="Caregiver and senior outdoors"
                 showPlayButton={true}
             />
