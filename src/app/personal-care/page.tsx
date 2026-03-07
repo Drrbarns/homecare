@@ -39,19 +39,19 @@ export default function PersonalCarePage() {
     const relatedArticles = [
         {
             title: "Caring for an Elderly Parent When You're Not Feeling Well",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver and senior talking",
             href: "/articles/caring-for-elderly-parent-when-sick"
         },
         {
             title: "In-Home Support for Seniors Recovering from Breast Cancer",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Caregiver smiling with senior",
             href: "/articles/in-home-support-recovering-breast-cancer"
         },
         {
             title: "4 Tips to Prevent Injuries While Caring for an Aging Parent",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Caregiver assisting senior",
             href: "/articles/prevent-injuries-caring-aging-parent"
         }
@@ -62,7 +62,7 @@ export default function PersonalCarePage() {
             <InnerPageHero
                 title="Personal Care"
                 description="Most aging adults want to live in the comforts of home for as long as possible, but sometimes mobility or health issues can threaten their plans to age in place safely."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver and senior in living room"
                 showPlayButton={true}
             />
@@ -100,7 +100,7 @@ export default function PersonalCarePage() {
                             <div className="w-full lg:w-[40%]">
                                 <div className="relative h-[480px] w-full rounded-[4px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping senior in kitchen"
                                         fill
                                         className="object-cover object-center"
@@ -189,7 +189,7 @@ export default function PersonalCarePage() {
                                 <div className="w-full lg:w-[320px] shrink-0 flex justify-center lg:justify-end">
                                     <div className="w-[280px] h-[280px] rounded-full overflow-hidden border-4 border-white/20 relative shadow-xl">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                             alt="Caregiver helping senior in garden"
                                             fill
                                             className="object-cover object-center"

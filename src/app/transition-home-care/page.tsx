@@ -39,19 +39,19 @@ export default function TransitionHomeCarePage() {
     const relatedArticles = [
         {
             title: "Gentle Foods for Seniors After Abdominal Surgery",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver preparing food with senior",
             href: "/articles/gentle-foods-for-seniors-after-abdominal-surgery"
         },
         {
             title: "Plan a Smooth Hospital Discharge and Return Home for Seniors",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Senior in wheelchair with doctor",
             href: "/articles/plan-smooth-hospital-discharge-return-home"
         },
         {
             title: "How In-Home Care Can Support Stroke Recovery",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Caregiver helping senior with walker",
             href: "/articles/how-in-home-care-can-support-stroke-recovery"
         }
@@ -62,7 +62,7 @@ export default function TransitionHomeCarePage() {
             <InnerPageHero
                 title="Transition to Home Care"
                 description="Recovery after a hospital stay or surgical procedure is an important time for seniors. Professional home care support can provide added safety, comfort, and a smoother return to everyday life."
-                imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                 imageAlt="Caregiver helping senior woman get into a car"
                 showPlayButton={true}
             />
@@ -85,7 +85,7 @@ export default function TransitionHomeCarePage() {
                             <div className="w-full md:w-[35%]">
                                 <div className="relative h-[250px] w-full rounded-[4px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver cleaning coffee table while senior sits on couch"
                                         fill
                                         className="object-cover object-center"
@@ -122,7 +122,7 @@ export default function TransitionHomeCarePage() {
                                 {/* Top Left Image */}
                                 <div className="absolute top-0 left-0 w-[60%] h-[260px] rounded-[4px] overflow-hidden shadow-lg z-10">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver helping senior man walk in hallway"
                                         fill
                                         className="object-cover object-center"
@@ -131,7 +131,7 @@ export default function TransitionHomeCarePage() {
                                 {/* Bottom Right Image */}
                                 <div className="absolute top-[80px] right-0 w-[55%] h-[320px] rounded-[4px] overflow-hidden shadow-lg z-0">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Smiling caregiver holding a bag of groceries"
                                         fill
                                         className="object-cover object-center"

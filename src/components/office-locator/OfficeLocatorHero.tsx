@@ -112,7 +112,7 @@ export function OfficeLocatorHero() {
                             style={{ borderTopLeftRadius: '300px', borderBottomLeftRadius: '300px' }}
                         >
                             <Image
-                                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                                src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                 alt="Caregiver smiling with senior woman"
                                 fill
                                 className="object-cover object-center"

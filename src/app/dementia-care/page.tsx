@@ -40,19 +40,19 @@ export default function DementiaCarePage() {
     const relatedArticles = [
         {
             title: "Dementia and Wandering: How to Support Your Aging Loved One",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver supporting senior",
             href: "/articles/dementia-and-wandering"
         },
         {
             title: "Tips for Managing Dementia and Anger in a Senior Loved One",
-            imageSrc: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_d19aa31616742ff887b4b96855587ca2dr.jpeg",
             imageAlt: "Senior man looking stressed with caregiver",
             href: "/articles/managing-dementia-and-anger"
         },
         {
             title: "How Home Care Changes Between Alzheimer's and Dementia",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Caregiver and senior looking at photo album",
             href: "/articles/how-home-care-changes-between-alzheimers-and-dementia"
         }
@@ -63,7 +63,7 @@ export default function DementiaCarePage() {
             <InnerPageHero 
                 title="Dementia Care"
                 description="Guidance from a professional caregiver can help your family find the right balance of in-home memory and personal care to adapt to this unpredictable illness."
-                imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                 imageAlt="Caregiver and senior walking near door"
                 showPlayButton={true}
             />
@@ -83,7 +83,7 @@ export default function DementiaCarePage() {
                             <div className="w-full md:w-[35%] shrink-0">
                                 <div className="relative h-[420px] w-full rounded-[8px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver helping senior woman with folding towels"
                                         fill
                                         className="object-cover object-center"

@@ -59,7 +59,7 @@ export default function HomeCareFAQsPage() {
             <InnerPageHero
                 title="Home Care FAQs"
                 description="What to Know When Choosing In-Home Care."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver talking with senior man on couch"
             />
 

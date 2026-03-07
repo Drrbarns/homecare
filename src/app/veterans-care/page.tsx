@@ -43,19 +43,19 @@ export default function VeteransCarePage() {
     const relatedArticles = [
         {
             title: "Honoring Our Heroes: In-Home Care for Veterans",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Caregiver helping veteran with prosthetic leg",
             href: "/articles/honoring-our-heroes-in-home-care-for-veterans"
         },
         {
             title: "Veterans Choice Program Can Be a Life Saver",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver with older veteran outdoors",
             href: "/articles/veterans-choice-program-can-be-a-life-saver"
         },
         {
             title: "Do Senior Veteran Loved Ones Need Help Sooner?",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Older veteran holding an American flag",
             href: "/articles/do-senior-veteran-loved-ones-need-help-sooner"
         }
@@ -66,7 +66,7 @@ export default function VeteransCarePage() {
             <InnerPageHero
                 title="Veterans In-Home Care"
                 description="Honoring military veterans with compassionate assistance at home, tailored to each senior's needs."
-                imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                 imageAlt="Caregiver and senior veteran sitting at table"
                 showPlayButton={false}
             />
@@ -274,7 +274,7 @@ export default function VeteransCarePage() {
                                 <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[280px] h-[360px] shadow-2xl rounded-[4px] overflow-hidden rotate-2 bg-white p-2">
                                     <div className="relative w-full h-full">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="MidAid Veterans Flipbook Cover"
                                             fill
                                             className="object-cover object-center"

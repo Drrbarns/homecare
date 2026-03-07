@@ -36,7 +36,7 @@ export default function FallPreventionPage() {
             <InnerPageHero
                 title="Fall Prevention"
                 description="Falls are the top cause of serious injuries for seniors, causing life-altering issues or hospitalizations that rob them of independence."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver helping senior man down the stairs"
                 showPlayButton={true}
             />
@@ -72,7 +72,7 @@ export default function FallPreventionPage() {
                             <div className="w-full lg:w-[40%] shrink-0">
                                 <div className="relative h-[340px] md:h-[380px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver helping senior on stairs"
                                         fill
                                         className="object-cover object-center"
@@ -176,7 +176,7 @@ export default function FallPreventionPage() {
                             <div className="w-full lg:w-[45%] flex gap-4">
                                 <div className="flex-1 relative h-[260px] md:h-[320px] rounded-[8px] overflow-hidden shadow-sm mt-4">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping senior walk"
                                         fill
                                         className="object-cover object-center"
@@ -184,7 +184,7 @@ export default function FallPreventionPage() {
                                 </div>
                                 <div className="flex-1 relative h-[260px] md:h-[320px] rounded-[8px] overflow-hidden shadow-sm mb-4">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg"
                                         alt="Caregiver walking with senior outdoors"
                                         fill
                                         className="object-cover object-center"
@@ -229,7 +229,7 @@ export default function FallPreventionPage() {
                                 <div className="w-full lg:w-[320px] shrink-0 flex justify-center lg:justify-end">
                                     <div className="w-[260px] h-[260px] md:w-[300px] md:h-[300px] rounded-full overflow-hidden border-4 border-white/20 relative shadow-xl">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="Caregiver helping senior man with prosthetic leg"
                                             fill
                                             className="object-cover object-center"

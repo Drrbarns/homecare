@@ -16,7 +16,7 @@ export default function HomeCareCostsPage() {
             <InnerPageHero
                 title="Home Care Costs"
                 description="MidAid offers affordable rates for professional and compassionate home care services—from respite care to around-the-clock assistance."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver and senior looking at paperwork"
                 showPlayButton={true}
             />
@@ -58,7 +58,7 @@ export default function HomeCareCostsPage() {
                             <div className="w-full lg:w-[45%] flex gap-4 mt-2">
                                 <div className="flex-1 relative h-[320px] md:h-[380px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver smiling on phone"
                                         fill
                                         className="object-cover object-center"
@@ -66,7 +66,7 @@ export default function HomeCareCostsPage() {
                                 </div>
                                 <div className="flex-1 relative h-[320px] md:h-[380px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver talking with senior"
                                         fill
                                         className="object-cover object-center"
@@ -123,7 +123,7 @@ export default function HomeCareCostsPage() {
                             <div className="w-full lg:w-[40%] shrink-0">
                                 <div className="relative h-[400px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg"
                                         alt="Caregiver and senior playing cards"
                                         fill
                                         className="object-cover object-center"
@@ -266,7 +266,7 @@ export default function HomeCareCostsPage() {
                             <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
                                 <div className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg relative border-4 border-white">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver and senior preparing food"
                                         fill
                                         className="object-cover object-center"
@@ -284,7 +284,7 @@ export default function HomeCareCostsPage() {
                                 {/* Article 1 */}
                                 <div className="bg-white border border-gray-100 rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
                                     <div className="relative h-[200px] w-full">
-                                        <Image src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop" alt="Senior checking finances" fill className="object-cover" />
+                                        <Image src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg" alt="Senior checking finances" fill className="object-cover" />
                                     </div>
                                     <div className="p-6 flex-1 flex flex-col">
                                         <h3 className="font-bold text-[18px] text-[#043b67] group-hover:text-[#3b7ea1] transition-colors leading-[1.4] underline decoration-1 underline-offset-2">
@@ -295,7 +295,7 @@ export default function HomeCareCostsPage() {
                                 {/* Article 2 */}
                                 <div className="bg-white border border-gray-100 rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
                                     <div className="relative h-[200px] w-full">
-                                        <Image src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop" alt="Family discussing care plan" fill className="object-cover" />
+                                        <Image src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg" alt="Family discussing care plan" fill className="object-cover" />
                                     </div>
                                     <div className="p-6 flex-1 flex flex-col">
                                         <h3 className="font-bold text-[18px] text-[#043b67] group-hover:text-[#3b7ea1] transition-colors leading-[1.4] underline decoration-1 underline-offset-2">
@@ -306,7 +306,7 @@ export default function HomeCareCostsPage() {
                                 {/* Article 3 */}
                                 <div className="bg-white border border-gray-100 rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
                                     <div className="relative h-[200px] w-full">
-                                        <Image src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop" alt="Couple reviewing paperwork" fill className="object-cover" />
+                                        <Image src="/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg" alt="Couple reviewing paperwork" fill className="object-cover" />
                                     </div>
                                     <div className="p-6 flex-1 flex flex-col">
                                         <h3 className="font-bold text-[18px] text-[#043b67] group-hover:text-[#3b7ea1] transition-colors leading-[1.4] underline decoration-1 underline-offset-2">

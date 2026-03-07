@@ -30,7 +30,7 @@ export function LocalApproach() {
                     <div className="w-full md:w-[50%] lg:w-[45%]">
                         <div className="relative h-[350px] md:h-[400px] w-full rounded-[16px] overflow-hidden shadow-lg">
                             <Image
-                                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
+                                src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                 alt="Caregiver greeting senior woman at door"
                                 fill
                                 className="object-cover object-center"

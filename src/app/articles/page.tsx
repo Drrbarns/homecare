@@ -9,44 +9,44 @@ export const metadata = {
 // Dummy data for articles to simulate pagination across multiple pages
 const allArticles = [
     // Page 1
-    { title: "Caring for a Senior With Bladder or Kidney Problems", image: "https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Simple Sleep Strategies for Family Caregivers", image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Heart-Healthy Living for Seniors Starts at Home", image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "How Busy Family Caregivers Can Prioritize Self-Care", image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Winter Craft Ideas to Connect With Seniors", image: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "How to Support Seniors Living With Thyroid Disease", image: "https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=600&auto=format&fit=crop", link: "#" },
+    { title: "Caring for a Senior With Bladder or Kidney Problems", image: "/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg", link: "#" },
+    { title: "Simple Sleep Strategies for Family Caregivers", image: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg", link: "#" },
+    { title: "Heart-Healthy Living for Seniors Starts at Home", image: "/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg", link: "#" },
+    { title: "How Busy Family Caregivers Can Prioritize Self-Care", image: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg", link: "#" },
+    { title: "Winter Craft Ideas to Connect With Seniors", image: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg", link: "#" },
+    { title: "How to Support Seniors Living With Thyroid Disease", image: "/images/Whisk_a3d984fda8bcedab84547240fb7fe039dr.jpeg", link: "#" },
     
     // Page 2
-    { title: "Winter Blues vs. Seasonal Affective Disorder", image: "https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Ideas for Seniors to Have More Fun This New Year", image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Blending Old and New Holiday Traditions With", image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Easy, Safe, and Fun Recipes Seniors Will Enjoy", image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "How to Make Thanksgiving Easier for Elderly Care Recipients", image: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Caring for a Senior With Type 2 Diabetes", image: "https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=600&auto=format&fit=crop", link: "#" },
+    { title: "Winter Blues vs. Seasonal Affective Disorder", image: "/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg", link: "#" },
+    { title: "Ideas for Seniors to Have More Fun This New Year", image: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg", link: "#" },
+    { title: "Blending Old and New Holiday Traditions With", image: "/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg", link: "#" },
+    { title: "Easy, Safe, and Fun Recipes Seniors Will Enjoy", image: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg", link: "#" },
+    { title: "How to Make Thanksgiving Easier for Elderly Care Recipients", image: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg", link: "#" },
+    { title: "Caring for a Senior With Type 2 Diabetes", image: "/images/Whisk_a3d984fda8bcedab84547240fb7fe039dr.jpeg", link: "#" },
 
     // Page 3
-    { title: "Honoring Our Heroes: In-Home Care for Veterans", image: "https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Halloween Snacks Seniors Can Make With Grandkids", image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Caring for an Elderly Parent When You're Not Feeling Well", image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "In-Home Support for Seniors Recovering from Breast Cancer", image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "4 Tips to Prevent Injuries While Caring for an Aging Parent", image: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Helping Senior Parents Overcome Fear and Loneliness at Home", image: "https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=600&auto=format&fit=crop", link: "#" },
+    { title: "Honoring Our Heroes: In-Home Care for Veterans", image: "/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg", link: "#" },
+    { title: "Halloween Snacks Seniors Can Make With Grandkids", image: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg", link: "#" },
+    { title: "Caring for an Elderly Parent When You're Not Feeling Well", image: "/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg", link: "#" },
+    { title: "In-Home Support for Seniors Recovering from Breast Cancer", image: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg", link: "#" },
+    { title: "4 Tips to Prevent Injuries While Caring for an Aging Parent", image: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg", link: "#" },
+    { title: "Helping Senior Parents Overcome Fear and Loneliness at Home", image: "/images/Whisk_a3d984fda8bcedab84547240fb7fe039dr.jpeg", link: "#" },
 
     // Page 4
-    { title: "Natural Ways to Ease Anxiety for Seniors at Home", image: "https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Don't Skip These 5 Critical Safety Investments for Senior", image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "The Emotional Complexity of Being a Family Caregiver", image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "3 Psoriasis Facts Seniors and Family Caregivers Need to Know", image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "How Senior Enrichment Courses Inspire Learning and Connection", image: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Make Home Visits With Your Aging Loved Ones Meaningful", image: "https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=600&auto=format&fit=crop", link: "#" },
+    { title: "Natural Ways to Ease Anxiety for Seniors at Home", image: "/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg", link: "#" },
+    { title: "Don't Skip These 5 Critical Safety Investments for Senior", image: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg", link: "#" },
+    { title: "The Emotional Complexity of Being a Family Caregiver", image: "/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg", link: "#" },
+    { title: "3 Psoriasis Facts Seniors and Family Caregivers Need to Know", image: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg", link: "#" },
+    { title: "How Senior Enrichment Courses Inspire Learning and Connection", image: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg", link: "#" },
+    { title: "Make Home Visits With Your Aging Loved Ones Meaningful", image: "/images/Whisk_a3d984fda8bcedab84547240fb7fe039dr.jpeg", link: "#" },
 
     // Page 5
-    { title: "Using AI Tools to Simplify Life As a Family Caregiver", image: "https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "3 Stress-Reducing Tips for Seniors Who Love Screen", image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Senior Eye Safety Tips for Summer", image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "How Senior Home Care Helps Make Every Day Independence Day", image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "How to Manage Combativeness in Seniors with Alzheimer's Disease", image: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop", link: "#" },
-    { title: "Causes of Headaches in Seniors and How to Help", image: "https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=600&auto=format&fit=crop", link: "#" }
+    { title: "Using AI Tools to Simplify Life As a Family Caregiver", image: "/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg", link: "#" },
+    { title: "3 Stress-Reducing Tips for Seniors Who Love Screen", image: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg", link: "#" },
+    { title: "Senior Eye Safety Tips for Summer", image: "/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg", link: "#" },
+    { title: "How Senior Home Care Helps Make Every Day Independence Day", image: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg", link: "#" },
+    { title: "How to Manage Combativeness in Seniors with Alzheimer's Disease", image: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg", link: "#" },
+    { title: "Causes of Headaches in Seniors and How to Help", image: "/images/Whisk_a3d984fda8bcedab84547240fb7fe039dr.jpeg", link: "#" }
 ];
 
 export default async function ArticlesPage({

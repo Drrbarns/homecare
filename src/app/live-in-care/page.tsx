@@ -37,7 +37,7 @@ export default function LiveInCarePage() {
             <InnerPageHero
                 title="Live-In Care"
                 description="Helping your loved one stay home in safety and comfort with dedicated around-the-clock support."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver helping senior in bathroom"
                 showPlayButton={true}
             />
@@ -184,7 +184,7 @@ export default function LiveInCarePage() {
                             <div className="w-full md:w-auto shrink-0 flex justify-center">
                                 <div className="relative w-[280px] h-[280px] lg:w-[320px] lg:h-[320px] rounded-full overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver helping senior woman with mirror"
                                         fill
                                         className="object-cover object-center"

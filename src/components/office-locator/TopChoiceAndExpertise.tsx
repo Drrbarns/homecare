@@ -30,7 +30,7 @@ export function TopChoiceAndExpertise() {
                     <div className="w-full md:w-[45%] lg:w-[40%]">
                         <div className="relative h-[300px] md:h-[350px] w-full rounded-[16px] overflow-hidden shadow-sm">
                             <Image
-                                src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop"
+                                src="/images/Whisk_f0a87ab0a29ab2a8c744f2c6fa28ebe4dr.jpeg"
                                 alt="Male caregiver walking with senior man"
                                 fill
                                 className="object-cover object-top"

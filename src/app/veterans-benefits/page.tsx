@@ -38,17 +38,17 @@ export default function VeteransBenefitsPage() {
     const relatedArticles = [
         {
             title: "Honoring Our Heroes: In-Home Care for Veterans",
-            image: "https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop",
+            image: "/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg",
             link: "#"
         },
         {
             title: "Veterans Choice Program Can Be a Life Saver",
-            image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=600&auto=format&fit=crop",
+            image: "/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg",
             link: "#"
         },
         {
             title: "Do Senior Veteran Loved Ones Need Help Sooner?",
-            image: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            image: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             link: "#"
         }
     ];
@@ -59,7 +59,7 @@ export default function VeteransBenefitsPage() {
             <InnerPageHero
                 title="Veterans Benefits for Home Care"
                 description="As the number of aging veterans with chronic conditions grows, so does the need for affordable in-home senior care."
-                imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                 imageAlt="Group of veterans and caregivers smiling"
                 showPlayButton={true}
             />
@@ -98,7 +98,7 @@ export default function VeteransBenefitsPage() {
                             <div className="w-full md:w-[35%]">
                                 <div className="relative h-[320px] md:h-[400px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg"
                                         alt="Caregiver helping veteran"
                                         fill
                                         className="object-cover object-center"
@@ -190,7 +190,7 @@ export default function VeteransBenefitsPage() {
                                 <div className="w-full lg:w-[350px] shrink-0 z-10">
                                     <div className="relative shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="Veterans Pursuing Well Being Flipbook Cover"
                                             width={350}
                                             height={450}

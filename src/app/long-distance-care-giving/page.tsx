@@ -40,7 +40,7 @@ export default function LongDistanceCareGivingPage() {
             <InnerPageHero
                 title="Long Distance Care Giving"
                 description="Professional home care from MidAid can help you bridge the distance gap - whether your loved one lives 90 minutes or a five-hour plane ride away."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver with two seniors at a table"
             />
 
@@ -59,7 +59,7 @@ export default function LongDistanceCareGivingPage() {
                             <div className="w-full md:w-[40%]">
                                 <div className="relative h-[400px] md:h-[500px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg"
                                         alt="Caregiver standing and smiling"
                                         fill
                                         className="object-cover object-center"
@@ -224,7 +224,7 @@ export default function LongDistanceCareGivingPage() {
                                 <div className="w-full lg:w-[380px] shrink-0">
                                     <div className="relative h-[280px] md:h-[340px] rounded-[8px] overflow-hidden shadow-md">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                             alt="Caregiver helping senior walk"
                                             fill
                                             className="object-cover object-center"

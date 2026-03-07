@@ -35,19 +35,19 @@ export default function RespiteCarePage() {
     const relatedArticles = [
         {
             title: "Respite Care Can Support a Family Caregiver's Well-Being",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver and senior talking",
             href: "/articles/respite-care-support-family-caregiver-well-being"
         },
         {
             title: "Helping a Senior Loved One With a Substance Use Problem",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Family discussion",
             href: "/articles/helping-senior-with-substance-use-problem"
         },
         {
             title: "What Are Qualities of a MidAid Caregiver?",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Caregiver assisting senior",
             href: "/articles/what-are-qualities-of-a-midaid-caregiver"
         }
@@ -58,7 +58,7 @@ export default function RespiteCarePage() {
             <InnerPageHero
                 title="Respite Care"
                 description="MidAid, a home care agency can provide in-home assistance when you feel overwhelmed with responsibilities and need a break."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver with an older couple on a couch"
                 showPlayButton={true}
             />
@@ -99,7 +99,7 @@ export default function RespiteCarePage() {
                             <div className="w-full lg:w-[40%] pt-2">
                                 <div className="relative h-[480px] w-full rounded-[4px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping a senior woman with a walker on stairs"
                                         fill
                                         className="object-cover object-center"
@@ -166,7 +166,7 @@ export default function RespiteCarePage() {
                             <div className="w-full lg:w-[45%]">
                                 <div className="relative h-[380px] w-full rounded-[4px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver showing something on a phone to a senior man outdoors"
                                         fill
                                         className="object-cover object-center"
@@ -209,7 +209,7 @@ export default function RespiteCarePage() {
                                 <div className="w-full lg:w-[320px] shrink-0 flex justify-center lg:justify-end">
                                     <div className="w-[280px] h-[280px] rounded-full overflow-hidden border-4 border-white/20 relative shadow-xl">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="Woman on the phone in a kitchen"
                                             fill
                                             className="object-cover object-center"

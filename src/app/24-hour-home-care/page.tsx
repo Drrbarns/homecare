@@ -14,7 +14,7 @@ export default function TwentyFourHourCarePage() {
             <InnerPageHero 
                 title="24-Hour Care"
                 description="Compassionate, round-the-clock support to help your loved one receive the dedicated care and attention they deserve when needed most."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver helping senior man with his shirt"
                 showPlayButton={true}
             />

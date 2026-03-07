@@ -39,19 +39,19 @@ export default function ElderlyCompanionCarePage() {
     const relatedArticles = [
         {
             title: "Caring for an Elderly Parent When You're Not Feeling Well",
-            imageSrc: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_dc819a47cb89f0188774c9cd59ee07c6dr.jpeg",
             imageAlt: "Caregiver hugging senior",
             href: "/articles/caring-for-elderly-parent-when-not-feeling-well"
         },
         {
             title: "Helping Senior Parents Overcome Fear and Loneliness at Home",
-            imageSrc: "https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_e207405be600b63a2dc43de0cf928121dr.jpeg",
             imageAlt: "Caregiver playing game with senior man",
             href: "/articles/helping-senior-parents-overcome-fear-and-loneliness"
         },
         {
             title: "How Senior Enrichment Courses Inspire Learning and Connection",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Caregiver and senior playing cards",
             href: "/articles/how-senior-enrichment-courses-inspire-learning"
         }
@@ -62,7 +62,7 @@ export default function ElderlyCompanionCarePage() {
             <InnerPageHero 
                 title="Companion Care"
                 description="Social interaction and emotional support are vital components of overall well-being—especially for seniors with health or mobility issues."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver and senior woman smiling together at a table"
                 showPlayButton={true}
             />
@@ -88,7 +88,7 @@ export default function ElderlyCompanionCarePage() {
                             <div className="w-full md:w-[45%]">
                                 <div className="relative h-[380px] w-full rounded-[8px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping senior woman with her hair"
                                         fill
                                         className="object-cover object-center"
@@ -182,7 +182,7 @@ export default function ElderlyCompanionCarePage() {
                                 <div className="w-full md:w-auto shrink-0 flex justify-center mt-6 md:mt-0">
                                     <div className="relative w-[240px] h-[240px] md:w-[280px] md:h-[280px] lg:w-[320px] lg:h-[320px] rounded-full overflow-hidden border-[6px] border-[#5c355f] shadow-lg transform md:scale-110 lg:scale-110 origin-right">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="Caregiver walking outside with senior in wheelchair"
                                             fill
                                             className="object-cover object-center"

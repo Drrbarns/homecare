@@ -36,19 +36,19 @@ export default function ParkinsonsCarePage() {
     const relatedArticles = [
         {
             title: "Parkinson's Disease Care: Providing Help at Home",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver helping senior",
             href: "/articles/parkinsons-disease-care-providing-help-at-home"
         },
         {
             title: "Nutrition and Parkinson's Disease: A Caregiver's Guide",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Preparing food",
             href: "/articles/nutrition-and-parkinsons-disease"
         },
         {
             title: "Managing the Stages of Parkinson's Disease",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Caregiver talking with senior",
             href: "/articles/managing-the-stages-of-parkinsons-disease"
         }
@@ -59,7 +59,7 @@ export default function ParkinsonsCarePage() {
             <InnerPageHero
                 title="Parkinson's Care"
                 description="Dedicated, in-home support that helps people with Parkinson's disease live safely, comfortably, and independently at home."
-                imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                 imageAlt="Caregiver pushing senior in wheelchair outdoors"
                 showPlayButton={false}
             />
@@ -186,7 +186,7 @@ export default function ParkinsonsCarePage() {
                             <div className="w-full md:w-auto shrink-0 flex justify-center">
                                 <div className="relative w-[280px] h-[280px] lg:w-[320px] lg:h-[320px] rounded-full overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver holding mirror for senior woman"
                                         fill
                                         className="object-cover object-center"

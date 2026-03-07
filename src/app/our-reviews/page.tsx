@@ -16,7 +16,7 @@ export default function OurReviewsPage() {
             <InnerPageHero
                 title="Our Reviews"
                 description="Client satisfaction drives MidAid. Our reviews speak to the compassionate care we provide nationwide."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver standing with senior woman looking in mirror"
             />
 
@@ -35,7 +35,7 @@ export default function OurReviewsPage() {
                             <div className="w-full md:w-[40%]">
                                 <div className="relative h-[280px] sm:h-[360px] md:h-[500px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver standing with senior woman"
                                         fill
                                         className="object-cover object-center"

@@ -39,19 +39,19 @@ export default function EndOfLifeCarePage() {
     const relatedArticles = [
         {
             title: "Providing Comforting Support During Hospice Care",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver comforting senior",
             href: "/articles/providing-comforting-support-during-hospice-care"
         },
         {
             title: "Palliative Care and End-of-Life Planning",
-            imageSrc: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg",
             imageAlt: "Caregiver and senior talking",
             href: "/articles/palliative-care-and-end-of-life-planning"
         },
         {
             title: "Discussing End-of-Life Care With a Loved One",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Family discussing care",
             href: "/articles/discussing-end-of-life-care-with-a-loved-one"
         }
@@ -62,7 +62,7 @@ export default function EndOfLifeCarePage() {
             <InnerPageHero
                 title="End-of-Life Care"
                 description="When your loved one is approaching the final stages of life, you'll want to make the most of the precious time left by sharing memories and expressions of love."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver holding senior's hand in bed"
                 showPlayButton={true}
             />
@@ -91,7 +91,7 @@ export default function EndOfLifeCarePage() {
                             <div className="w-full md:w-[40%]">
                                 <div className="relative h-[380px] w-full rounded-[8px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver and senior sitting outside"
                                         fill
                                         className="object-cover object-center"
@@ -200,7 +200,7 @@ export default function EndOfLifeCarePage() {
                                 <div className="w-full md:w-auto shrink-0 flex justify-center mt-6 md:mt-0">
                                     <div className="relative w-[240px] h-[240px] md:w-[280px] md:h-[280px] lg:w-[320px] lg:h-[320px] rounded-full overflow-hidden border-[6px] border-[#5c355f] shadow-lg transform md:scale-110 lg:scale-110 origin-right">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="Caregiver walking outside with senior"
                                             fill
                                             className="object-cover object-center"

@@ -16,7 +16,7 @@ export default function GiveUsAReviewPage() {
             <InnerPageHero
                 title="Give Us A Review"
                 description="We value your feedback."
-                imageSrc="https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_c2670ee002fd25a81154e7e65c207a5edr.jpeg"
                 imageAlt="Customer satisfaction rating stars"
             />
 
@@ -35,7 +35,7 @@ export default function GiveUsAReviewPage() {
                             <div className="w-full lg:w-[45%] shrink-0">
                                 <div className="relative h-[320px] md:h-[400px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver looking at phone with senior man"
                                         fill
                                         className="object-cover object-center"

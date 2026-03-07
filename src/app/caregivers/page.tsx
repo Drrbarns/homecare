@@ -16,7 +16,7 @@ export default function CaregiversPage() {
             <InnerPageHero
                 title="Caregivers"
                 description="MidAid caregivers are at the core of our heartfelt and compassionate home care services, delivering personalized support that enriches the lives of seniors and their families."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Group of MidAid caregivers"
             />
 
@@ -92,7 +92,7 @@ export default function CaregiversPage() {
                             <div className="w-full lg:w-[45%] flex gap-4">
                                 <div className="flex-1 relative h-[300px] md:h-[360px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver smiling"
                                         fill
                                         className="object-cover object-center"
@@ -100,7 +100,7 @@ export default function CaregiversPage() {
                                 </div>
                                 <div className="flex-1 relative h-[300px] md:h-[360px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping senior walk"
                                         fill
                                         className="object-cover object-center"
@@ -196,7 +196,7 @@ export default function CaregiversPage() {
                                 {/* Video Thumbnail Left */}
                                 <div className="w-full lg:w-[45%] shrink-0 relative h-[280px] lg:h-[360px]">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                         alt="Caregiver and senior playing piano"
                                         fill
                                         className="object-cover object-center"

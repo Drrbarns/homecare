@@ -36,7 +36,7 @@ export default function PalliativeCarePage() {
             <InnerPageHero
                 title="Palliative Care"
                 description="A non-medical approach supporting your loved one's physical, emotional, social, and spiritual well-being."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver and senior smiling together"
                 showPlayButton={false}
             />
@@ -78,7 +78,7 @@ export default function PalliativeCarePage() {
                             <div className="w-full md:w-[40%] shrink-0">
                                 <div className="relative h-[480px] w-full rounded-[8px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver helping senior woman with walking"
                                         fill
                                         className="object-cover object-center"
@@ -187,7 +187,7 @@ export default function PalliativeCarePage() {
                                 {/* Right Side Image - Absolute positioned on desktop to cover right side */}
                                 <div className="w-full md:w-[40%] md:absolute md:right-0 md:top-0 md:bottom-0 h-[300px] md:h-auto overflow-hidden relative">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver helping senior man with his shoes"
                                         fill
                                         className="object-cover object-center"

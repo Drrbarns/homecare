@@ -16,7 +16,7 @@ export default function HowToGetStartedPage() {
             <InnerPageHero
                 title="How to Get Started With Home Care"
                 description="MidAid makes it easy to support your aging loved one's well-being at home with compassionate care and expert guidance."
-                imageSrc="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_9a4e3ebdd3487db89524e7243e977484dr.jpeg"
                 imageAlt="Caregiver walking with senior outdoors"
             />
 
@@ -134,7 +134,7 @@ export default function HowToGetStartedPage() {
                                     {/* Cleaning Image (Left, vertically centered/offset) */}
                                     <div className="flex-1 relative h-[75%] mt-auto rounded-[8px] overflow-hidden shadow-sm">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg"
                                             alt="Caregiver cleaning counter"
                                             fill
                                             className="object-cover object-center"
@@ -143,7 +143,7 @@ export default function HowToGetStartedPage() {
                                     {/* Walker Image (Right, full height) */}
                                     <div className="flex-1 relative h-full rounded-[8px] overflow-hidden shadow-sm">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                             alt="Senior using walker"
                                             fill
                                             className="object-cover object-center"
@@ -219,7 +219,7 @@ export default function HowToGetStartedPage() {
                                 <div className="w-full lg:w-[320px] shrink-0 flex justify-center lg:justify-end">
                                     <div className="w-[260px] h-[260px] md:w-[280px] md:h-[280px] rounded-full overflow-hidden border-4 border-white/20 relative shadow-xl">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                             alt="Two seniors walking together outdoors"
                                             fill
                                             className="object-cover object-center"

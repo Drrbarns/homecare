@@ -16,7 +16,7 @@ export default function GuideModelProgramPage() {
             <InnerPageHero
                 title="GUIDE Model Program"
                 description="Helping families navigate dementia with confidence and compassion."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver showing folded clothes to senior"
             />
 
@@ -88,7 +88,7 @@ export default function GuideModelProgramPage() {
                             <div className="w-full lg:w-[40%] shrink-0">
                                 <div className="relative h-[400px] md:h-[460px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping senior in kitchen"
                                         fill
                                         className="object-cover object-center"
@@ -170,7 +170,7 @@ export default function GuideModelProgramPage() {
                             <div className="w-full lg:w-[40%] shrink-0">
                                 <div className="relative h-[560px] md:h-[620px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver smiling with senior man"
                                         fill
                                         className="object-cover object-center"

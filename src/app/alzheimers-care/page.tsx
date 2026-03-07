@@ -48,19 +48,19 @@ export default function AlzheimersCarePage() {
     const relatedArticles = [
         {
             title: "Preparing for Mid-Stage & Late-Stage Alzheimer's Care",
-            imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg",
             imageAlt: "Caregiver helping senior",
             href: "/articles/preparing-for-mid-stage-late-stage-alzheimers-care"
         },
         {
             title: "How Home Care Changes Between Alzheimer's and Dementia",
-            imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg",
             imageAlt: "Caregiver and senior looking at photo album",
             href: "/articles/how-home-care-changes-between-alzheimers-and-dementia"
         },
         {
             title: "Alzheimer's Care: Helping To Manage Sundowner's Syndrome",
-            imageSrc: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?q=80&w=600&auto=format&fit=crop",
+            imageSrc: "/images/Whisk_f029a24e84f42a089c94d1b4480b12c2dr.jpeg",
             imageAlt: "Caregiver comforting senior",
             href: "/articles/alzheimers-care-helping-to-manage-sundowners-syndrome"
         }
@@ -71,7 +71,7 @@ export default function AlzheimersCarePage() {
             <InnerPageHero 
                 title="Alzheimer's Care"
                 description="A professional caregiver can provide specialized support and assistance for your loved one to enhance their quality of life and ensure their safety and comfort throughout the progression of the disease."
-                imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                 imageAlt="Caregiver playing cards with senior woman"
             />
             
@@ -93,7 +93,7 @@ export default function AlzheimersCarePage() {
                             <div className="w-full md:w-[45%]">
                                 <div className="relative h-[400px] w-full rounded-[8px] overflow-hidden">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver playing cards with senior"
                                         fill
                                         className="object-cover object-center"

@@ -16,7 +16,7 @@ export default function HowWeAssistPage() {
             <InnerPageHero
                 title="How We Assist"
                 description="With a helping hand from MidAid, your loved one can feel content and secure in a familiar place—home."
-                imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
+                imageSrc="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                 imageAlt="Caregiver drying senior woman's hair"
             />
 
@@ -70,7 +70,7 @@ export default function HowWeAssistPage() {
                             <div className="w-full lg:w-[40%] flex gap-4 mt-2">
                                 <div className="flex-1 relative h-[320px] md:h-[380px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1584824486509-11459482c3ea?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_8d4f37c2eb7ea69bb8f4fb907c9e48bcdr.jpeg"
                                         alt="Caregiver wiping counter"
                                         fill
                                         className="object-cover object-center"
@@ -78,7 +78,7 @@ export default function HowWeAssistPage() {
                                 </div>
                                 <div className="flex-1 relative h-[320px] md:h-[380px] rounded-[8px] overflow-hidden shadow-sm">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                         alt="Caregiver helping senior walk with walker"
                                         fill
                                         className="object-cover object-center"
@@ -153,7 +153,7 @@ export default function HowWeAssistPage() {
                             <div className="w-full lg:w-[45%] flex gap-4">
                                 <div className="flex-1 relative h-[320px] md:h-[380px] rounded-[8px] overflow-hidden shadow-sm mt-4">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Senior man smiling"
                                         fill
                                         className="object-cover object-center"
@@ -162,7 +162,7 @@ export default function HowWeAssistPage() {
                                 <div className="flex-1 flex flex-col gap-4">
                                     <div className="relative h-[180px] md:h-[220px] rounded-[8px] overflow-hidden shadow-sm">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_05c25109353fe2d88f1437b47bfffa90dr.jpeg"
                                             alt="Caregiver smiling with senior man"
                                             fill
                                             className="object-cover object-center"
@@ -170,7 +170,7 @@ export default function HowWeAssistPage() {
                                     </div>
                                     <div className="relative h-[120px] md:h-[140px] rounded-[8px] overflow-hidden shadow-sm">
                                         <Image
-                                            src="https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop"
+                                            src="/images/Whisk_357ee580e5147ee96a948b18c1f186b4dr.jpeg"
                                             alt="Preparing food"
                                             fill
                                             className="object-cover object-center"
@@ -379,7 +379,7 @@ export default function HowWeAssistPage() {
                             <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
                                 <div className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg relative border-4 border-white">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600&auto=format&fit=crop"
+                                        src="/images/Whisk_296661e1eecd735af5f4729a6c9cbca6dr.jpeg"
                                         alt="Caregiver helping senior woman with mirror"
                                         fill
                                         className="object-cover object-center"
