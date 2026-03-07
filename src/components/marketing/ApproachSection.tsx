@@ -36,7 +36,7 @@ export function ApproachSection() {
                                 </div>
                                 <div className="relative w-[200px] h-[45px] mt-2">
                                     <Image
-                                        src="/images/logo.svg" 
+                                        src="/images/midaid-logo.png" 
                                         alt="MidAid Logo"
                                         fill
                                         className="object-contain"
