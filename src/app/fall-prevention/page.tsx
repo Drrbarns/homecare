@@ -8,7 +8,7 @@ import { FAQAccordion } from "@/components/shared/FAQAccordion";
 
 export const metadata = {
     title: "Fall Prevention for Seniors | Safe and Steady Program",
-    description: "Falls are the top cause of serious injuries for seniors. Visiting Angels can play a pivotal role in reducing the risk of falls for your aging loved one at home.",
+    description: "Falls are the top cause of serious injuries for seniors. MidAid can play a pivotal role in reducing the risk of falls for your aging loved one at home.",
 };
 
 export default function FallPreventionPage() {
@@ -52,7 +52,7 @@ export default function FallPreventionPage() {
                     <div className="flex-1 w-full text-[15px] md:text-[16px] text-[#333333] leading-[1.7] font-sans">
 
                         <p className="mb-6 text-[15.5px]">
-                            Visiting Angels can play a pivotal role in reducing the risk of falls for your aging loved one at home.
+                            MidAid can play a pivotal role in reducing the risk of falls for your aging loved one at home.
                             We will equip you and your family with essential knowledge and action steps to lower the risk of
                             hospitalizations and serious injury for your loved one at home.
                         </p>
@@ -100,7 +100,7 @@ export default function FallPreventionPage() {
                             Why Fall Prevention Is Important for Seniors
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            At Visiting Angels, we know how much older adults want to live at home for as long as
+                            At MidAid, we know how much older adults want to live at home for as long as
                             possible. However, remaining safe and comfortable at home alone can be challenging and
                             sometimes impossible.
                         </p>
@@ -109,7 +109,7 @@ export default function FallPreventionPage() {
                             daily activities and routines. As a result, they may also lose their independence and self-worth.
                         </p>
                         <p className="mb-10 text-[15.5px]">
-                            As one of America's leading home care providers for more than 25 years, Visiting Angels offers a
+                            As one of America's leading home care providers for more than 25 years, MidAid offers a
                             safe, affordable alternative to assisted living—even if your loved one needs Alzheimer's care or
                             dementia care.
                         </p>
@@ -210,7 +210,7 @@ export default function FallPreventionPage() {
                                         How to Start the Safe and Steady®<br />Program?
                                     </h2>
                                     <p className="text-white text-[15.5px] mb-5 leading-relaxed">
-                                        When you contact your <Link href="/office-locator" className="underline hover:text-gray-200">local home care office</Link>, a Visiting Angels care
+                                        When you contact your <Link href="/office-locator" className="underline hover:text-gray-200">local home care office</Link>, a MidAid care
                                         coordinator will set up a free home care consultation with you and
                                         your senior. The coordinator will develop a personalized home care
                                         plan and recommend a caregiver suited to your loved one's needs.

@@ -26,7 +26,7 @@ export function LocallyOwned() {
                         </h2>
                         <div className="space-y-5 text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65] font-sans">
                             <p>
-                                Visiting Angels stands out as a leader in senior home care, recognized both locally and nationally for our commitment to excellence and quality.
+                                MidAid stands out as a leader in senior home care, recognized both locally and nationally for our commitment to excellence and quality.
                             </p>
                             <p>
                                 Our locally owned offices maintain deep and meaningful roots within their communities, providing seniors with familiar faces and dedicated caregivers they can trust. In addition, our extensive national presence ensures we adhere to rigorous standards of care across the country, delivering consistent and reliable service.
@@ -35,7 +35,7 @@ export function LocallyOwned() {
                                 This unique combination allows us to offer customized care solutions that meet the individual needs of seniors and their families while upholding our reputation for home care excellence nationwide.
                             </p>
                             <p>
-                                Learn more about our compassionate services and caregivers by connecting with a Visiting Angels <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">local home care office</Link> near you.
+                                Learn more about our compassionate services and caregivers by connecting with a MidAid <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">local home care office</Link> near you.
                             </p>
                         </div>
                     </div>

@@ -66,7 +66,7 @@ export function Hero() {
                     </h1>
 
                     <p className="font-normal mb-5 sm:mb-8 text-white text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-sans">
-                        Find a Visiting Angels home care office near you:
+                        Find a MidAid home care office near you:
                     </p>
 
                     <div className="flex flex-row bg-white overflow-hidden mb-4 rounded-[4px] w-full max-w-[420px] mx-auto sm:mx-0">
@@ -84,7 +84,7 @@ export function Hero() {
                     </div>
 
                     <div className="text-white mt-3 sm:mt-4 text-[14px] font-sans">
-                        For services in Connecticut, <Link href="/office-locator" className="underline hover:text-gray-200 transition-colors">click here</Link>.
+                        Based in Sydney, Australia. <Link href="/contact-us" className="underline hover:text-gray-200 transition-colors">Contact us</Link>.
                     </div>
                 </div>
             </div>

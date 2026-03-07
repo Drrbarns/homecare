@@ -40,7 +40,7 @@ export function BestCareOption() {
                     The Best Care Option for Seniors
                 </h2>
                 <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.6] max-w-[720px] mx-auto mb-10">
-                    When looking for the best care for your loved one, an assisted living facility or nursing home aren't the only options. With a nationally recognized home care provider like Visiting Angels, your loved one can continue to <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">age in place at home.</Link>
+                    When looking for the best care for your loved one, an assisted living facility or nursing home aren't the only options. With a nationally recognized home care provider like MidAid, your loved one can continue to <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">age in place at home.</Link>
                 </p>
                 <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] font-bold mb-10">
                     Our in-home care professionals are available to provide:

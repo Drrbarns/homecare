@@ -80,7 +80,7 @@ export default function ElderlyCompanionCarePage() {
                             Loneliness and boredom can result in anxiety, depression, and behavior changes. Professional in-home companion care can elevate the aging experience for seniors with companionship, empathy, and unwavering dedication.
                         </p>
                         <p className="mb-12">
-                            From assistance with daily activities to meaningful social engagement, Visiting Angels is committed to fostering a nurturing environment where seniors can thrive at home with dignity and independence.
+                            From assistance with daily activities to meaningful social engagement, MidAid is committed to fostering a nurturing environment where seniors can thrive at home with dignity and independence.
                         </p>
 
                         {/* Senior Companion Services Block */}

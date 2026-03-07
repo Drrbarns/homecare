@@ -6,7 +6,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "Caregiver Jobs | Part-Time & Full-Time Home Care Careers",
-    description: "You're Set for Success from Day One When You Work for Visiting Angels! Part-Time & Full-Time Home Care Careers.",
+    description: "You're Set for Success from Day One When You Work for MidAid! Part-Time & Full-Time Home Care Careers.",
 };
 
 export default function EmploymentPage() {
@@ -16,8 +16,8 @@ export default function EmploymentPage() {
             answer: "A professional caregiver provides non-medical assistance to individuals who need help with daily activities. This can include seniors, people with disabilities, or those recovering from illness or injury. Caregivers help clients maintain their independence and quality of life in their own homes."
         },
         {
-            question: "Where Are Visiting Angels Offices Located?",
-            answer: "Visiting Angels has hundreds of locally owned and operated franchise locations across the United States. You can find an office near you by using our Office Locator tool on our website."
+            question: "Where Are MidAid Offices Located?",
+            answer: "MidAid has hundreds of locally owned and operated franchise locations across the United States. You can find an office near you by using our Office Locator tool on our website."
         },
         {
             question: "What Types of Senior Care Jobs Are Available?",
@@ -54,7 +54,7 @@ export default function EmploymentPage() {
                                 Caregiver Jobs
                             </h1>
                             <p className="text-[15px] sm:text-[18px] md:text-[20px] text-white font-medium mb-4 sm:mb-6 leading-snug">
-                                You&apos;re Set for Success from Day One When You Work for Visiting Angels!
+                                You&apos;re Set for Success from Day One When You Work for MidAid!
                             </p>
                             <p className="text-[14px] sm:text-[16px] text-white mb-6 sm:mb-8">
                                 Part-Time & Full-Time Home Care Careers
@@ -146,12 +146,12 @@ export default function EmploymentPage() {
                         </h2>
                         <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
                             Build a meaningful career that fits your life while making a real difference
-                            for others. As a <Link href="/caregivers" className="underline text-[#3b7ea1] hover:text-[#043b67]">Visiting Angels professional caregiver</Link>, you'll help seniors
+                            for others. As a <Link href="/caregivers" className="underline text-[#3b7ea1] hover:text-[#043b67]">MidAid professional caregiver</Link>, you'll help seniors
                             <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]"> live safely and comfortably at home</Link>, forming real connections and bringing
                             peace of mind to families.
                         </p>
                         <p className="text-[15.5px] text-[#333333] mb-10 leading-[1.7]">
-                            With Visiting Angels, you'll find a vibrant, supportive workplace where
+                            With MidAid, you'll find a vibrant, supportive workplace where
                             caregivers feel truly valued. We're ready to welcome you with the support
                             and ongoing training you need to succeed. Let's get started!
                         </p>
@@ -159,7 +159,7 @@ export default function EmploymentPage() {
                         {/* 6 Reasons Box */}
                         <div className="border border-gray-200 rounded-[8px] p-5 sm:p-8 md:p-10 shadow-sm bg-white">
                             <h3 className="text-[20px] font-bold text-[#043b67] mb-6 font-sans">
-                                6 Reasons to Join the Visiting Angels Team:
+                                6 Reasons to Join the MidAid Team:
                             </h3>
                             <ul className="space-y-4">
                                 <li className="flex items-center text-[15.5px] text-[#333333]">
@@ -200,7 +200,7 @@ export default function EmploymentPage() {
                 
                 <div className="relative z-10 max-w-xl px-4 w-full">
                     <h2 className="text-[26px] md:text-[30px] font-bold text-[#043b67] mb-4 font-sans">
-                        Start Your New Career with Visiting Angels
+                        Start Your New Career with MidAid
                     </h2>
                     <p className="text-[15.5px] text-[#333333] mb-6">
                         Enter Your ZIP Code to Find Jobs Near You
@@ -236,11 +236,11 @@ export default function EmploymentPage() {
                                 organization's strength and culture of respect and support.
                             </p>
                             <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
-                                Visiting Angels is also among only 10 brands endorsed as a "Best of Home Care®
+                                MidAid is also among only 10 brands endorsed as a "Best of Home Care®
                                 National Provider."
                             </p>
                             <p className="text-[15.5px] text-[#333333] mb-8 leading-[1.7]">
-                                With more than 600 locations across the country, Visiting Angels has rewarding caregiver
+                                With more than 600 locations across the country, MidAid has rewarding caregiver
                                 jobs close to home—no matter where you live.
                             </p>
                             <button className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold px-8 py-3.5 rounded-[4px] transition-colors shadow-sm">
@@ -311,18 +311,18 @@ export default function EmploymentPage() {
                             New to caregiving?
                         </h3>
                         <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
-                            You can learn as you go with Visiting Angels. We take a "character first" approach, hiring
+                            You can learn as you go with MidAid. We take a "character first" approach, hiring
                             caregivers who have caring hearts and a willingness to learn.
                         </p>
                         <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
-                            Applying with Visiting Angels is quick and easy. Our streamlined process makes it easy to
+                            Applying with MidAid is quick and easy. Our streamlined process makes it easy to
                             start building your future:
                         </p>
                         
                         <ul className="space-y-4 mb-8">
                             <li className="flex items-start text-[15.5px] text-[#333333]">
                                 <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
-                                <span>View open positions at your local Visiting Angels office</span>
+                                <span>View open positions at your local MidAid office</span>
                             </li>
                             <li className="flex items-start text-[15.5px] text-[#333333]">
                                 <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
@@ -338,14 +338,14 @@ export default function EmploymentPage() {
                             </li>
                             <li className="flex items-start text-[15.5px] text-[#333333]">
                                 <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-2 shrink-0"></div>
-                                <span>Start your Visiting Angels career with training</span>
+                                <span>Start your MidAid career with training</span>
                             </li>
                         </ul>
 
                         <p className="text-[15.5px] text-[#333333] leading-[1.7]">
                             When you're invited for an interview, you can expect to answer basic questions about your
                             education and your work history. We'll also ask about the type of caregiving roles you're
-                            interested in and about your availability. <a href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">Find a Visiting Angels office location near you.</a>
+                            interested in and about your availability. <a href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">Find a MidAid office location near you.</a>
                         </p>
                     </div>
                 </div>
@@ -361,7 +361,7 @@ export default function EmploymentPage() {
                                 Competitive Pay & Benefits
                             </h2>
                             <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
-                                The pay range for Visiting Angels caregivers varies depending on where you live, your
+                                The pay range for MidAid caregivers varies depending on where you live, your
                                 duties, and the shifts you work. Your local office team will provide specifics when you apply.
                             </p>
                             <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
@@ -436,7 +436,7 @@ export default function EmploymentPage() {
                             for students, retirees, and parents
                             of young kids—you can choose to
                             work evenings, weekends, or even
-                            overnight shifts. Visiting Angels
+                            overnight shifts. MidAid
                             also offers holiday pay!
                         </p>
                     </div>
@@ -448,7 +448,7 @@ export default function EmploymentPage() {
                         </h3>
                         <p className="text-[14.5px] text-[#333333] leading-[1.7]">
                             One of the reasons why clients
-                            love Visiting Angels is our Select a
+                            love MidAid is our Select a
                             Caregiver® program. We carefully
                             match each senior with the right
                             caregiver. That means you'll work
@@ -466,7 +466,7 @@ export default function EmploymentPage() {
                             Caregiver University
                         </h3>
                         <p className="text-[14.5px] text-[#333333] leading-[1.7]">
-                            With Visiting Angels, you can take
+                            With MidAid, you can take
                             advantage of paid in-person or
                             online training opportunities
                             through your local office. Learn to
@@ -485,12 +485,12 @@ export default function EmploymentPage() {
                         Career Advancement
                     </h2>
                     <p className="text-[15.5px] text-[#333333] mb-6 leading-[1.7]">
-                        Becoming a Visiting Angels caregiver is a great way to kick off a rewarding career. You can earn annual raises and participate in
+                        Becoming a MidAid caregiver is a great way to kick off a rewarding career. You can earn annual raises and participate in
                         valuable training classes to boost your expertise.
                     </p>
                     <p className="text-[15.5px] text-[#333333] leading-[1.7]">
                         As you gain confidence in your caregiving skills, you can assume a role with more responsibility, such as a care coordinator, training
-                        provider, or administrative support professional. Working with Visiting Angels is a great way to earn hands-on experience for a future
+                        provider, or administrative support professional. Working with MidAid is a great way to earn hands-on experience for a future
                         career as a patient care assistant, home health aide, or certified nurse assistant (CNA).
                     </p>
                 </div>
@@ -506,7 +506,7 @@ export default function EmploymentPage() {
                                 Caregiver of The Year Award
                             </h2>
                             <p className="text-[16px] mb-8 leading-[1.7]">
-                                Every year, Visiting Angels offices across the county celebrate
+                                Every year, MidAid offices across the county celebrate
                                 the caregivers who go above and beyond to represent our
                                 special brand of caring.
                             </p>
@@ -536,7 +536,7 @@ export default function EmploymentPage() {
             <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-[1440px] mb-10 sm:mb-16">
                 <FAQAccordion faqs={faqItems} title="Frequently Asked Questions" />
                 <p className="text-[14.5px] text-[#666666] italic mt-6 font-sans">
-                    *Visiting Angels offices determine their own benefits, pay, training opportunities, and hours. Talk with your local office for details.
+                    *MidAid offices determine their own benefits, pay, training opportunities, and hours. Talk with your local office for details.
                 </p>
             </div>
 

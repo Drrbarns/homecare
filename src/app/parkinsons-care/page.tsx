@@ -29,7 +29,7 @@ export default function ParkinsonsCarePage() {
         },
         {
             question: "What If My Loved One Needs Medical Care?",
-            answer: "Visiting Angels provides non-medical care. However, we frequently work alongside home health nurses, physical therapists, and hospice providers to ensure your loved one has a comprehensive care team."
+            answer: "MidAid provides non-medical care. However, we frequently work alongside home health nurses, physical therapists, and hospice providers to ensure your loved one has a comprehensive care team."
         }
     ];
 
@@ -80,14 +80,14 @@ export default function ParkinsonsCarePage() {
                             Living with Parkinson's disease brings changes that can affect movement, energy, communication, and daily routines. As symptoms evolve, families benefit from dependable in-home assistance.
                         </p>
                         <p className="mb-12 text-[15.5px]">
-                            Visiting Angels provides personalized, non-medical Parkinson's care—offering familiarity, flexibility, and peace of mind for clients and their loved ones.
+                            MidAid provides personalized, non-medical Parkinson's care—offering familiarity, flexibility, and peace of mind for clients and their loved ones.
                         </p>
 
                         <h2 className="text-[26px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
                             What Is Parkinson's Care?
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            Parkinson's care from Visiting Angels is non-medical, in-home assistance that helps seniors continue living safely and comfortably in familiar surroundings. Our caregivers provide respectful support that honors your loved one's independence and preferences.
+                            Parkinson's care from MidAid is non-medical, in-home assistance that helps seniors continue living safely and comfortably in familiar surroundings. Our caregivers provide respectful support that honors your loved one's independence and preferences.
                         </p>
                         <p className="mb-6 text-[15.5px]">
                             As Parkinson's symptoms evolve, your loved one's care plan can evolve too. This ensures they always receive the right level of support, including:
@@ -129,10 +129,10 @@ export default function ParkinsonsCarePage() {
                         </p>
 
                         <h2 className="text-[26px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
-                            Why Choose Visiting Angels for Parkinson's Care?
+                            Why Choose MidAid for Parkinson's Care?
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            When it comes to Parkinson's care, experience and consistency matter. Families across the country trust Visiting Angels for compassionate home care. Our professional caregivers honor every client relationship with patience, dignity, and trust.
+                            When it comes to Parkinson's care, experience and consistency matter. Families across the country trust MidAid for compassionate home care. Our professional caregivers honor every client relationship with patience, dignity, and trust.
                         </p>
                         
                         <ul className="space-y-6 mb-16 pl-5" style={{ listStyleType: 'disc' }}>
@@ -142,7 +142,7 @@ export default function ParkinsonsCarePage() {
                             </li>
                             <li className="pl-2">
                                 <strong className="font-bold text-[#333333] text-[15.5px]">Enhanced Training</strong>
-                                <p className="mt-1 text-[15.5px]">Parkinson's can cause challenges with movement, <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">communication</Link>, energy, and focus. Through Visiting Angels University, caregivers can get extra training to better support clients who have progressive conditions.</p>
+                                <p className="mt-1 text-[15.5px]">Parkinson's can cause challenges with movement, <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">communication</Link>, energy, and focus. Through MidAid University, caregivers can get extra training to better support clients who have progressive conditions.</p>
                             </li>
                             <li className="pl-2">
                                 <strong className="font-bold text-[#333333] text-[15.5px]">Oversight & Communication</strong>
@@ -150,7 +150,7 @@ export default function ParkinsonsCarePage() {
                             </li>
                             <li className="pl-2">
                                 <strong className="font-bold text-[#333333] text-[15.5px]">Flexible, Long-Term Support</strong>
-                                <p className="mt-1 text-[15.5px]">Parkinson's is a long-term condition, and <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">care needs may increase over time</Link>. Visiting Angels makes it simple to scale up or down, with services that range from a few hours of weekly assistance to overnight care or 24/7 support.</p>
+                                <p className="mt-1 text-[15.5px]">Parkinson's is a long-term condition, and <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">care needs may increase over time</Link>. MidAid makes it simple to scale up or down, with services that range from a few hours of weekly assistance to overnight care or 24/7 support.</p>
                             </li>
                         </ul>
 
@@ -176,10 +176,10 @@ export default function ParkinsonsCarePage() {
                                     Contact Us Today
                                 </h3>
                                 <p className="mb-6 text-[15.5px] leading-relaxed">
-                                    Don't face the challenges of Parkinson's care alone. Contact Visiting Angels to learn how our specialized Parkinson's home care services can support your loved one and give you confidence they are receiving attentive, compassionate care tailored to their evolving needs.
+                                    Don't face the challenges of Parkinson's care alone. Contact MidAid to learn how our specialized Parkinson's home care services can support your loved one and give you confidence they are receiving attentive, compassionate care tailored to their evolving needs.
                                 </p>
                                 <p className="text-[15.5px]">
-                                    Call <a href="tel:800-365-4189" className="text-[#3b7ea1] hover:underline">800-365-4189</a> or <Link href="/contact-us" className="text-[#3b7ea1] hover:underline">Complete Our Online Form</Link> to schedule a free in-home consultation.
+                                    Call <a href="tel:489987299" className="text-[#3b7ea1] hover:underline">489 987 299</a> or <Link href="/contact-us" className="text-[#3b7ea1] hover:underline">Complete Our Online Form</Link> to schedule a free in-home consultation.
                                 </p>
                             </div>
                             

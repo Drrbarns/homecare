@@ -18,7 +18,7 @@ export function RelyOnUs() {
                 </h2>
                 
                 <p className="text-[15px] md:text-[16px] text-[#333333] mb-10 font-sans leading-[1.6] max-w-[800px] mx-auto">
-                    Visiting Angels provide trusted support that enhances quality of life and fosters independence, supported by our steadfast commitment to compassionate care.
+                    MidAid provide trusted support that enhances quality of life and fosters independence, supported by our steadfast commitment to compassionate care.
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-4">

@@ -44,7 +44,7 @@ export function Header() {
                     <div className="relative w-[200px] h-[50px] sm:w-[220px] sm:h-[55px] md:w-[320px] md:h-[75px] lg:w-[380px] lg:h-[85px]">
                         <Image
                             src="/images/logo.svg"
-                            alt="Visiting Angels Logo"
+                            alt="MidAid Logo"
                             fill
                             className="object-contain object-center xl:object-left"
                             priority

@@ -5,8 +5,8 @@ import { LocalApproach } from "@/components/office-locator/LocalApproach";
 import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
-    title: "Find Home Care Agency Near Me | Visiting Angels",
-    description: "Locate a Visiting Angels office near you for compassionate local in-home care services.",
+    title: "Find Home Care Agency Near Me | MidAid",
+    description: "Locate a MidAid office near you for compassionate local in-home care services.",
 }
 
 export default function OfficeLocatorPage() {

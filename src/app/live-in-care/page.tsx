@@ -27,7 +27,7 @@ export default function LiveInCarePage() {
             answer: "Live-in care provides immense peace of mind for families, knowing their loved one has a dedicated professional ensuring their safety, managing daily tasks, and providing companionship, thereby reducing family caregiver burnout."
         },
         {
-            question: "What Is Visiting Angels' Approach to Live-In Care?",
+            question: "What Is MidAid' Approach to Live-In Care?",
             answer: "Our approach is highly personalized. We carefully match caregivers based on skills and personality, develop customized care plans, and maintain open communication with families to ensure the highest quality of compassionate care."
         }
     ];
@@ -126,7 +126,7 @@ export default function LiveInCarePage() {
                         </p>
 
                         <h2 className="text-[26px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
-                            Why Choose Visiting Angels for Live-In Care?
+                            Why Choose MidAid for Live-In Care?
                         </h2>
                         <p className="mb-8 text-[15.5px]">
                             Choosing a live-in provider is a big decision. We design our care with a relationship-centered approach:
@@ -157,7 +157,7 @@ export default function LiveInCarePage() {
                                 title="Get Started with Live-In Care"
                                 description1={
                                     <>
-                                        Choosing <Link href="/home-care-services" className="underline hover:text-white transition-colors">in-home senior care</Link> can feel overwhelming. With over 25 years of experience, Visiting Angels is here to guide you—day or night.<br className="hidden md:block"/><br className="hidden md:block"/>
+                                        Choosing <Link href="/home-care-services" className="underline hover:text-white transition-colors">in-home senior care</Link> can feel overwhelming. With over 25 years of experience, MidAid is here to guide you—day or night.<br className="hidden md:block"/><br className="hidden md:block"/>
                                         Whether you're ready for live-in support or just exploring options, we make the process simple and reassuring.
                                     </>
                                 }
@@ -174,10 +174,10 @@ export default function LiveInCarePage() {
                                     Contact Us Today
                                 </h3>
                                 <p className="mb-6 text-[15.5px] leading-relaxed">
-                                    Don't face the challenges of live-in home care alone. Contact Visiting Angels to discover how our home care services can support your loved one and give you confidence they are receiving attentive, compassionate care.
+                                    Don't face the challenges of live-in home care alone. Contact MidAid to discover how our home care services can support your loved one and give you confidence they are receiving attentive, compassionate care.
                                 </p>
                                 <p className="text-[15.5px]">
-                                    Call <a href="tel:800-365-4189" className="text-[#3b7ea1] hover:underline">800-365-4189</a> or <Link href="/contact-us" className="text-[#3b7ea1] hover:underline">Complete Our Online Form</Link> to schedule a free in-home consultation.
+                                    Call <a href="tel:489987299" className="text-[#3b7ea1] hover:underline">489 987 299</a> or <Link href="/contact-us" className="text-[#3b7ea1] hover:underline">Complete Our Online Form</Link> to schedule a free in-home consultation.
                                 </p>
                             </div>
                             

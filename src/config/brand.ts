@@ -1,17 +1,17 @@
 export const brand = {
-    brandName: "Guardian Angels",
+    brandName: "MidAid",
     tagline: "Compassionate In-Home Care You Can Trust",
-    shortName: "Guardian Angels",
-    legalName: "Guardian Angels Home Care Services, LLC",
+    shortName: "MidAid",
+    legalName: "MidAid Home Care Services",
     contact: {
-        phone: "800-365-4189", // Using the number from screenshot for visual parity primarily, or keep placeholder if preferred. I'll stick to a placeholder format but make it look like the screenshot.
-        email: "info@guardianangelshomecare.com",
+        phone: "489987299",
+        email: "info.help@midaid.com",
         address: {
-            line1: "123 Caregiver Lane, Suite 100",
-            city: "Cityville",
-            state: "ST",
-            zip: "12345",
-            full: "123 Caregiver Lane, Suite 100, Cityville, ST 12345"
+            line1: "97-99 Bathurst St",
+            city: "Sydney",
+            state: "NSW",
+            zip: "2000",
+            full: "97-99 Bathurst St, Sydney NSW 2000, Australia"
         }
     },
     colors: {

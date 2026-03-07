@@ -10,10 +10,10 @@ export function ApproachSection() {
                     {/* Left - Content */}
                     <div className="w-full md:w-[50%] lg:w-[55%] z-10 relative">
                         <h2 className="text-[28px] md:text-[34px] font-bold text-[#043b67] mb-6 font-serif tracking-tight">
-                            The Visiting Angels Approach
+                            The MidAid Approach
                         </h2>
                         <p className="text-[#333333] leading-[1.7] mb-8 text-[15px] pr-4 md:pr-10 lg:pr-16">
-                            For over 25 years, Visiting Angels has been dedicated to providing compassionate and life-changing in-home care, offering comfort, peace of mind, and “hope at home” for families across the nation. Discover how we can help your loved one thrive in the place they cherish most—home.
+                            For over 25 years, MidAid has been dedicated to providing compassionate and life-changing in-home care, offering comfort, peace of mind, and “hope at home” for families across the nation. Discover how we can help your loved one thrive in the place they cherish most—home.
                         </p>
                         <Link 
                             href="/about-us"
@@ -37,7 +37,7 @@ export function ApproachSection() {
                                 <div className="relative w-[200px] h-[45px] mt-2">
                                     <Image
                                         src="/images/logo.svg" 
-                                        alt="Visiting Angels Logo"
+                                        alt="MidAid Logo"
                                         fill
                                         className="object-contain"
                                     />
@@ -65,7 +65,7 @@ export function ApproachSection() {
                                     </svg>
                                 </div>
                                 <div className="relative z-10 pt-2">
-                                    <div className="font-bold text-[14px] md:text-[16px] mb-1">The Visiting Angels Approach</div>
+                                    <div className="font-bold text-[14px] md:text-[16px] mb-1">The MidAid Approach</div>
                                     <div className="text-[10px] tracking-widest uppercase opacity-90">Restoring Hope At Home</div>
                                 </div>
                             </div>

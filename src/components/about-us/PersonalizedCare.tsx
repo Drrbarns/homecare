@@ -13,7 +13,7 @@ export function PersonalizedCare() {
                             Providing Personalized In-Home Care Solutions
                         </h2>
                         <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65] mb-5">
-                            At Visiting Angels, we&apos;ll help you find an in-home care professional that meets all your needs and expectations. The process starts with a free, no-obligation consultation to answer all your questions.
+                            At MidAid, we&apos;ll help you find an in-home care professional that meets all your needs and expectations. The process starts with a free, no-obligation consultation to answer all your questions.
                         </p>
                         <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65] mb-5">
                             Together, we&apos;ll determine the necessary services and care. Your care coordinator will create a comprehensive and personalized <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">home care plan</Link> that reflects your family&apos;s schedules and preferences.
@@ -22,7 +22,7 @@ export function PersonalizedCare() {
                             We&apos;ll match you with a trusted caregiver who will establish a solid and profound relationship with your loved one and be by their side as they face the challenges and complexities of aging.
                         </p>
                         <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65] mb-5">
-                            You can count on your local Visiting Angels to help your loved one maintain their independence and dignity at home.
+                            You can count on your local MidAid to help your loved one maintain their independence and dignity at home.
                         </p>
                         <p className="text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65]">
                             Our professional, compassionate caregivers will work closely with your loved one so they can continue to live at home and enjoy the activities and lifestyle that make them content.

@@ -15,13 +15,13 @@ export function LocalApproach() {
                         
                         <div className="space-y-5 text-[15px] leading-[1.6] font-sans text-white/95">
                             <p>
-                                Every Visiting Angels office is locally owned and operated with roots in your community. Your local team will collaborate closely with you, offering personalized, one-on-one support throughout the caregiving process.
+                                Every MidAid office is locally owned and operated with roots in your community. Your local team will collaborate closely with you, offering personalized, one-on-one support throughout the caregiving process.
                             </p>
                             <p>
-                                When you connect with your local Visiting Angels agency, we'll arrange a <Link href="#" className="underline hover:text-white/80 transition-colors font-bold">free, no-obligation consultation</Link>. During this initial meeting, your care coordinator will learn about your loved one's care needs, develop a custom care plan, and answer any questions you might have about our in-home senior care services.
+                                When you connect with your local MidAid agency, we'll arrange a <Link href="#" className="underline hover:text-white/80 transition-colors font-bold">free, no-obligation consultation</Link>. During this initial meeting, your care coordinator will learn about your loved one's care needs, develop a custom care plan, and answer any questions you might have about our in-home senior care services.
                             </p>
                             <p>
-                                Get started with a free home care consultation. Contact your local Visiting Angels office today!
+                                Get started with a free home care consultation. Contact your local MidAid office today!
                             </p>
                         </div>
                     </div>

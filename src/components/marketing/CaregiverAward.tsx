@@ -43,7 +43,7 @@ export function CaregiverAward() {
                             {/* Text Lockup */}
                             <div className="flex flex-col items-start -mt-2">
                                 <div className="text-[14px] uppercase tracking-widest font-sans font-medium mb-[-6px] ml-1 opacity-90">
-                                    Visiting Angels <span className="font-bold">2025</span>
+                                    MidAid <span className="font-bold">2025</span>
                                 </div>
                                 <div className="font-serif font-bold text-[60px] leading-[0.85] tracking-tight">
                                     Caregiver

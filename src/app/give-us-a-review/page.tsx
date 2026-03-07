@@ -6,8 +6,8 @@ import { FloatingGetStarted } from "@/components/layout/FloatingGetStarted";
 import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
-    title: "Give Us A Review | Visiting Angels",
-    description: "We value your feedback. Visiting Angels values the helpful feedback we receive from you – our clients.",
+    title: "Give Us A Review | MidAid",
+    description: "We value your feedback. MidAid values the helpful feedback we receive from you – our clients.",
 };
 
 export default function GiveUsAReviewPage() {
@@ -50,16 +50,16 @@ export default function GiveUsAReviewPage() {
                                 </h2>
                                 
                                 <p className="mb-6 text-[15.5px]">
-                                    Visiting Angels value the helpful feedback we receive from you
+                                    MidAid value the helpful feedback we receive from you
                                     – our clients. Your insight helps us enhance the
                                     compassionate care we provide to families across the
                                     nation and ensures we continue to deliver the best quality
-                                    services that have made Visiting Angels "America's choice in-
+                                    services that have made MidAid "America's choice in-
                                     home care."
                                 </p>
                                 
                                 <p className="mb-8 text-[15.5px]">
-                                    Click below to rate your experience with Visiting Angels and
+                                    Click below to rate your experience with MidAid and
                                     share your thoughts and opinions.
                                 </p>
                                 

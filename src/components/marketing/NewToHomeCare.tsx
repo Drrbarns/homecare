@@ -9,7 +9,7 @@ export function NewToHomeCare() {
                         New to Professional Home Care?
                     </h2>
                     <p className="text-white leading-relaxed mb-6 text-[15px]">
-                        Deciding whether to begin home care services can feel overwhelming, but Visiting Angels is here to help. We provide personalized, compassionate support tailored to your unique needs, making the process simple and stress-free.
+                        Deciding whether to begin home care services can feel overwhelming, but MidAid is here to help. We provide personalized, compassionate support tailored to your unique needs, making the process simple and stress-free.
                     </p>
                     <p className="text-white leading-relaxed text-[15px]">
                         Learn how to <Link href="#" className="underline decoration-white/50 hover:decoration-white underline-offset-4">Get Started With Professional Home Care</Link> and discover how our flexible care options can help foster comfort and safety and enhance quality of life at home.
@@ -38,7 +38,7 @@ export function NewToHomeCare() {
                         </div>
                         <h3 className="text-[17px] font-bold text-[#043b67] mb-4 leading-snug">Schedule a Free Home Care Consultation</h3>
                         <p className="text-[#333333] leading-relaxed text-[13.5px]">
-                            A Visiting Angels coordinator will meet with your family to discuss specific needs and expectations during a free <Link href="#" className="underline text-[#8fb4c9] hover:text-[#043b67]">home care consultation</Link>. We'll answer your questions and let you know how professional caregivers can help.
+                            A MidAid coordinator will meet with your family to discuss specific needs and expectations during a free <Link href="#" className="underline text-[#8fb4c9] hover:text-[#043b67]">home care consultation</Link>. We'll answer your questions and let you know how professional caregivers can help.
                         </p>
 
                         {/* Arrow to Next Card */}
@@ -70,7 +70,7 @@ export function NewToHomeCare() {
                         </div>
                         <h3 className="text-[17px] font-bold text-[#043b67] mb-4 leading-snug">Create A Customized Care Plan</h3>
                         <p className="text-[#333333] leading-relaxed text-[13.5px]">
-                            If you choose Visiting Angels, your coordinator will arrange a <Link href="#" className="underline text-[#8fb4c9] hover:text-[#043b67]">home care assessment</Link>, including a walk-through of your loved one's home to monitor any safety hazards, fall risks, and opportunities to optimize the dwelling. The coordinator will then develop a detailed plan and schedule with your approval.
+                            If you choose MidAid, your coordinator will arrange a <Link href="#" className="underline text-[#8fb4c9] hover:text-[#043b67]">home care assessment</Link>, including a walk-through of your loved one's home to monitor any safety hazards, fall risks, and opportunities to optimize the dwelling. The coordinator will then develop a detailed plan and schedule with your approval.
                         </p>
 
                         {/* Arrow to Next Card */}
@@ -100,7 +100,7 @@ export function NewToHomeCare() {
                         </div>
                         <h3 className="text-[17px] font-bold text-[#043b67] mb-4 leading-snug">Meet Your Caregiver</h3>
                         <p className="text-[#333333] leading-relaxed text-[13.5px]">
-                            We thoroughly screen and select the best professional caregivers for families. We'll match you with the ideal caregiver based on your loved one's condition, needs, preferences, and personality. You'll feel confident knowing your loved one is safe and comfortable at home with a Visiting Angels' caregiver by their side.
+                            We thoroughly screen and select the best professional caregivers for families. We'll match you with the ideal caregiver based on your loved one's condition, needs, preferences, and personality. You'll feel confident knowing your loved one is safe and comfortable at home with a MidAid' caregiver by their side.
                         </p>
                     </div>
                 </div>

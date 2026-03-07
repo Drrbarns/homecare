@@ -66,13 +66,13 @@ export function AmericasChoice() {
                         
                         <div className="space-y-4 text-[#4a4a4a] mb-8 text-[14px]" style={{ lineHeight: '1.6' }}>
                             <p>
-                                If you're looking for a professional help at home to assist your aging loved one with their daily needs, look no further than Visiting Angels—an esteemed name families have relied on since 1998. Thousands across the country rely on us for the best in-home senior care.
+                                If you're looking for a professional help at home to assist your aging loved one with their daily needs, look no further than MidAid—an esteemed name families have relied on since 1998. Thousands across the country rely on us for the best in-home senior care.
                             </p>
                             <p>
                                 Our experienced caregivers are committed to enhancing the quality of life for your senior and providing peace of mind for you and your family. We'll create a customized care plan to help your loved one age safely and contently in their own home—with one-on-one support from a caregiver you both can trust.
                             </p>
                             <p>
-                                Discover how Visiting Angels can offer personalized and compassionate care services today.
+                                Discover how MidAid can offer personalized and compassionate care services today.
                             </p>
                         </div>
 

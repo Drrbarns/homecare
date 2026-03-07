@@ -31,7 +31,7 @@ export default function TransitionHomeCarePage() {
             answer: "Signs include confusion about medications, missed follow-up appointments, difficulty with personal hygiene, unexpected weight loss, or an increase in falls or near-misses."
         },
         {
-            question: "How Can Visiting Angels Help After Hospitalization?",
+            question: "How Can MidAid Help After Hospitalization?",
             answer: "We provide non-medical support such as personal care, meal preparation, medication reminders, and mobility assistance, helping to create a safe environment that promotes healing and reduces the risk of readmission."
         }
     ];
@@ -97,7 +97,7 @@ export default function TransitionHomeCarePage() {
                                     As your aging loved one attempts to transition to their home from the hospital, you might need a helping hand to manage discharge instructions and keep up with regular senior care duties.
                                 </p>
                                 <p className="text-[15.5px]">
-                                    Visiting Angels can help!
+                                    MidAid can help!
                                 </p>
                             </div>
                         </div>
@@ -109,13 +109,13 @@ export default function TransitionHomeCarePage() {
                                     Supportive In-Home Care
                                 </h2>
                                 <p className="mb-6 text-[15.5px]">
-                                    Visiting Angels created a "Ready, Set, Go Home" transitional program to provide non-medical <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care</Link> support after your senior leaves the hospital or a rehabilitation facility.
+                                    MidAid created a "Ready, Set, Go Home" transitional program to provide non-medical <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care</Link> support after your senior leaves the hospital or a rehabilitation facility.
                                 </p>
                                 <p className="mb-6 text-[15.5px]">
                                     Our professional <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> can help reduce your loved one's risk of readmission due to preventable mishaps at home—and give you peace of mind during their recovery.
                                 </p>
                                 <p className="text-[15.5px]">
-                                    Visiting Angels designed the "Ready, Set, Go Home" program to help seniors get the best outcomes after hospitalization by providing essential, non-medical <Link href="/personal-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">personal care</Link> services:
+                                    MidAid designed the "Ready, Set, Go Home" program to help seniors get the best outcomes after hospitalization by providing essential, non-medical <Link href="/personal-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">personal care</Link> services:
                                 </p>
                             </div>
                             <div className="w-full lg:w-[45%] relative min-h-[400px] hidden md:block">

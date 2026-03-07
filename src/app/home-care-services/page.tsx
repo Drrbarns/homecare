@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-    title: "Senior Care Near You | Visiting Angels",
+    title: "Senior Care Near You | MidAid",
     description: "Personalized home care services to help seniors thrive in familiar surroundings.",
 }
 
@@ -104,7 +104,7 @@ export default function ServicesPage() {
                             Home Care Services
                         </h1>
                         <p className="text-[15px] sm:text-[17px] md:text-[20px] text-white font-normal leading-relaxed">
-                            Visiting Angels has made aging in place possible for older adults across the country for more than 25 years.
+                            MidAid has made aging in place possible for older adults across the country for more than 25 years.
                         </p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function ServicesPage() {
                                     Our professional <Link href="/careers" className="text-[#3b7ea1] underline decoration-[#3b7ea1]/40 decoration-2 underline-offset-4 hover:decoration-[#3b7ea1]">caregivers</Link> offer an alternative to assisted living facilities or a nursing home with in-home care plans that are personalized to the unique needs of your loved one.
                                 </p>
                                 <p>
-                                    Your senior will stay active and engaged with a trusted Visiting Angels caregiver by their side, establishing trust and reassurance for you.
+                                    Your senior will stay active and engaged with a trusted MidAid caregiver by their side, establishing trust and reassurance for you.
                                 </p>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ export default function ServicesPage() {
                         Senior Care Options: Personalized Solutions
                     </h2>
                     <p className="text-[17px] text-[#333333] leading-[1.7] mb-6 font-sans">
-                        At Visiting Angels, we understand how overwhelming the home care decision can be when searching for professional agencies.
+                        At MidAid, we understand how overwhelming the home care decision can be when searching for professional agencies.
                     </p>
                     <p className="text-[17px] text-[#333333] leading-[1.7] mb-6 font-sans">
                         The good news? We simplify the process by providing expert guidance every step of the way, helping you understand how to provide the best care for your loved one.
@@ -227,7 +227,7 @@ export default function ServicesPage() {
                             We're Here For You
                         </h2>
                         <p className="text-[20px] text-[#1b3664] font-medium font-sans">
-                            Call <strong className="font-bold">800-365-4189</strong> or fill out the form below.
+                            Call <strong className="font-bold">489 987 299</strong> or fill out the form below.
                         </p>
                     </div>
 
@@ -299,7 +299,7 @@ export default function ServicesPage() {
 
                             <div className="flex flex-col md:flex-row gap-6 md:items-start justify-between">
                                 <p className="text-[12px] text-[#555] leading-[1.6] md:w-3/4">
-                                    By submitting this form I agree to be contacted by Visiting Angels via call, email and text. To opt out, you can reply 'stop' at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <Link href="#" className="text-[#3b7ea1] hover:underline">Privacy Policy</Link> page.
+                                    By submitting this form I agree to be contacted by MidAid via call, email and text. To opt out, you can reply 'stop' at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <Link href="#" className="text-[#3b7ea1] hover:underline">Privacy Policy</Link> page.
                                 </p>
                                 <button className="bg-[#cc9900] hover:bg-[#b38600] text-[#1b3664] font-bold py-3 px-8 rounded-[4px] shrink-0 transition-colors shadow-sm text-[16px]">
                                     Submit
@@ -322,7 +322,7 @@ export default function ServicesPage() {
                             "Why Is Aging In Place Important?",
                             "How Will I Know When My Loved One Needs Extra Care?",
                             "Why Should I Choose In-Home Care?",
-                            "What Home Care Services Does Visiting Angels Provide?",
+                            "What Home Care Services Does MidAid Provide?",
                             "How Do I Determine What Home Care Services My Loved One Needs?",
                             "What Happens During a Home Care Assessment?"
                         ].map((question, i) => (

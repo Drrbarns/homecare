@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Articles of Interest | Visiting Angels",
+    title: "Articles of Interest | MidAid",
     description: "Read our articles of interest covering various home care and senior living topics.",
 };
 

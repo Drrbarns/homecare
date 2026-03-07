@@ -50,7 +50,7 @@ export function ContactSection() {
                             Contact Us About Our Home Care
                         </h2>
                         <p className="text-[#333333] mb-6 text-[15px]">
-                            Call <Link href="tel:800-365-4189" className="text-[#3b7ea1] hover:text-[#043b67]">800-365-4189</Link> or fill out the form below.
+                            Call <Link href="tel:489987299" className="text-[#3b7ea1] hover:text-[#043b67]">489 987 299</Link> or fill out the form below.
                         </p>
 
                         <form onSubmit={handleSubmit} className="space-y-5">
@@ -139,7 +139,7 @@ export function ContactSection() {
                             </div>
 
                             <div className="text-[11.5px] text-gray-800 leading-[1.6] pt-2">
-                                By submitting this form, I agree to be contacted by Visiting Angels via call, email and text. To opt out, you can reply &apos;stop&apos; at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <Link href="#" className="text-[#3b7ea1] hover:underline">Privacy Policy</Link> page.
+                                By submitting this form, I agree to be contacted by MidAid via call, email and text. To opt out, you can reply &apos;stop&apos; at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <Link href="#" className="text-[#3b7ea1] hover:underline">Privacy Policy</Link> page.
                             </div>
                         </form>
                     </div>
@@ -151,7 +151,7 @@ export function ContactSection() {
                         </h2>
                         
                         <p className="text-[15px] leading-[1.6] mb-8 text-[#333333] font-sans">
-                            Visiting Angels&apos; dedicated elder care offers valuable support to help families spend more quality time together. At the same time, Visiting Angels provides much-needed respite for family caregivers, reducing their risk of caregiver burnout.
+                            MidAid&apos; dedicated elder care offers valuable support to help families spend more quality time together. At the same time, MidAid provides much-needed respite for family caregivers, reducing their risk of caregiver burnout.
                         </p>
                         
                         <ul className="space-y-3 mb-10 text-[15px] font-medium text-[#333333]">

@@ -37,7 +37,7 @@ export default function AlzheimersCarePage() {
         },
         {
             question: "What Are the Care Options for My Loved One With Alzheimer's?",
-            answer: "Care options range from in-home care, like the services provided by Visiting Angels, to adult day care centers, assisted living facilities, and specialized memory care communities."
+            answer: "Care options range from in-home care, like the services provided by MidAid, to adult day care centers, assisted living facilities, and specialized memory care communities."
         },
         {
             question: "What If My Loved One With Alzheimer's Can No Longer Live At Home?",
@@ -85,7 +85,7 @@ export default function AlzheimersCarePage() {
                     {/* Main Content Area */}
                     <div className="flex-1 w-full text-[15px] md:text-[16px] text-[#333333] leading-[1.7] font-sans">
                         <p className="mb-10">
-                            A professional <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregiver</Link> can provide specialized support and assistance for your loved one to enhance their quality of life and ensure their safety and comfort throughout the progression of the disease. You will feel confident knowing your loved one is safe and comfortable at home with Visiting Angels by their side.
+                            A professional <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregiver</Link> can provide specialized support and assistance for your loved one to enhance their quality of life and ensure their safety and comfort throughout the progression of the disease. You will feel confident knowing your loved one is safe and comfortable at home with MidAid by their side.
                         </p>
 
                         {/* Memory Care Support Block */}
@@ -111,7 +111,7 @@ export default function AlzheimersCarePage() {
                                    You don't have to manage Alzheimer's care alone.
                                </p>
                                <p>
-                                   Visiting Angels will help you create a comprehensive, personalized <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care plan</Link> to address your loved one's unique needs. We tackle daily caregiving responsibilities so you can focus on enjoying meaningful moments and making cherished memories with your loved one.
+                                   MidAid will help you create a comprehensive, personalized <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care plan</Link> to address your loved one's unique needs. We tackle daily caregiving responsibilities so you can focus on enjoying meaningful moments and making cherished memories with your loved one.
                                </p>
                             </div>
                         </div>

@@ -7,8 +7,8 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 import { FAQAccordion } from "@/components/shared/FAQAccordion";
 
 export const metadata = {
-    title: "Long Distance Care Giving | Visiting Angels",
-    description: "Professional home care from Visiting Angels can help you bridge the distance gap - whether your loved one lives 90 minutes or a five-hour plane ride away.",
+    title: "Long Distance Care Giving | MidAid",
+    description: "Professional home care from MidAid can help you bridge the distance gap - whether your loved one lives 90 minutes or a five-hour plane ride away.",
 };
 
 export default function LongDistanceCareGivingPage() {
@@ -39,7 +39,7 @@ export default function LongDistanceCareGivingPage() {
         <>
             <InnerPageHero
                 title="Long Distance Care Giving"
-                description="Professional home care from Visiting Angels can help you bridge the distance gap - whether your loved one lives 90 minutes or a five-hour plane ride away."
+                description="Professional home care from MidAid can help you bridge the distance gap - whether your loved one lives 90 minutes or a five-hour plane ride away."
                 imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Caregiver with two seniors at a table"
             />
@@ -89,7 +89,7 @@ export default function LongDistanceCareGivingPage() {
                         {/* Process Section (Dark Blue Background) */}
                         <div className="bg-[#043b67] rounded-[4px] p-8 md:p-12 mb-16 shadow-lg">
                             <h3 className="text-[20px] md:text-[22px] font-bold text-white mb-8 font-sans leading-tight">
-                                Here are some ways Visiting Angels' long-distance support can aid your senior<br/>loved one:
+                                Here are some ways MidAid' long-distance support can aid your senior<br/>loved one:
                             </h3>
 
                             <div className="flex flex-col gap-6 relative">

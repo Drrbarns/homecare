@@ -28,10 +28,10 @@ export default function PersonalCarePage() {
         },
         {
             question: "What If My Loved One's Personal Care Plan Needs To Be Changed?",
-            answer: "We regularly review and update care plans to ensure they continue to meet your loved one's evolving needs. You can request changes to the care plan at any time by contacting your local Visiting Angels office."
+            answer: "We regularly review and update care plans to ensure they continue to meet your loved one's evolving needs. You can request changes to the care plan at any time by contacting your local MidAid office."
         },
         {
-            question: "Does Visiting Angels Offer Services on the Weekends and Holidays?",
+            question: "Does MidAid Offer Services on the Weekends and Holidays?",
             answer: "Yes, our caregivers are available 24/7, including weekends and holidays, to provide uninterrupted care and support for your loved one."
         }
     ];
@@ -174,13 +174,13 @@ export default function PersonalCarePage() {
                                         Get Started with<br />Personal Care Services
                                     </h2>
                                     <p className="text-white text-[15.5px] mb-5 leading-relaxed">
-                                        If your loved one struggles with daily self-care activities or if you're worried about their physical safety at home, consider reaching out to a reputable home care company, like Visiting Angels.
+                                        If your loved one struggles with daily self-care activities or if you're worried about their physical safety at home, consider reaching out to a reputable home care company, like MidAid.
                                     </p>
                                     <p className="text-white text-[15.5px] mb-5 leading-relaxed">
                                         Our professional caregivers will provide tailored support in familiar surroundings to help your loved one thrive by maintaining their independence and sense of belonging. Our devoted caregivers can also offer <Link href="/elderly-companion-care" className="underline text-[#b5d6d8] hover:text-white">companion care</Link> to alleviate <Link href="/articles" className="underline text-[#b5d6d8] hover:text-white">senior isolation</Link> by providing companionship and emotional support through meaningful connections.
                                     </p>
                                     <p className="text-white text-[15.5px] mb-8 leading-relaxed">
-                                        We make it easy to find the perfect <Link href="/careers" className="underline text-[#b5d6d8] hover:text-white">caregiver</Link> for your loved one. At your free consultation, Visiting Angels will learn about your family's needs and lay the foundation for personal care services. We'll use the information to build a custom care plan and <Link href="/about-us" className="underline text-[#b5d6d8] hover:text-white">select a caregiver</Link> for your loved one.
+                                        We make it easy to find the perfect <Link href="/careers" className="underline text-[#b5d6d8] hover:text-white">caregiver</Link> for your loved one. At your free consultation, MidAid will learn about your family's needs and lay the foundation for personal care services. We'll use the information to build a custom care plan and <Link href="/about-us" className="underline text-[#b5d6d8] hover:text-white">select a caregiver</Link> for your loved one.
                                     </p>
                                     <Link href="/locations" className="inline-flex items-center justify-center bg-[#d8981e] text-[#043b67] font-bold text-[15px] px-8 py-3.5 rounded-[4px] hover:bg-[#c78b1b] transition-colors">
                                         View Our Office Locations

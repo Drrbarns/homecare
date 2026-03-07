@@ -8,8 +8,8 @@ import { FAQAccordion } from "@/components/shared/FAQAccordion";
 import { RelatedArticles } from "@/components/shared/RelatedArticles";
 
 export const metadata = {
-    title: "End of Life Care | Visiting Angels",
-    description: "Visiting Angels offers professional, non-medical assistance for individuals during the end-of-life phase.",
+    title: "End of Life Care | MidAid",
+    description: "MidAid offers professional, non-medical assistance for individuals during the end-of-life phase.",
 };
 
 export default function EndOfLifeCarePage() {
@@ -32,7 +32,7 @@ export default function EndOfLifeCarePage() {
         },
         {
             question: "How Should I Start Planning For End-of-Life Care?",
-            answer: "Contact your local Visiting Angels office for a free consultation. We will discuss your loved one's needs and create a personalized care plan."
+            answer: "Contact your local MidAid office for a free consultation. We will discuss your loved one's needs and create a personalized care plan."
         }
     ];
 
@@ -77,13 +77,13 @@ export default function EndOfLifeCarePage() {
                     {/* Main Content Area */}
                     <div className="flex-1 w-full text-[15px] md:text-[16px] text-[#333333] leading-[1.7] font-sans">
                         <p className="mb-6">
-                            Visiting Angels offers professional, non-medical assistance for individuals during the end-of-life phase. Our compassionate <Link href="/home-care-services#palliative" className="underline text-[#3b7ea1] hover:text-[#043b67]">palliative care</Link> services will keep your loved one comfortable and at peace. Although the program does not include hospice care, an expert caregiver will provide comfort and relief assistance that complements hospice services. We'll support you and your family whenever needed.
+                            MidAid offers professional, non-medical assistance for individuals during the end-of-life phase. Our compassionate <Link href="/home-care-services#palliative" className="underline text-[#3b7ea1] hover:text-[#043b67]">palliative care</Link> services will keep your loved one comfortable and at peace. Although the program does not include hospice care, an expert caregiver will provide comfort and relief assistance that complements hospice services. We'll support you and your family whenever needed.
                         </p>
                         <p className="mb-6">
                             Our dedicated caregivers will also give you peace of mind by managing your day-to-day caregiving responsibilities, letting you focus on what matters most—your loved one.
                         </p>
                         <p className="mb-12">
-                            Our professional care providers offer emotional support and companionship, ensuring your loved one never feels alone during this challenging time. With Visiting Angels, you can trust your family will receive the compassionate support and assistance they deserve.
+                            Our professional care providers offer emotional support and companionship, ensuring your loved one never feels alone during this challenging time. With MidAid, you can trust your family will receive the compassionate support and assistance they deserve.
                         </p>
 
                         {/* Non-Medical End-of-Life Services Block */}
@@ -103,10 +103,10 @@ export default function EndOfLifeCarePage() {
                                     Non-Medical End-of-Life Services
                                 </h2>
                                 <p className="mb-5">
-                                    Visiting Angels trained <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> will follow a personalized plan to create a soothing and relaxing environment for your loved one, ensuring comfort and dignity during the final stages of life. They'll provide emotional support, assist with daily activities, and offer devoted companionship, all tailored to specific needs and requests.
+                                    MidAid trained <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> will follow a personalized plan to create a soothing and relaxing environment for your loved one, ensuring comfort and dignity during the final stages of life. They'll provide emotional support, assist with daily activities, and offer devoted companionship, all tailored to specific needs and requests.
                                 </p>
                                 <p>
-                                    We'll be beside you to offer companionship, emotional support, and spiritual connection. If you need a break or breather, Visiting Angels can provide <Link href="/home-care-services#respite" className="underline text-[#3b7ea1] hover:text-[#043b67]">respite care</Link> – or temporary relief – while your loved one receives support.
+                                    We'll be beside you to offer companionship, emotional support, and spiritual connection. If you need a break or breather, MidAid can provide <Link href="/home-care-services#respite" className="underline text-[#3b7ea1] hover:text-[#043b67]">respite care</Link> – or temporary relief – while your loved one receives support.
                                 </p>
                             </div>
                         </div>
@@ -187,7 +187,7 @@ export default function EndOfLifeCarePage() {
                                         While we do not provide medical services, our management team communicates with hospice care professionals to provide essential services to support your family through your loved one's final days.
                                     </p>
                                     <p className="text-[15px] mb-8 leading-relaxed text-white/90">
-                                        Contact your local Visiting Angels <Link href="/office-locator" className="underline hover:text-white transition-colors">home care office</Link> to discuss end-of-life services.
+                                        Contact your local MidAid <Link href="/office-locator" className="underline hover:text-white transition-colors">home care office</Link> to discuss end-of-life services.
                                     </p>
                                     <Link
                                         href="/office-locator"

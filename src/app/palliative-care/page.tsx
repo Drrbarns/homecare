@@ -26,8 +26,8 @@ export default function PalliativeCarePage() {
             answer: "Anyone living with a serious, chronic, or life-limiting illness such as cancer, heart failure, Alzheimer's, Parkinson's, ALS, or respiratory disease can benefit from the holistic support of palliative care."
         },
         {
-            question: "Does Visiting Angels Provide Medical Palliative Care?",
-            answer: "No, Visiting Angels provides non-medical palliative care. Our focus is on comfort, companionship, personal care assistance, and emotional support. We work alongside your medical team to ensure comprehensive well-being."
+            question: "Does MidAid Provide Medical Palliative Care?",
+            answer: "No, MidAid provides non-medical palliative care. Our focus is on comfort, companionship, personal care assistance, and emotional support. We work alongside your medical team to ensure comprehensive well-being."
         }
     ];
 
@@ -54,7 +54,7 @@ export default function PalliativeCarePage() {
                             Comfort and Peace of Mind for Your Loved One with a Chronic Condition
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            Visiting Angels excels in non-medical palliative care by providing companionship, emotional support, and assistance with daily activities such as <Link href="/home-care-services#personal" className="underline text-[#3b7ea1] hover:text-[#043b67]">personal care</Link>, meal preparation, and light housekeeping. Our caregivers will offer respite for your family members, ensuring your loved one receives a <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">holistic approach to palliative care</Link> that promotes comfort and dignity during challenging times.
+                            MidAid excels in non-medical palliative care by providing companionship, emotional support, and assistance with daily activities such as <Link href="/home-care-services#personal" className="underline text-[#3b7ea1] hover:text-[#043b67]">personal care</Link>, meal preparation, and light housekeeping. Our caregivers will offer respite for your family members, ensuring your loved one receives a <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">holistic approach to palliative care</Link> that promotes comfort and dignity during challenging times.
                         </p>
                         <p className="mb-12 text-[15.5px]">
                             Our personalized approach emphasizes companionship and meaningful engagement, fostering a supportive environment that enhances your loved one's overall well-being.
@@ -72,7 +72,7 @@ export default function PalliativeCarePage() {
                                     While both types of care focus on comfort, palliative care takes a broader approach by supporting individuals at any stage of a serious illness. It emphasizes improving quality of life by addressing physical, emotional, social, and spiritual needs—not just symptom management. Families also benefit from palliative care services through guidance, resources, and compassionate support.
                                 </p>
                                 <p className="text-[15.5px]">
-                                    At Visiting Angels, we treat palliative care as a distinct type of care. Our Certified Palliative Care program follows a comforting, holistic approach to address a range of essential non-medical services.
+                                    At MidAid, we treat palliative care as a distinct type of care. Our Certified Palliative Care program follows a comforting, holistic approach to address a range of essential non-medical services.
                                 </p>
                             </div>
                             <div className="w-full md:w-[40%] shrink-0">
@@ -171,7 +171,7 @@ export default function PalliativeCarePage() {
                                         While our caregivers do not provide medical support, we will watch over your loved one at home, in an assisted living facility, or in a long-term care residence. In addition to dedicated <Link href="/home-care-services" className="underline hover:text-white transition-colors font-semibold">home care</Link> services, we also offer a customized program for <Link href="/end-of-life-care" className="underline hover:text-white transition-colors font-semibold">end-of-life care</Link>.
                                     </p>
                                     <p className="text-[15px] mb-10 leading-relaxed text-white/90">
-                                        If you'd like to learn more, or if you're ready to get started, contact your local Visiting Angels office today.
+                                        If you'd like to learn more, or if you're ready to get started, contact your local MidAid office today.
                                     </p>
                                     <div>
                                         <Link

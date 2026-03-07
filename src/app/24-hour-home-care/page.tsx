@@ -29,7 +29,7 @@ export default function TwentyFourHourCarePage() {
                     {/* Main Content Area */}
                     <div className="flex-1 w-full text-[15px] md:text-[16px] text-[#333333] leading-[1.7] font-sans">
                         <p className="mb-6">
-                            The need for home care doesn't always end when the sun goes down. At Visiting Angels, our 24-hour home care services provide around-the-clock support to provide your loved one with continuous, professional assistance in the comforts of their own home.
+                            The need for home care doesn't always end when the sun goes down. At MidAid, our 24-hour home care services provide around-the-clock support to provide your loved one with continuous, professional assistance in the comforts of their own home.
                         </p>
                         <p className="mb-6">
                             Whether your senior needs overnight supervision, medication reminders, or just the reassurance of having someone nearby, our dedicated caregivers are available day and night to ensure their safety and well-being.

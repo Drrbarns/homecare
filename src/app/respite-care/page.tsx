@@ -9,7 +9,7 @@ import { RelatedArticles } from "@/components/shared/RelatedArticles";
 
 export const metadata = {
     title: "Respite Care Services",
-    description: "Visiting Angels, a home care agency can provide in-home assistance when you feel overwhelmed with responsibilities and need a break.",
+    description: "MidAid, a home care agency can provide in-home assistance when you feel overwhelmed with responsibilities and need a break.",
 };
 
 export default function RespiteCarePage() {
@@ -46,10 +46,10 @@ export default function RespiteCarePage() {
             href: "/articles/helping-senior-with-substance-use-problem"
         },
         {
-            title: "What Are Qualities of a Visiting Angels Caregiver?",
+            title: "What Are Qualities of a MidAid Caregiver?",
             imageSrc: "https://images.unsplash.com/photo-1581579205466-e4304e287010?q=80&w=600&auto=format&fit=crop",
             imageAlt: "Caregiver assisting senior",
-            href: "/articles/what-are-qualities-of-a-visiting-angels-caregiver"
+            href: "/articles/what-are-qualities-of-a-midaid-caregiver"
         }
     ];
 
@@ -57,7 +57,7 @@ export default function RespiteCarePage() {
         <>
             <InnerPageHero
                 title="Respite Care"
-                description="Visiting Angels, a home care agency can provide in-home assistance when you feel overwhelmed with responsibilities and need a break."
+                description="MidAid, a home care agency can provide in-home assistance when you feel overwhelmed with responsibilities and need a break."
                 imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Caregiver with an older couple on a couch"
                 showPlayButton={true}
@@ -93,7 +93,7 @@ export default function RespiteCarePage() {
                                     Respite care can also help recharge your batteries and reduce the risk of "<Link href="/articles" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregiver burnout</Link>," which can occur when the stress and emotional strain of care responsibilities becomes overwhelming.
                                 </p>
                                 <p className="mb-0 text-[15.5px]">
-                                    Short-term <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">senior care</Link> can provide an immediate positive impact. If you need to rest and recuperate, Visiting Angels can provide in-home services while you focus on your well-being. If your daily or weekly caregiving routine has become too demanding, our dedicated caregivers can conduct regular respite care visits to lighten your load.
+                                    Short-term <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">senior care</Link> can provide an immediate positive impact. If you need to rest and recuperate, MidAid can provide in-home services while you focus on your well-being. If your daily or weekly caregiving routine has become too demanding, our dedicated caregivers can conduct regular respite care visits to lighten your load.
                                 </p>
                             </div>
                             <div className="w-full lg:w-[40%] pt-2">
@@ -178,10 +178,10 @@ export default function RespiteCarePage() {
                                     We also offer <Link href="/elderly-companion-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">companion care</Link>, <Link href="/personal-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">personal care</Link>, and specialized memory care for loved ones living with <Link href="/alzheimers-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Alzheimer's</Link> or other <Link href="/dementia-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">dementia conditions</Link>.
                                 </p>
                                 <p className="mb-6 text-[15.5px]">
-                                    Finding the right care for your loved one should be a stress-free process, which is why we make it easy to get started with a free home care consultation. A local Visiting Angels care coordinator will take the time to understand your loved one's unique needs, preferences, and daily routine to develop a customized care plan tailored specifically for them.
+                                    Finding the right care for your loved one should be a stress-free process, which is why we make it easy to get started with a free home care consultation. A local MidAid care coordinator will take the time to understand your loved one's unique needs, preferences, and daily routine to develop a customized care plan tailored specifically for them.
                                 </p>
                                 <p className="mb-0 text-[15.5px]">
-                                    Contact a Visiting Angels <Link href="/locations" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location near you</Link>.
+                                    Contact a MidAid <Link href="/locations" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location near you</Link>.
                                 </p>
                             </div>
                         </div>
@@ -197,10 +197,10 @@ export default function RespiteCarePage() {
                                         Fast-Track Services Are Available
                                     </h2>
                                     <p className="text-white text-[15.5px] mb-5 leading-relaxed">
-                                        Your local Visiting Angels agency may be able to assist when home care is needed on short notice. In most cases, a care coordinator can fast-track the planning and scheduling process and will do their best to ensure a caregiver is available for your loved one.
+                                        Your local MidAid agency may be able to assist when home care is needed on short notice. In most cases, a care coordinator can fast-track the planning and scheduling process and will do their best to ensure a caregiver is available for your loved one.
                                     </p>
                                     <p className="text-white text-[15.5px] mb-8 leading-relaxed">
-                                        You can usually schedule services for a few hours or overnight to a few days or longer. Visiting Angels caregivers can also perform in-home assistance routinely on a weekly, bi-weekly, or monthly basis.
+                                        You can usually schedule services for a few hours or overnight to a few days or longer. MidAid caregivers can also perform in-home assistance routinely on a weekly, bi-weekly, or monthly basis.
                                     </p>
                                     <Link href="/locations" className="inline-flex items-center justify-center bg-[#d8981e] text-[#043b67] font-bold text-[15px] px-8 py-3.5 rounded-[4px] hover:bg-[#c78b1b] transition-colors">
                                         View Our Office Locations

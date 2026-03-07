@@ -6,7 +6,7 @@ import { FloatingGetStarted } from "@/components/layout/FloatingGetStarted";
 import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
-    title: "GUIDE Model Program | Visiting Angels",
+    title: "GUIDE Model Program | MidAid",
     description: "Helping families navigate dementia with confidence and compassion through the GUIDE Model Program.",
 };
 
@@ -31,7 +31,7 @@ export default function GuideModelProgramPage() {
                     <div className="flex-1 w-full text-[15px] md:text-[16px] text-[#333333] leading-[1.7] font-sans">
                         
                         <p className="mb-6 text-[15.5px]">
-                            Visiting Angels proudly supports the Centers for Medicare & Medicaid Services' (CMS) GUIDE Model,
+                            MidAid proudly supports the Centers for Medicare & Medicaid Services' (CMS) GUIDE Model,
                             a national initiative led by the CMS dedicated to improving the lives of individuals living with various
                             stages of dementia and the caregivers who assist them.
                         </p>
@@ -97,7 +97,7 @@ export default function GuideModelProgramPage() {
                             </div>
                             <div className="w-full lg:w-[60%] flex flex-col justify-start">
                                 <h2 className="text-[26px] md:text-[30px] font-bold text-[#043b67] mb-5 font-sans tracking-tight leading-tight">
-                                    How Visiting Angels Works With GUIDE
+                                    How MidAid Works With GUIDE
                                 </h2>
                                 <p className="mb-6 text-[15.5px]">
                                     We collaborate with GUIDE-approved providers by CMS in
@@ -132,7 +132,7 @@ export default function GuideModelProgramPage() {
                                     Specialized Dementia Care Training
                                 </h2>
                                 <p className="mb-6 text-[15.5px]">
-                                    At Visiting Angels, our caregivers have access to ongoing
+                                    At MidAid, our caregivers have access to ongoing
                                     training resources to support individuals living with dementia.
                                     Our training focuses on:
                                 </p>
@@ -183,11 +183,11 @@ export default function GuideModelProgramPage() {
                             Caring For Someone With Dementia Takes More Than Skill—<br/>It Takes Heart
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            From the first signs of memory loss to the final stages of life, Visiting Angels offers understanding,
+                            From the first signs of memory loss to the final stages of life, MidAid offers understanding,
                             compassion, and unwavering support for families.
                         </p>
                         <p className="mb-0 text-[15.5px]">
-                            Please contact your <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">local Visiting Angels office</Link> to confirm availability.
+                            Please contact your <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">local MidAid office</Link> to confirm availability.
                         </p>
 
                     </div>

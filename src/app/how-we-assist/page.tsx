@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "How We Assist | Essential In-Home Care Services",
-    description: "With a helping hand from Visiting Angels, your loved one can feel content and secure in a familiar place—home.",
+    description: "With a helping hand from MidAid, your loved one can feel content and secure in a familiar place—home.",
 };
 
 export default function HowWeAssistPage() {
@@ -15,7 +15,7 @@ export default function HowWeAssistPage() {
         <>
             <InnerPageHero
                 title="How We Assist"
-                description="With a helping hand from Visiting Angels, your loved one can feel content and secure in a familiar place—home."
+                description="With a helping hand from MidAid, your loved one can feel content and secure in a familiar place—home."
                 imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Caregiver drying senior woman's hair"
             />
@@ -35,7 +35,7 @@ export default function HowWeAssistPage() {
                         </h2>
                         
                         <p className="mb-6 text-[15.5px]">
-                            At Visiting Angels, we know how much older adults want to live at home for as long as
+                            At MidAid, we know how much older adults want to live at home for as long as
                             possible. However, remaining safe and comfortable at home alone can be challenging and
                             sometimes impossible.
                         </p>
@@ -46,7 +46,7 @@ export default function HowWeAssistPage() {
                         </p>
 
                         <p className="mb-12 text-[15.5px]">
-                            As one of America's leading home care providers for more than 25 years, Visiting Angels offers a
+                            As one of America's leading home care providers for more than 25 years, MidAid offers a
                             safe, affordable alternative to assisted living—even if your loved one needs Alzheimer's care or
                             dementia care.
                         </p>
@@ -287,7 +287,7 @@ export default function HowWeAssistPage() {
                                                 </div>
                                                 <h3 className="text-[18px] font-bold text-[#043b67] mb-3 font-sans">Flexibility</h3>
                                                 <p className="text-[14.5px] text-[#333333] leading-[1.7]">
-                                                    Visiting Angels allows you to customize the care
+                                                    MidAid allows you to customize the care
                                                     schedule and receive help when needed to avoid
                                                     paying for unnecessary services and amenities.
                                                 </p>
@@ -329,7 +329,7 @@ export default function HowWeAssistPage() {
                                                 <p className="text-[14.5px] text-[#333333] leading-[1.7]">
                                                     Staff at assisted living facilities often care for
                                                     more than one older adult during each shift. In-
-                                                    home personal care from Visiting Angels will help
+                                                    home personal care from MidAid will help
                                                     your older adult receive one-on-one assistance
                                                     tailored to their unique needs.
                                                 </p>
@@ -366,14 +366,14 @@ export default function HowWeAssistPage() {
                                     How to Get Started with Home Care
                                 </h2>
                                 <p className="mb-6 text-[15.5px]">
-                                    Choosing the right home care provider is an important decision. A Visiting Angels
+                                    Choosing the right home care provider is an important decision. A MidAid
                                     care coordinator will guide you through the entire process, starting with a free,
                                     no-obligation <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care consultation</Link> to talk about services, schedules, and
                                     personal preferences.
                                 </p>
                                 <p className="mb-0 text-[15.5px]">
                                     When you're ready to learn more about our compassionate in-home services, contact your
-                                    nearest Visiting Angels' <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location</Link> today or call <a href="tel:800-365-4189" className="underline text-[#3b7ea1] hover:text-[#043b67]">800-365-4189</a>.
+                                    nearest MidAid <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location</Link> today or call <a href="tel:489987299" className="underline text-[#3b7ea1] hover:text-[#043b67]">489 987 299</a>.
                                 </p>
                             </div>
                             <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">

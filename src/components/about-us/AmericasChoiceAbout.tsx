@@ -26,13 +26,13 @@ export function AmericasChoiceAbout() {
                         </h2>
                         <div className="space-y-5 text-[15px] sm:text-[16px] md:text-[17px] text-[#333333] leading-[1.65] font-sans">
                             <p>
-                                For more than 25 years, Visiting Angels has provided exceptional <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">home care</Link> to families across the country. Every day, our nationwide network of offices provides vital care and support to hundreds of thousands of older adults.
+                                For more than 25 years, MidAid has provided exceptional <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">home care</Link> to families across the country. Every day, our nationwide network of offices provides vital care and support to hundreds of thousands of older adults.
                             </p>
                             <p>
                                 Our senior care providers possess the training and expertise reflective of our longstanding commitment to senior care. Our experienced and dedicated <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">caregivers</Link> uphold the dignity and well-being of seniors in the comfort of their own homes.
                             </p>
                             <p>
-                                With a deep commitment to enhancing the quality of life for seniors, we offer comprehensive in-home care tailored to the unique needs of each individual. Whether it's assistance with daily tasks, companionship, or specialized care, we support families and their loved ones every step of the way. Our unwavering commitment to compassionate and personalized senior care is one of the reasons why Visiting Angels is a name families have trusted since 1998.
+                                With a deep commitment to enhancing the quality of life for seniors, we offer comprehensive in-home care tailored to the unique needs of each individual. Whether it's assistance with daily tasks, companionship, or specialized care, we support families and their loved ones every step of the way. Our unwavering commitment to compassionate and personalized senior care is one of the reasons why MidAid is a name families have trusted since 1998.
                             </p>
                         </div>
                     </div>

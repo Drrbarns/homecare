@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CheckCircle2, Clock, Users, GraduationCap, TrendingUp, DollarSign, HeartHandshake } from "lucide-react";
 
 export const metadata = {
-    title: "Caregiver Jobs at Visiting Angels | Join Our Team",
+    title: "Caregiver Jobs at MidAid | Join Our Team",
     description: "Build a meaningful career that fits your life while making a real difference for others. Join our team of professional caregivers.",
 }
 
@@ -11,22 +11,22 @@ const supportFeatures = [
     {
         icon: Clock,
         title: "Flexible Scheduling",
-        desc: "Full-time and part-time positions are available in numerous caregiving roles. It’s a great career for students, retirees, and parents of young kids—you can choose to work evenings, weekends, or even overnight shifts. Visiting Angels also offers holiday pay!"
+        desc: "Full-time and part-time positions are available in numerous caregiving roles. It’s a great career for students, retirees, and parents of young kids—you can choose to work evenings, weekends, or even overnight shifts. MidAid also offers holiday pay!"
     },
     {
         icon: HeartHandshake,
         title: "Caregiver Matching Program",
-        desc: "One of the reasons why clients love Visiting Angels is our Select a Caregiver® program. We carefully match each senior with the right caregiver. That means you’ll work with families who are compatible with your availability, experience, personality, and shared interests."
+        desc: "One of the reasons why clients love MidAid is our Select a Caregiver® program. We carefully match each senior with the right caregiver. That means you’ll work with families who are compatible with your availability, experience, personality, and shared interests."
     },
     {
         icon: GraduationCap,
         title: "Caregiver University",
-        desc: "With Visiting Angels, you can take advantage of paid in-person or online training opportunities through your local office. Learn to specialize in caring for seniors with specific health needs, such as military veterans or older adults with Alzheimer’s disease or dementia."
+        desc: "With MidAid, you can take advantage of paid in-person or online training opportunities through your local office. Learn to specialize in caring for seniors with specific health needs, such as military veterans or older adults with Alzheimer’s disease or dementia."
     },
     {
         icon: TrendingUp,
         title: "Career Advancement",
-        desc: "Becoming a Visiting Angels caregiver is a great way to kick off a rewarding career. As you gain confidence in your caregiving skills, you can assume a role with more responsibility, such as a care coordinator, training provider, or administrative support professional."
+        desc: "Becoming a MidAid caregiver is a great way to kick off a rewarding career. As you gain confidence in your caregiving skills, you can assume a role with more responsibility, such as a care coordinator, training provider, or administrative support professional."
     }
 ];
 
@@ -44,7 +44,7 @@ export default function CareersPage() {
         <>
             <PageHeader
                 title="Caregiver Jobs"
-                subtitle="You’re Set for Success from Day One When You Work for Visiting Angels! Part-Time & Full-Time Home Care Careers."
+                subtitle="You’re Set for Success from Day One When You Work for MidAid! Part-Time & Full-Time Home Care Careers."
             />
 
             {/* Intro Section */}
@@ -55,10 +55,10 @@ export default function CareersPage() {
                     </h2>
                     <div className="text-lg text-slate-700 dark:text-slate-300 space-y-6">
                         <p>
-                            Build a meaningful career that fits your life while making a real difference for others. As a Visiting Angels professional caregiver, you’ll help seniors live safely and comfortably at home, forming real connections and bringing peace of mind to families.
+                            Build a meaningful career that fits your life while making a real difference for others. As a MidAid professional caregiver, you’ll help seniors live safely and comfortably at home, forming real connections and bringing peace of mind to families.
                         </p>
                         <p>
-                            With Visiting Angels, you’ll find a vibrant, supportive workplace where caregivers feel truly valued. We're ready to welcome you with the support and ongoing training you need to succeed. Let’s get started!
+                            With MidAid, you’ll find a vibrant, supportive workplace where caregivers feel truly valued. We're ready to welcome you with the support and ongoing training you need to succeed. Let’s get started!
                         </p>
                     </div>
                     <div className="mt-10">
@@ -84,7 +84,7 @@ export default function CareersPage() {
                                 Competitive Pay & Benefits
                             </h2>
                             <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
-                                The pay range for Visiting Angels caregivers varies depending on where you live, your duties, and the shifts you work. Your local office team will provide specifics when you apply.
+                                The pay range for MidAid caregivers varies depending on where you live, your duties, and the shifts you work. Your local office team will provide specifics when you apply.
                             </p>
                             <p className="text-lg text-slate-600 dark:text-slate-400 mb-6 font-semibold">
                                 If you work full-time, you may be eligible for career benefits including:

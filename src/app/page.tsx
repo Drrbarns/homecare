@@ -11,7 +11,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
   title: "Compassionate In-Home Senior Care",
-  description: "America's Choice in Senior Home Care. Provide your loved ones with the highest quality in-home care.",
+  description: "Compassionate in-home senior care services across Australia. MidAid — trusted care since 1998.",
 }
 
 export default function Home() {

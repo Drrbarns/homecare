@@ -4,8 +4,8 @@ import { ShieldCheck, HeartPulse, Award, Users } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Why Choose Visiting Angels | Professional Senior Home Care",
-    description: "Learn about our compassionate approach to home care, our rigorous caregiver selection process, and why families across the nation trust Visiting Angels.",
+    title: "Why Choose MidAid | Professional Senior Home Care",
+    description: "Learn about our compassionate approach to home care, our rigorous caregiver selection process, and why families across the nation trust MidAid.",
 }
 
 const philosophyPoints = [
@@ -35,7 +35,7 @@ export default function WhyUsPage() {
     return (
         <>
             <PageHeader
-                title="Why Families Trust Visiting Angels"
+                title="Why Families Trust MidAid"
                 subtitle="America's Choice in Senior Home Care. Discover the difference our compassionate approach makes."
             />
 
@@ -72,7 +72,7 @@ export default function WhyUsPage() {
             {/* CTA Section */}
             <section className="py-20 bg-primary/5 dark:bg-primary/10 text-center border-t border-primary/10">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">Experience the Visiting Angels Difference</h2>
+                    <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">Experience the MidAid Difference</h2>
                     <p className="max-w-2xl mx-auto text-slate-600 dark:text-slate-400 mb-10 text-lg">
                         You don't have to navigate this journey alone. Let us provide the supportive, compassionate care your family deserves.
                     </p>

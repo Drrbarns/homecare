@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "Caregivers | Trusted Home Care Professionals",
-    description: "Visiting Angels caregivers are at the core of our heartfelt and compassionate home care services, delivering personalized support that enriches the lives of seniors.",
+    description: "MidAid caregivers are at the core of our heartfelt and compassionate home care services, delivering personalized support that enriches the lives of seniors.",
 };
 
 export default function CaregiversPage() {
@@ -15,9 +15,9 @@ export default function CaregiversPage() {
         <>
             <InnerPageHero
                 title="Caregivers"
-                description="Visiting Angels caregivers are at the core of our heartfelt and compassionate home care services, delivering personalized support that enriches the lives of seniors and their families."
+                description="MidAid caregivers are at the core of our heartfelt and compassionate home care services, delivering personalized support that enriches the lives of seniors and their families."
                 imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
-                imageAlt="Group of Visiting Angels caregivers"
+                imageAlt="Group of MidAid caregivers"
             />
 
             <div className="container mx-auto px-5 sm:px-6 lg:px-6 xl:px-8 max-w-[1440px] py-10 sm:py-16 lg:py-24">
@@ -35,7 +35,7 @@ export default function CaregiversPage() {
                         </h2>
 
                         <p className="mb-8 text-[15.5px]">
-                            Visiting Angels has recruited and hired trustworthy and dependable home care professionals across
+                            MidAid has recruited and hired trustworthy and dependable home care professionals across
                             the country for more than 25 years. Our skilled caregivers provide companionship, socialization,
                             and specialized support for seniors and families, backed by our rigorous vetting process ensuring
                             compassion, integrity, respect, and trust in every interaction.
@@ -59,7 +59,7 @@ export default function CaregiversPage() {
                                     <div className="w-[6px] h-[6px] rounded-full bg-[#7a4b64] mr-3 mt-[9px] shrink-0"></div>
                                     <div>
                                         <span className="font-bold text-[#333333]">Integrity & Trust:</span><br />
-                                        <span className="text-[15.5px] text-[#333333]">Character counts at Visiting Angels. Our vetting system and background checks ensure that every caregiver meets our strict hiring criteria.</span>
+                                        <span className="text-[15.5px] text-[#333333]">Character counts at MidAid. Our vetting system and background checks ensure that every caregiver meets our strict hiring criteria.</span>
                                     </div>
                                 </li>
                                 <li className="flex items-start">
@@ -114,7 +114,7 @@ export default function CaregiversPage() {
                             Selecting the Right Caregiver for Each Senior
                         </h2>
                         <p className="mb-10 text-[15.5px]">
-                            Visiting Angels takes a thoughtful approach to the matching process by considering unique aspects
+                            MidAid takes a thoughtful approach to the matching process by considering unique aspects
                             of a senior's living situation and personal preferences. We call it <Link href="/select-your-caregiver" className="underline text-[#3b7ea1] hover:text-[#043b67]">Select Your Caregiver®</Link>. Here are
                             some factors we consider when selecting caregivers for seniors:
                         </p>
@@ -133,7 +133,7 @@ export default function CaregiversPage() {
                                     Personal chemistry with your
                                     aging loved one and family is an
                                     important factor in determining a
-                                    match with a Visiting Angels
+                                    match with a MidAid
                                     caregiver. That's why we'll take
                                     time to get to know your senior
                                     on a personal level before
@@ -218,7 +218,7 @@ export default function CaregiversPage() {
                                     </h2>
                                     <p className="text-white text-[15.5px] mb-8 leading-relaxed">
                                         Schedule a free, no-obligation <Link href="/home-care-services" className="underline hover:text-gray-200">home care consultation</Link> with a
-                                        Visiting Angels care coordinator near you. This is one of the best
+                                        MidAid care coordinator near you. This is one of the best
                                         ways to learn about the services provided by our compassionate,
                                         professional caregivers.
                                     </p>

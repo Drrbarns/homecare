@@ -92,7 +92,7 @@ export default function DementiaCarePage() {
                             </div>
                             <div className="w-full md:w-[65%] pt-2">
                                <p className="mb-5 text-[15.5px]">
-                                   Visiting Angels <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> specializing in dementia and <Link href="/alzheimers-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Alzheimer's care</Link> will create a comprehensive and personalized memory care plan for your senior. Our dedicated and compassionate caregivers will use their training and experience to foster a sense of security for your loved one and family. They'll also maintain familiar routines and prioritize your aging loved one's dignity and respect.
+                                   MidAid <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> specializing in dementia and <Link href="/alzheimers-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Alzheimer's care</Link> will create a comprehensive and personalized memory care plan for your senior. Our dedicated and compassionate caregivers will use their training and experience to foster a sense of security for your loved one and family. They'll also maintain familiar routines and prioritize your aging loved one's dignity and respect.
                                </p>
                                <p className="text-[15.5px]">
                                    Your loved one will receive a customized care plan tailored to their dementia type that is consistent with their diagnosis and makes their daily life as comfortable and enjoyable as possible.

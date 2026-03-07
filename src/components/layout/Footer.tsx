@@ -63,24 +63,25 @@ export function Footer() {
                         </div>
 
                         <div className="mb-6 font-sans">
-                            <h3 className="font-bold text-[18px] md:text-[20px] mb-[2px]">Visiting Angels</h3>
+                            <h3 className="font-bold text-[18px] md:text-[20px] mb-[2px]">MidAid</h3>
                             <p className="text-[14.5px] md:text-[15.5px] text-white">
-                                937 Haverford Road, Suite 200, Bryn Mawr, PA 19010
+                                97-99 Bathurst St, Sydney NSW 2000, Australia
                             </p>
+                            <a href="mailto:info.help@midaid.com" className="text-[14px] text-white/80 hover:text-white transition-colors">info.help@midaid.com</a>
                         </div>
 
                         <div className="mb-6 md:mb-8">
-                            <a href="tel:800-365-4189" className="text-[22px] sm:text-[26px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
-                                800-365-4189
+                            <a href="tel:489987299" className="text-[22px] sm:text-[26px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
+                                489 987 299
                             </a>
                         </div>
 
                         <div className="flex flex-wrap gap-x-5 gap-y-2 text-[14.5px] md:text-[15.5px] font-medium tracking-wide mt-2">
-                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">Visiting Angels UK</Link>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">MidAid UK</Link>
                             <span className="hidden md:inline text-white/40">|</span>
-                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">Visiting Angels Korea</Link>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">MidAid Korea</Link>
                             <span className="hidden md:inline text-white/40">|</span>
-                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">Visiting Angels Mexico</Link>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">MidAid Mexico</Link>
                             <span className="hidden md:inline text-white/40">|</span>
                             <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:opacity-80 transition-colors font-semibold" style={{ color: '#dca626' }}>Senior Home Care By Angels Canada</Link>
                         </div>
@@ -137,12 +138,12 @@ export function Footer() {
                         Not all services are available at all locations. Please check with your <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">local agency</Link>.
                     </p>
                     <p>
-                        Each Visiting Angels agency is a franchise that is independently owned and operated.
+                        Each MidAid agency is a franchise that is independently owned and operated.
                         <br />
-                        The Franchisor, Living Assistance Services Inc., does not control or manage the day to day business operations of any Visiting Angels franchised agency.
+                        The Franchisor, Living Assistance Services Inc., does not control or manage the day to day business operations of any MidAid franchised agency.
                     </p>
                     <p>
-                        &copy;{new Date().getFullYear()} Visiting Angels is a registered trademark of Living Assistance Services, Inc.
+                        &copy;{new Date().getFullYear()} MidAid is a registered trademark of Living Assistance Services, Inc.
                     </p>
                     <div className="flex flex-wrap justify-center gap-x-2 text-[#3b7ea1] font-medium pt-2">
                         <Link href="#" className="underline decoration-1 underline-offset-2 hover:text-[#043b67] transition-colors">Privacy Policy</Link>

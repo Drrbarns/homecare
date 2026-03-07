@@ -26,12 +26,12 @@ export default function VeteransBenefitsPage() {
             answer: "It is recommended to apply as soon as the need for care arises, as the approval process can take several months. However, benefits are often retroactive to the date of application. If you anticipate a need for care in the near future, it's a good idea to start gathering the necessary documentation."
         },
         {
-            question: "How Can Visiting Angels Help With Veterans Care at Home?",
-            answer: "Visiting Angels works closely with veterans and their families to provide compassionate, personalized home care. We can assist with daily living activities, offer companionship, and help ensure a safe home environment. Our care coordinators can also help guide you through the process of utilizing your VA benefits to pay for our services."
+            question: "How Can MidAid Help With Veterans Care at Home?",
+            answer: "MidAid works closely with veterans and their families to provide compassionate, personalized home care. We can assist with daily living activities, offer companionship, and help ensure a safe home environment. Our care coordinators can also help guide you through the process of utilizing your VA benefits to pay for our services."
         },
         {
             question: "How Can We Get Started with In-home Care?",
-            answer: "Getting started is easy. Simply contact your local Visiting Angels office to schedule a free, no-obligation consultation. We will meet with you and your loved one to assess their needs, discuss scheduling and costs, and create a customized care plan."
+            answer: "Getting started is easy. Simply contact your local MidAid office to schedule a free, no-obligation consultation. We will meet with you and your loved one to assess their needs, discuss scheduling and costs, and create a customized care plan."
         }
     ];
 
@@ -178,7 +178,7 @@ export default function VeteransBenefitsPage() {
                                         Serving Those Who Served
                                     </h2>
                                     <p className="text-[15.5px] text-[#333333] mb-8 leading-[1.7] max-w-xl">
-                                        Visiting Angels is proud to support our nation's veterans with the dignity and
+                                        MidAid is proud to support our nation's veterans with the dignity and
                                         compassionate care they deserve. Through personalized in-home services and close
                                         collaboration with families and VA programs, we ensure every veteran receives the
                                         respect and honor they've earned through their years of service.

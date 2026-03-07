@@ -22,7 +22,7 @@ export default function ContactUsPage() {
                     </h1>
                     <p className="text-[16.5px] text-[#333333] mb-4 leading-relaxed">
                         If you have a general question or want to provide helpful feedback regarding your
-                        local Visiting Angels, please email <a href="mailto:CustomerSupport@visitingangels.com" className="text-[#3b7ea1] hover:text-[#043b67] hover:underline">CustomerSupport@visitingangels.com</a>.
+                        local MidAid, please email <a href="mailto:info.help@midaid.com" className="text-[#3b7ea1] hover:text-[#043b67] hover:underline">info.help@midaid.com</a>.
                     </p>
                     <p className="text-[16.5px] text-[#333333] leading-relaxed">
                         For Franchise Opportunities, <a href="#" className="text-[#3b7ea1] hover:text-[#043b67] hover:underline">click here.</a>

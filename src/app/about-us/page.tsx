@@ -10,7 +10,7 @@ import { FloatingGetStarted } from "@/components/layout/FloatingGetStarted";
 
 export const metadata = {
     title: "About Us",
-    description: "Learn about Visiting Angels—America's Choice in Senior Home Care. Compassionate, personalized in-home care for over 25 years.",
+    description: "Learn about MidAid — Australias trusted provider of compassionate, personalized in-home care for over 25 years.",
 };
 
 export default function AboutUsPage() {
@@ -18,7 +18,7 @@ export default function AboutUsPage() {
         <>
             <InnerPageHero 
                 title="About Us"
-                description="At Visiting Angels, we specialize in providing compassionate, personalized care that enriches the lives of aging adults and ensures their thriving in the comfort of home."
+                description="At MidAid, we specialize in providing compassionate, personalized care that enriches the lives of aging adults and ensures their thriving in the comfort of home."
                 imageSrc="/images/Whisk_e190e781f3497f990c843fa14d6d7133dr.jpeg"
                 imageAlt="Caregiver and senior outdoors"
                 showPlayButton={true}

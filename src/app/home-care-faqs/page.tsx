@@ -6,14 +6,14 @@ import { FAQAccordion } from "@/components/shared/FAQAccordion";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Home Care FAQs | Visiting Angels",
-    description: "Selecting home care for a loved one requires careful consideration. Visiting Angels offers comprehensive answers you need to ensure the best possible in-home care.",
+    title: "Home Care FAQs | MidAid",
+    description: "Selecting home care for a loved one requires careful consideration. MidAid offers comprehensive answers you need to ensure the best possible in-home care.",
 };
 
 export default function HomeCareFAQsPage() {
     const faqs = [
         {
-            question: "What Services Do Visiting Angels Caregivers Provide?",
+            question: "What Services Do MidAid Caregivers Provide?",
             answer: "Our caregivers provide a wide range of services including assistance with personal care (bathing, dressing, grooming), companion care, light housekeeping, meal preparation, medication reminders, errands, and specialized care such as Alzheimer's or dementia care. Services are customized to meet the unique needs of each senior."
         },
         {
@@ -25,15 +25,15 @@ export default function HomeCareFAQsPage() {
             answer: "In-home personal care (or non-medical home care) assists with activities of daily living (ADLs) like bathing, meal prep, and companionship. Home health care involves medical services provided by registered nurses or therapists, such as wound care, administering injections, or physical therapy."
         },
         {
-            question: "Does Visiting Angels Provide Services In Assisted Living Facilities?",
+            question: "Does MidAid Provide Services In Assisted Living Facilities?",
             answer: "Yes. While our primary focus is providing care in the home, our caregivers can also provide supplementary support to seniors residing in assisted living facilities, nursing homes, or rehabilitation centers if they require more one-on-one attention than the facility provides."
         },
         {
             question: "Can I Change The Home Care Schedule?",
-            answer: "Absolutely. We understand that your loved one's needs and your family's schedule may change over time. Our care plans are flexible, and you can easily adjust the caregiver's schedule by contacting your local Visiting Angels office with reasonable notice."
+            answer: "Absolutely. We understand that your loved one's needs and your family's schedule may change over time. Our care plans are flexible, and you can easily adjust the caregiver's schedule by contacting your local MidAid office with reasonable notice."
         },
         {
-            question: "Does Visiting Angels Care For People With Alzheimer's or Other Medical Conditions?",
+            question: "Does MidAid Care For People With Alzheimer's or Other Medical Conditions?",
             answer: "Yes, many of our caregivers are experienced in supporting seniors with Alzheimer's disease, dementia, Parkinson's, and other chronic conditions. We provide specialized, non-medical care strategies designed to manage the unique challenges associated with these illnesses."
         },
         {
@@ -46,11 +46,11 @@ export default function HomeCareFAQsPage() {
         },
         {
             question: "What If I No Longer Need Services?",
-            answer: "We offer flexible scheduling without long-term binding contracts. If you need to pause or cancel services, you can do so by notifying your local Visiting Angels office according to the terms discussed during your initial consultation."
+            answer: "We offer flexible scheduling without long-term binding contracts. If you need to pause or cancel services, you can do so by notifying your local MidAid office according to the terms discussed during your initial consultation."
         },
         {
-            question: "How Do I Start Home Care Services With Visiting Angels?",
-            answer: "Getting started is easy. Simply contact your local Visiting Angels office to schedule a free, no-obligation in-home consultation. During this meeting, a care coordinator will assess your loved one's needs, answer your questions, and develop a customized care plan."
+            question: "How Do I Start Home Care Services With MidAid?",
+            answer: "Getting started is easy. Simply contact your local MidAid office to schedule a free, no-obligation in-home consultation. During this meeting, a care coordinator will assess your loved one's needs, answer your questions, and develop a customized care plan."
         }
     ];
 
@@ -79,7 +79,7 @@ export default function HomeCareFAQsPage() {
                         
                         <p className="mb-6 text-[15.5px]">
                             <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">Selecting home care</Link> for a loved one and choosing the right provider requires careful consideration
-                            and asking essential questions. Visiting Angels offers comprehensive answers you need to ensure
+                            and asking essential questions. MidAid offers comprehensive answers you need to ensure
                             the best possible <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">in-home care</Link>.
                         </p>
                         

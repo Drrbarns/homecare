@@ -48,10 +48,10 @@ export function TopChoiceAndExpertise() {
                         </p>
                         <div className="space-y-5 text-[15px] text-[#333333] leading-[1.6] font-sans">
                             <p>
-                                Visiting Angels provides compassionate and dedicated care tailored to meet your loved one's specific needs. Whether assistance is needed with daily tasks or to provide companionship, our professional caregivers will provide personalized support in the comfort of your senior's home.
+                                MidAid provides compassionate and dedicated care tailored to meet your loved one's specific needs. Whether assistance is needed with daily tasks or to provide companionship, our professional caregivers will provide personalized support in the comfort of your senior's home.
                             </p>
                             <p>
-                                Simply enter your city, state, or ZIP code to connect with a Visiting Angels agency near you and discover how our dedicated care services can enhance your loved one's quality of life.
+                                Simply enter your city, state, or ZIP code to connect with a MidAid agency near you and discover how our dedicated care services can enhance your loved one's quality of life.
                             </p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ export function TopChoiceAndExpertise() {
                         </h2>
                         <div className="space-y-5 text-[15px] text-[#333333] leading-[1.6] font-sans">
                             <p>
-                                With more than 25 years of expertise in home care, Visiting Angels brings a wealth of experience and dedication to providing exceptional care for your loved one. Our seasoned <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">caregivers</Link> excel in meeting diverse needs, ensuring personalized assistance and meaningful companionship.
+                                With more than 25 years of expertise in home care, MidAid brings a wealth of experience and dedication to providing exceptional care for your loved one. Our seasoned <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">caregivers</Link> excel in meeting diverse needs, ensuring personalized assistance and meaningful companionship.
                             </p>
                             <p>
                                 Our nationwide network of franchised offices can coordinate <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67] transition-colors">senior care at home</Link> to meet both temporary and long-term needs.
@@ -78,7 +78,7 @@ export function TopChoiceAndExpertise() {
                     <div className="w-full md:w-[55%] lg:w-[55%]">
                         <div className="bg-white border border-gray-200 rounded-[6px] p-8 md:p-10 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
                             <h3 className="text-[18px] md:text-[20px] font-bold text-[#043b67] mb-6 font-sans">
-                                Visiting Angels Provides Families With:
+                                MidAid Provides Families With:
                             </h3>
                             <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
                                 <ul className="flex-1 space-y-3">

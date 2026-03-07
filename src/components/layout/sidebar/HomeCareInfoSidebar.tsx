@@ -66,7 +66,7 @@ export function HomeCareInfoSidebar() {
                     Contact Us About<br/>Our Home Care
                 </h3>
                 <p className="text-[15px] text-[#333333] mb-6">
-                    Call <a href="tel:800-365-4189" className="text-[#3b7ea1] hover:underline">800-365-4189</a> or fill out the form below.
+                    Call <a href="tel:489987299" className="text-[#3b7ea1] hover:underline">489 987 299</a> or fill out the form below.
                 </p>
 
                 <form className="space-y-4">
@@ -134,7 +134,7 @@ export function HomeCareInfoSidebar() {
                     </button>
 
                     <p className="text-[12px] text-[#666666] leading-[1.6] mt-4">
-                        By submitting this form, I agree to be contacted by Visiting Angels via call, email and text. To opt out, you can reply 'stop' at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <a href="/privacy-policy" className="text-[#3b7ea1] hover:underline">Privacy Policy</a> page.
+                        By submitting this form, I agree to be contacted by MidAid via call, email and text. To opt out, you can reply 'stop' at any time or click the unsubscribe link in the emails. Message and data rates may apply. Learn more on our <a href="/privacy-policy" className="text-[#3b7ea1] hover:underline">Privacy Policy</a> page.
                     </p>
                 </form>
             </div>

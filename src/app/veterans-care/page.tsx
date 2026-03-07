@@ -85,7 +85,7 @@ export default function VeteransCarePage() {
                             Respectful Home Care for Senior Veterans
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            At Visiting Angels, we believe every veteran deserves care that recognizes not only their service to our country but also their humanity. Our <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> provide compassionate, in-home support that honors each veteran's life story, values, and independence—helping them live with dignity and comfort in the place they call home.
+                            At MidAid, we believe every veteran deserves care that recognizes not only their service to our country but also their humanity. Our <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">caregivers</Link> provide compassionate, in-home support that honors each veteran's life story, values, and independence—helping them live with dignity and comfort in the place they call home.
                         </p>
                         <p className="mb-6 text-[15.5px]">
                             Veterans have given so much in service to our nation, and as they age, they deserve care that reflects the depth and individuality of their experiences. Every veteran's story is unique—their years of service, their sacrifices, and the values they carry forward.
@@ -98,7 +98,7 @@ export default function VeteransCarePage() {
                             Customized Home Care Plans for Veterans
                         </h2>
                         <p className="mb-8 text-[15.5px]">
-                            With support from Visiting Angels, your loved one can maintain the structure and independence they need to age in place at home. We will partner with you to create a care plan that respects their service history and personal dignity.
+                            With support from MidAid, your loved one can maintain the structure and independence they need to age in place at home. We will partner with you to create a care plan that respects their service history and personal dignity.
                         </p>
 
                         {/* White Box List */}
@@ -130,7 +130,7 @@ export default function VeteransCarePage() {
                         </div>
 
                         <p className="mb-12 text-[15.5px]">
-                            We also offer related services such as <Link href="/respite-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">respite care</Link> for family members and <Link href="/transition-home-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">transitional care</Link> after hospital stays. As your loved one's needs changes, your Visiting Angels team can provide specialized personal care services, such as <Link href="/alzheimers-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Alzheimer's</Link> and <Link href="/dementia-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">dementia care</Link>, non-medical <Link href="/palliative-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">palliative care</Link>, and non-medical <Link href="/end-of-life-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">end-of-life care</Link>.
+                            We also offer related services such as <Link href="/respite-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">respite care</Link> for family members and <Link href="/transition-home-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">transitional care</Link> after hospital stays. As your loved one's needs changes, your MidAid team can provide specialized personal care services, such as <Link href="/alzheimers-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">Alzheimer's</Link> and <Link href="/dementia-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">dementia care</Link>, non-medical <Link href="/palliative-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">palliative care</Link>, and non-medical <Link href="/end-of-life-care" className="underline text-[#3b7ea1] hover:text-[#043b67]">end-of-life care</Link>.
                         </p>
 
                         <h2 className="text-[26px] md:text-[32px] font-bold text-[#043b67] mb-6 font-sans tracking-tight">
@@ -154,7 +154,7 @@ export default function VeteransCarePage() {
                             </li>
                         </ul>
                         <p className="mb-16 text-[15.5px]">
-                            A Visiting Angels <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care coordinator</Link> can help connect you with the right contacts and documentation to explore benefit eligibility and payment options. If you're already working with the VA or another agency, our team coordinates with those services to complement existing benefits and care plans.
+                            A MidAid <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care coordinator</Link> can help connect you with the right contacts and documentation to explore benefit eligibility and payment options. If you're already working with the VA or another agency, our team coordinates with those services to complement existing benefits and care plans.
                         </p>
 
                         {/* Custom Get Started Section */}
@@ -163,7 +163,7 @@ export default function VeteransCarePage() {
                                 Get Started with In-Home Care
                             </h2>
                             <p className="text-white text-[15.5px] mb-10 text-center max-w-[800px] mx-auto">
-                                Starting in-home care for your veteran is easy with Visiting Angels. Follow these straightforward steps to initiate services in your loved one's home.
+                                Starting in-home care for your veteran is easy with MidAid. Follow these straightforward steps to initiate services in your loved one's home.
                             </p>
                             
                             <div className="grid md:grid-cols-3 gap-6 relative">
@@ -188,7 +188,7 @@ export default function VeteransCarePage() {
                                     </div>
                                     <h3 className="text-[17px] font-bold text-[#043b67] mb-4 leading-snug">Step 1: Schedule a Free Home Care Consultation</h3>
                                     <p className="text-[#333333] leading-relaxed text-[13.5px]">
-                                        During a <Link href="/contact-us" className="underline text-[#3b7ea1] hover:text-[#043b67]">free home care consultation</Link>, a Visiting Angels coordinator will meet with your family to answer questions and learn about your veteran's preferences, routines, and care requirements.
+                                        During a <Link href="/contact-us" className="underline text-[#3b7ea1] hover:text-[#043b67]">free home care consultation</Link>, a MidAid coordinator will meet with your family to answer questions and learn about your veteran's preferences, routines, and care requirements.
                                     </p>
                                     {/* Arrow to Next Card */}
                                     <div className="hidden md:flex absolute top-[55%] -right-3 translate-x-1/2 -translate-y-1/2 w-11 h-11 bg-[#eaf6f9] text-[#043b67] border-[#043b67] z-10 rounded-full border-[3px] items-center justify-center shadow-sm">
@@ -251,7 +251,7 @@ export default function VeteransCarePage() {
                                     </div>
                                     <h3 className="text-[17px] font-bold text-[#043b67] mb-4 leading-snug">Step 3: Meet Your Caregiver</h3>
                                     <p className="text-[#333333] leading-relaxed text-[13.5px]">
-                                        We thoroughly screen and <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">select the best professional caregivers</Link> for your senior. You'll feel confident knowing your loved one is safe and comfortable at home with a Visiting Angels' caregiver by their side.
+                                        We thoroughly screen and <Link href="/careers" className="underline text-[#3b7ea1] hover:text-[#043b67]">select the best professional caregivers</Link> for your senior. You'll feel confident knowing your loved one is safe and comfortable at home with a MidAid' caregiver by their side.
                                     </p>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@ export default function VeteransCarePage() {
                                     Serving Those Who Served
                                 </h2>
                                 <p className="mb-8 text-[15.5px]">
-                                    Visiting Angels is proud to support our nation's veterans with the dignity and compassionate care they deserve. Through personalized in-home services and close collaboration with families and VA programs, we ensure every veteran receives the respect and honor they've earned through their years of service.
+                                    MidAid is proud to support our nation's veterans with the dignity and compassionate care they deserve. Through personalized in-home services and close collaboration with families and VA programs, we ensure every veteran receives the respect and honor they've earned through their years of service.
                                 </p>
                                 <Link href="/brochures" className="inline-flex items-center justify-center bg-[#d8981e] text-[#043b67] font-bold text-[15px] px-8 py-3.5 rounded-[4px] hover:bg-[#c78b1b] transition-colors">
                                     View Flipbook
@@ -275,12 +275,12 @@ export default function VeteransCarePage() {
                                     <div className="relative w-full h-full">
                                         <Image
                                             src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600&auto=format&fit=crop"
-                                            alt="Visiting Angels Veterans Flipbook Cover"
+                                            alt="MidAid Veterans Flipbook Cover"
                                             fill
                                             className="object-cover object-center"
                                         />
                                         <div className="absolute bottom-0 left-0 right-0 bg-[#043b67] p-4 text-center">
-                                            <div className="font-bold text-white text-[13px] mb-1 italic">Visiting Angels</div>
+                                            <div className="font-bold text-white text-[13px] mb-1 italic">MidAid</div>
                                             <div className="text-white text-[14px] leading-tight font-semibold">Veterans Pursuing Well Being and Prioritizing Their Health</div>
                                         </div>
                                     </div>

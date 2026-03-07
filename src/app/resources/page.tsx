@@ -4,7 +4,7 @@ import { CheckCircle2, ChevronRight, HelpCircle, Phone, Info, DollarSign } from 
 import Link from "next/link";
 
 export const metadata = {
-    title: "Home Care Info & Resources | Visiting Angels",
+    title: "Home Care Info & Resources | MidAid",
     description: "Get answers to frequently asked questions, learn how to get started, and find out about home care costs.",
 }
 

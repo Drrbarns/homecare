@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "Our Reviews | Home Care Testimonials",
-    description: "Client satisfaction drives Visiting Angels. Our reviews speak to the compassionate care we provide nationwide.",
+    description: "Client satisfaction drives MidAid. Our reviews speak to the compassionate care we provide nationwide.",
 };
 
 export default function OurReviewsPage() {
@@ -15,7 +15,7 @@ export default function OurReviewsPage() {
         <>
             <InnerPageHero
                 title="Our Reviews"
-                description="Client satisfaction drives Visiting Angels. Our reviews speak to the compassionate care we provide nationwide."
+                description="Client satisfaction drives MidAid. Our reviews speak to the compassionate care we provide nationwide."
                 imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Caregiver standing with senior woman looking in mirror"
             />
@@ -60,7 +60,7 @@ export default function OurReviewsPage() {
                                 </p>
                                 <p className="text-[15.5px]">
                                     Please read below to learn about the experiences of our clients
-                                    and their loved ones, and see why Visiting Angels is a trusted
+                                    and their loved ones, and see why MidAid is a trusted
                                     choice for <Link href="/home-care-services" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care</Link>.
                                 </p>
                             </div>
@@ -80,7 +80,7 @@ export default function OurReviewsPage() {
                                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M54.627 0l.83 5.485-5.405.906-1.57-5.46L54.627 0zM28.05 60l-.83-5.485 5.405-.906 1.57 5.46L28.05 60zM5.372 0l-.83 5.485 5.405.906 1.57-5.46L5.373 0zM31.95 60l.83-5.485-5.405-.906-1.57 5.46L31.95 60zM40.916 6.275l2.42-4.908 4.907 2.42-2.316 4.96-5.01-2.472zm-21.83 47.45l-2.42 4.908-4.907-2.42 2.316-4.96 5.01 2.472zm12.35-47.45l-2.42-4.908-4.907 2.42 2.316 4.96 5.01-2.472zm21.83 47.45l2.42 4.908 4.907-2.42-2.316-4.96-5.01 2.472zM24.78 14.86l4.05-3.666 3.665 4.05-3.923 3.797-3.792-4.18zm10.44 30.28l-4.05 3.666-3.665-4.05 3.923-3.797 3.792 4.18zm-20.08-11.45l4.908-2.42 2.42 4.907-4.96 2.316-2.368-4.803zm41.72 11.45l-4.908 2.42-2.42-4.907 4.96-2.316 2.368 4.803zM10.15 37.33l5.484-.83.906 5.405-5.46 1.57-1.03-5.326zm39.7 0l-5.484-.83-.906 5.405 5.46 1.57 1.03-5.326z\' fill=\'%23ffffff\' fill-rule=\'evenodd\'/%3E%3C/svg%3E")' }}></div>
                                 
                                 <p className="relative z-10 pt-16 text-[15.5px] leading-[1.7] mb-8 font-medium">
-                                    Visiting Angels was a trusted
+                                    MidAid was a trusted
                                     partner in providing care to
                                     supplement hospice during my
                                     father's decline. Care supporting
@@ -112,17 +112,17 @@ export default function OurReviewsPage() {
                                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M54.627 0l.83 5.485-5.405.906-1.57-5.46L54.627 0zM28.05 60l-.83-5.485 5.405-.906 1.57 5.46L28.05 60zM5.372 0l-.83 5.485 5.405.906 1.57-5.46L5.373 0zM31.95 60l.83-5.485-5.405-.906-1.57 5.46L31.95 60zM40.916 6.275l2.42-4.908 4.907 2.42-2.316 4.96-5.01-2.472zm-21.83 47.45l-2.42 4.908-4.907-2.42 2.316-4.96 5.01 2.472zm12.35-47.45l-2.42-4.908-4.907 2.42 2.316 4.96 5.01-2.472zm21.83 47.45l2.42 4.908 4.907-2.42-2.316-4.96-5.01 2.472zM24.78 14.86l4.05-3.666 3.665 4.05-3.923 3.797-3.792-4.18zm10.44 30.28l-4.05 3.666-3.665-4.05 3.923-3.797 3.792 4.18zm-20.08-11.45l4.908-2.42 2.42 4.907-4.96 2.316-2.368-4.803zm41.72 11.45l-4.908 2.42-2.42-4.907 4.96-2.316 2.368 4.803zM10.15 37.33l5.484-.83.906 5.405-5.46 1.57-1.03-5.326zm39.7 0l-5.484-.83-.906 5.405 5.46 1.57 1.03-5.326z\' fill=\'%23ffffff\' fill-rule=\'evenodd\'/%3E%3C/svg%3E")' }}></div>
                                 
                                 <p className="relative z-10 pt-16 text-[15.5px] leading-[1.7] mb-8 font-medium">
-                                    Visiting Angels came recommended to
+                                    MidAid came recommended to
                                     us when we unexpectedly needed
                                     additional assistance in caring for my
                                     dad when he was sent home from the
                                     hospital under hospice care. Everyone
-                                    we worked with from Visiting Angels
+                                    we worked with from MidAid
                                     was wonderful. Our "angels" were so
                                     kind to my dad, treated him with
                                     dignity, and became a part of our
                                     family. I highly recommend using
-                                    Visiting Angels for additional support
+                                    MidAid for additional support
                                     and care for your loved one.
                                 </p>
                                 <div className="mt-auto relative z-10 text-right pr-4">
@@ -142,12 +142,12 @@ export default function OurReviewsPage() {
                                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M54.627 0l.83 5.485-5.405.906-1.57-5.46L54.627 0zM28.05 60l-.83-5.485 5.405-.906 1.57 5.46L28.05 60zM5.372 0l-.83 5.485 5.405.906 1.57-5.46L5.373 0zM31.95 60l.83-5.485-5.405-.906-1.57 5.46L31.95 60zM40.916 6.275l2.42-4.908 4.907 2.42-2.316 4.96-5.01-2.472zm-21.83 47.45l-2.42 4.908-4.907-2.42 2.316-4.96 5.01 2.472zm12.35-47.45l-2.42-4.908-4.907 2.42 2.316 4.96 5.01-2.472zm21.83 47.45l2.42 4.908 4.907-2.42-2.316-4.96-5.01 2.472zM24.78 14.86l4.05-3.666 3.665 4.05-3.923 3.797-3.792-4.18zm10.44 30.28l-4.05 3.666-3.665-4.05 3.923-3.797 3.792 4.18zm-20.08-11.45l4.908-2.42 2.42 4.907-4.96 2.316-2.368-4.803zm41.72 11.45l-4.908 2.42-2.42-4.907 4.96-2.316 2.368 4.803zM10.15 37.33l5.484-.83.906 5.405-5.46 1.57-1.03-5.326zm39.7 0l-5.484-.83-.906 5.405 5.46 1.57 1.03-5.326z\' fill=\'%23ffffff\' fill-rule=\'evenodd\'/%3E%3C/svg%3E")' }}></div>
                                 
                                 <p className="relative z-10 pt-16 text-[15.5px] leading-[1.7] mb-8 font-medium">
-                                    Visiting Angels of York provided
+                                    MidAid of York provided
                                     competent and compassionate
                                     support in caring for our mother
                                     who had Alzheimer's disease.
                                     Through the many twists and turns
-                                    of this journey, Visiting Angels were
+                                    of this journey, MidAid were
                                     right beside us, partnering with us
                                     to meet each goal with patience
                                     and professionalism. We could not
@@ -171,7 +171,7 @@ export default function OurReviewsPage() {
                                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M54.627 0l.83 5.485-5.405.906-1.57-5.46L54.627 0zM28.05 60l-.83-5.485 5.405-.906 1.57 5.46L28.05 60zM5.372 0l-.83 5.485 5.405.906 1.57-5.46L5.373 0zM31.95 60l.83-5.485-5.405-.906-1.57 5.46L31.95 60zM40.916 6.275l2.42-4.908 4.907 2.42-2.316 4.96-5.01-2.472zm-21.83 47.45l-2.42 4.908-4.907-2.42 2.316-4.96 5.01 2.472zm12.35-47.45l-2.42-4.908-4.907 2.42 2.316 4.96 5.01-2.472zm21.83 47.45l2.42 4.908 4.907-2.42-2.316-4.96-5.01 2.472zM24.78 14.86l4.05-3.666 3.665 4.05-3.923 3.797-3.792-4.18zm10.44 30.28l-4.05 3.666-3.665-4.05 3.923-3.797 3.792 4.18zm-20.08-11.45l4.908-2.42 2.42 4.907-4.96 2.316-2.368-4.803zm41.72 11.45l-4.908 2.42-2.42-4.907 4.96-2.316 2.368 4.803zM10.15 37.33l5.484-.83.906 5.405-5.46 1.57-1.03-5.326zm39.7 0l-5.484-.83-.906 5.405 5.46 1.57 1.03-5.326z\' fill=\'%23ffffff\' fill-rule=\'evenodd\'/%3E%3C/svg%3E")' }}></div>
                                 
                                 <p className="relative z-10 pt-16 text-[15.5px] leading-[1.7] mb-8 font-medium">
-                                    Visiting Angels has been such a
+                                    MidAid has been such a
                                     blessing for us. The caregivers are so
                                     helpful and can take Mom on errands
                                     or to the doctor. They are wonderful
@@ -180,7 +180,7 @@ export default function OurReviewsPage() {
                                     office is fabulous and flexible about
                                     scheduling and are always prompt and
                                     courteous with responses. I highly
-                                    recommend Visiting Angels services!
+                                    recommend MidAid services!
                                 </p>
                                 <div className="mt-auto relative z-10 text-right pr-4">
                                     <p className="font-bold text-[16px] mb-1">— Adair Watkins</p>
@@ -206,7 +206,7 @@ export default function OurReviewsPage() {
                                     in the schedule, and work with us
                                     to provide the best care. Highly
                                     recommend your first call be to
-                                    Visiting Angels.
+                                    MidAid.
                                 </p>
                                 <div className="mt-auto relative z-10 text-right pr-4">
                                     <p className="font-bold text-[16px] mb-1">— Linda Hart</p>
@@ -225,7 +225,7 @@ export default function OurReviewsPage() {
                                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M54.627 0l.83 5.485-5.405.906-1.57-5.46L54.627 0zM28.05 60l-.83-5.485 5.405-.906 1.57 5.46L28.05 60zM5.372 0l-.83 5.485 5.405.906 1.57-5.46L5.373 0zM31.95 60l.83-5.485-5.405-.906-1.57 5.46L31.95 60zM40.916 6.275l2.42-4.908 4.907 2.42-2.316 4.96-5.01-2.472zm-21.83 47.45l-2.42 4.908-4.907-2.42 2.316-4.96 5.01 2.472zm12.35-47.45l-2.42-4.908-4.907 2.42 2.316 4.96 5.01-2.472zm21.83 47.45l2.42 4.908 4.907-2.42-2.316-4.96-5.01 2.472zM24.78 14.86l4.05-3.666 3.665 4.05-3.923 3.797-3.792-4.18zm10.44 30.28l-4.05 3.666-3.665-4.05 3.923-3.797 3.792 4.18zm-20.08-11.45l4.908-2.42 2.42 4.907-4.96 2.316-2.368-4.803zm41.72 11.45l-4.908 2.42-2.42-4.907 4.96-2.316 2.368 4.803zM10.15 37.33l5.484-.83.906 5.405-5.46 1.57-1.03-5.326zm39.7 0l-5.484-.83-.906 5.405 5.46 1.57 1.03-5.326z\' fill=\'%23ffffff\' fill-rule=\'evenodd\'/%3E%3C/svg%3E")' }}></div>
                                 
                                 <p className="relative z-10 pt-16 text-[15.5px] leading-[1.7] mb-8 font-medium">
-                                    Visiting Angels has provided care for
+                                    MidAid has provided care for
                                     my mother for more than two years. At
                                     times, we have needed around the
                                     clock care, and at other times only

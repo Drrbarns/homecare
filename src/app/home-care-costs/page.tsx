@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "Home Care Costs | Affordable Senior Care",
-    description: "Visiting Angels offers affordable rates for professional and compassionate home care services—from respite care to around-the-clock assistance.",
+    description: "MidAid offers affordable rates for professional and compassionate home care services—from respite care to around-the-clock assistance.",
 };
 
 export default function HomeCareCostsPage() {
@@ -15,7 +15,7 @@ export default function HomeCareCostsPage() {
         <>
             <InnerPageHero
                 title="Home Care Costs"
-                description="Visiting Angels offers affordable rates for professional and compassionate home care services—from respite care to around-the-clock assistance."
+                description="MidAid offers affordable rates for professional and compassionate home care services—from respite care to around-the-clock assistance."
                 imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Caregiver and senior looking at paperwork"
                 showPlayButton={true}
@@ -46,7 +46,7 @@ export default function HomeCareCostsPage() {
                                     nursing home.
                                 </p>
                                 <p className="mb-0 text-[15.5px]">
-                                    Visiting Angels offers flexible home care services
+                                    MidAid offers flexible home care services
                                     to help you receive essential support and avoid
                                     unnecessary costs you may pay for at an
                                     assisted living facility. For example, if you don't
@@ -158,7 +158,7 @@ export default function HomeCareCostsPage() {
                             Personalized Care Planning That Puts Your Family First
                         </h2>
                         <p className="mb-6 text-[15.5px]">
-                            When you choose Visiting Angels, we will create a personalized <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">senior care plan</Link> to meet your loved
+                            When you choose MidAid, we will create a personalized <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">senior care plan</Link> to meet your loved
                             one's needs and respect your budget.
                         </p>
                         <p className="mb-6 text-[15.5px]">
@@ -232,7 +232,7 @@ export default function HomeCareCostsPage() {
                                     <div className="bg-white rounded-[4px] p-8">
                                         <h3 className="text-[20px] font-bold text-[#043b67] mb-4 font-sans">Private Pay</h3>
                                         <p className="text-[14.5px] text-[#333333] leading-[1.7]">
-                                            Most Visiting Angels clients pay out-
+                                            Most MidAid clients pay out-
                                             of-pocket—or "private pay"—which
                                             means they pay through their own
                                             funds. Usually, the funds are from
@@ -252,13 +252,13 @@ export default function HomeCareCostsPage() {
                                     Get Started with In-Home Care Services
                                 </h2>
                                 <p className="mb-6 text-[15.5px]">
-                                    Families nationwide have relied on Visiting Angels since 1998 as a leading provider of
+                                    Families nationwide have relied on MidAid since 1998 as a leading provider of
                                     affordable, high-quality home care. We're a steadfast partner who understands your
                                     concerns, needs, and preferences. We'll help your loved one live a full, active, and happy life
                                     in familiar surroundings.
                                 </p>
                                 <p className="mb-0 text-[15.5px]">
-                                    Contact a Visiting Angels <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location</Link> in your area today to learn more about
+                                    Contact a MidAid <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location</Link> in your area today to learn more about
                                     their costs. A coordinator can discuss your loved one's needs during a free <Link href="#" className="underline text-[#3b7ea1] hover:text-[#043b67]">in-home
                                     care consultation</Link>.
                                 </p>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://guardianangels.com', // Placeholder
+    url: 'https://midaid.com.au',
     title: brand.brandName,
     description: brand.tagline,
     siteName: brand.brandName

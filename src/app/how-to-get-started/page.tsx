@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
     title: "How to Get Started With Home Care",
-    description: "Visiting Angels makes it easy to support your aging loved one's well-being at home with compassionate care and expert guidance.",
+    description: "MidAid makes it easy to support your aging loved one's well-being at home with compassionate care and expert guidance.",
 };
 
 export default function HowToGetStartedPage() {
@@ -15,7 +15,7 @@ export default function HowToGetStartedPage() {
         <>
             <InnerPageHero
                 title="How to Get Started With Home Care"
-                description="Visiting Angels makes it easy to support your aging loved one's well-being at home with compassionate care and expert guidance."
+                description="MidAid makes it easy to support your aging loved one's well-being at home with compassionate care and expert guidance."
                 imageSrc="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=1200&auto=format&fit=crop"
                 imageAlt="Caregiver walking with senior outdoors"
             />
@@ -36,7 +36,7 @@ export default function HowToGetStartedPage() {
                         </h2>
 
                         <p className="mb-10 text-[15.5px]">
-                            Your first step to starting professional home care services with Visiting Angels is a free, in-person
+                            Your first step to starting professional home care services with MidAid is a free, in-person
                             consultation with a care coordinator (also known as a &quot;care manager&quot;). The meeting is an excellent
                             opportunity for you and your family to ask questions and receive personalized guidance. The
                             consultation also helps your care coordinator become acquainted with you and your loved one.
@@ -203,10 +203,10 @@ export default function HowToGetStartedPage() {
                                         Customized Care<br />Planning
                                     </h2>
                                     <p className="text-white text-[15.5px] mb-5 leading-relaxed">
-                                        Are you ready to begin home care services with Visiting Angels?
+                                        Are you ready to begin home care services with MidAid?
                                     </p>
                                     <p className="text-white text-[15.5px] mb-8 leading-relaxed">
-                                        Contact your nearest home care location or call 800-365-4189 today to schedule
+                                        Contact your nearest home care location or call 489 987 299 today to schedule
                                         your free home care consultation.
                                     </p>
                                     <Link
