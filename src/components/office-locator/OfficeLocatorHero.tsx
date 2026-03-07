@@ -1,9 +1,24 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { US_STATES } from "@/lib/constants/states";
 
 export function OfficeLocatorHero() {
     const [activeTab, setActiveTab] = useState<"zip" | "state">("zip");
+    const [selectedState, setSelectedState] = useState("");
+    const [zipCode, setZipCode] = useState("");
+    const router = useRouter();
+
+    const handleSearch = () => {
+        if (activeTab === "state" && selectedState) {
+            router.push(`/locations/${selectedState.toLowerCase()}`);
+        } else if (activeTab === "zip" && zipCode) {
+            // For now, zip code search could just go to a generic search or we can handle it later.
+            // Let's just route to a generic search page or alert for now.
+            alert(`Zip code search for ${zipCode} not yet implemented. Please use State search.`);
+        }
+    };
 
     return (
         <section className="relative w-full bg-[#f0f8fa] pt-16 pb-20 overflow-hidden">
@@ -52,18 +67,35 @@ export function OfficeLocatorHero() {
 
                             <div className="flex flex-col sm:flex-row gap-3">
                                 <div className="relative flex-grow">
-                                    <input 
-                                        type="text" 
-                                        placeholder={activeTab === "zip" ? "Zip Code where care is needed" : "Select a State"}
-                                        className="w-full h-[46px] px-4 pr-10 rounded-[4px] border border-gray-300 outline-none focus:border-[#3b7ea1] text-[15px] text-gray-800 placeholder:text-gray-500"
-                                    />
                                     {activeTab === "zip" ? (
-                                        <svg className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                        <>
+                                            <input 
+                                                type="text" 
+                                                placeholder="Zip Code where care is needed"
+                                                value={zipCode}
+                                                onChange={(e) => setZipCode(e.target.value)}
+                                                className="w-full h-[46px] px-4 pr-10 rounded-[4px] border border-gray-300 outline-none focus:border-[#3b7ea1] text-[15px] text-gray-800 placeholder:text-gray-500"
+                                            />
+                                            <svg className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                        </>
                                     ) : (
-                                        <svg className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        <>
+                                            <select
+                                                value={selectedState}
+                                                onChange={(e) => setSelectedState(e.target.value)}
+                                                className="w-full h-[46px] px-4 pr-10 rounded-[4px] border border-gray-300 outline-none focus:border-[#3b7ea1] text-[15px] text-gray-800 appearance-none bg-white"
+                                            >
+                                                <option value="" disabled>State where care is needed</option>
+                                                {US_STATES.map((state) => (
+                                                    <option key={state.value} value={state.value}>{state.label}</option>
+                                                ))}
+                                            </select>
+                                            <svg className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        </>
                                     )}
                                 </div>
                                 <button 
+                                    onClick={handleSearch}
                                     className="h-[46px] px-6 rounded-[4px] font-bold transition-opacity hover:opacity-90 shrink-0 shadow-sm"
                                     style={{ backgroundColor: '#dca626', color: '#000000', fontSize: '15px' }}
                                 >
