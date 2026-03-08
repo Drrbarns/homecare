@@ -7,7 +7,7 @@ import { brand } from "@/config/brand";
 
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = "https://midaid.com.au";
+const siteUrl = "https://midaid.com";
 const siteDescription = "MidAid provides compassionate, professional in-home senior care across Australia. Our experienced caregivers help your loved ones thrive at home with dignity and independence.";
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://midaid.com.au";
+const BASE_URL = "https://midaid.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const now = new Date().toISOString();

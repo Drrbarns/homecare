@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://midaid.com.au/sitemap.xml
+Sitemap: https://midaid.com/sitemap.xml
