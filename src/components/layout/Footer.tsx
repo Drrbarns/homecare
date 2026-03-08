@@ -125,6 +125,12 @@ export function Footer() {
                                 >
                                     Start A Franchise
                                 </Link>
+                                <Link 
+                                    href="/workers-roster"
+                                    className="block w-full text-center transition-opacity hover:opacity-90 rounded-[4px] py-[13px] font-bold text-[14.5px] border-2 border-white/30 text-white hover:bg-white/10"
+                                >
+                                    Workers Roster
+                                </Link>
                             </div>
                         </div>
                     </div>

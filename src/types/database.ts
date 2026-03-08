@@ -149,6 +149,23 @@ export interface AdminActivityLog {
     created_at: string;
 }
 
+export interface Staff {
+    id: string;
+    staff_id: string;
+    first_name: string;
+    last_name: string;
+    role: string;
+    department: string | null;
+    phone: string | null;
+    email: string | null;
+    avatar_url: string | null;
+    status: 'active' | 'inactive' | 'on_leave';
+    start_date: string | null;
+    published: boolean;
+    created_at: string;
+    updated_at: string;
+}
+
 export interface DashboardStats {
     total_leads: number;
     new_leads: number;
