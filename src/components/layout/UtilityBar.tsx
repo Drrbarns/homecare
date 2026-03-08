@@ -15,8 +15,8 @@ export function UtilityBar() {
             <div className="container mx-auto flex justify-between items-center px-4 sm:px-5 md:px-6 max-w-7xl">
                 {/* Left: Phone */}
                 <div className="flex items-center space-x-2">
-                    <a href="tel:489987299" className="flex items-center text-[16px] sm:text-[15px] font-bold hover:opacity-80 transition-opacity tracking-wide">
-                        <span>489 987 299</span>
+                    <a href="tel:0489987299" className="flex items-center text-[16px] sm:text-[15px] font-bold hover:opacity-80 transition-opacity tracking-wide">
+                        <span>0489 987 299</span>
                     </a>
                 </div>
 

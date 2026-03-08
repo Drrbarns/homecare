@@ -67,7 +67,7 @@ export function InnerPageSidebar() {
                     Contact Us About Our Home Care
                 </h3>
                 <p className="text-[14px] text-[#333333] mb-6">
-                    Call <a href="tel:489987299" className="text-[#3b7ea1] hover:underline">489 987 299</a> or fill out the form below.
+                    Call <a href="tel:0489987299" className="text-[#3b7ea1] hover:underline">0489 987 299</a> or fill out the form below.
                 </p>
 
                 <form className="space-y-4">

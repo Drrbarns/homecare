@@ -4,14 +4,14 @@ export const brand = {
     shortName: "MidAid",
     legalName: "MidAid Home Care Services",
     contact: {
-        phone: "489987299",
+        phone: "0489987299",
         email: "info.help@midaid.com",
         address: {
-            line1: "97-99 Bathurst St",
-            city: "Sydney",
+            line1: "Suite 17/89-97 Jones Street",
+            city: "Ultimo",
             state: "NSW",
-            zip: "2000",
-            full: "97-99 Bathurst St, Sydney NSW 2000, Australia"
+            zip: "2007",
+            full: "Suite 17/89-97 Jones Street, Ultimo, NSW 2007 Australia"
         }
     },
     colors: {

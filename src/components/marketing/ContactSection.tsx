@@ -50,7 +50,7 @@ export function ContactSection() {
                             Contact Us About Our Home Care
                         </h2>
                         <p className="text-[#333333] mb-6 text-[15px]">
-                            Call <Link href="tel:489987299" className="text-[#3b7ea1] hover:text-[#043b67]">489 987 299</Link> or fill out the form below.
+                            Call <Link href="tel:0489987299" className="text-[#3b7ea1] hover:text-[#043b67]">0489 987 299</Link> or fill out the form below.
                         </p>
 
                         <form onSubmit={handleSubmit} className="space-y-5">

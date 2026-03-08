@@ -227,7 +227,7 @@ export default function ServicesPage() {
                             We're Here For You
                         </h2>
                         <p className="text-[20px] text-[#1b3664] font-medium font-sans">
-                            Call <strong className="font-bold">489 987 299</strong> or fill out the form below.
+                            Call <strong className="font-bold">0489 987 299</strong> or fill out the form below.
                         </p>
                     </div>
 

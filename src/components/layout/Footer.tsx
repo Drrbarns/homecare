@@ -65,14 +65,14 @@ export function Footer() {
                         <div className="mb-6 font-sans">
                             <h3 className="font-bold text-[18px] md:text-[20px] mb-[2px]">MidAid</h3>
                             <p className="text-[14.5px] md:text-[15.5px] text-white">
-                                97-99 Bathurst St, Sydney NSW 2000, Australia
+                                Suite 17/89-97 Jones Street, Ultimo, NSW 2007 Australia
                             </p>
                             <a href="mailto:info.help@midaid.com" className="text-[14px] text-white/80 hover:text-white transition-colors">info.help@midaid.com</a>
                         </div>
 
                         <div className="mb-6 md:mb-8">
-                            <a href="tel:489987299" className="text-[22px] sm:text-[26px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
-                                489 987 299
+                            <a href="tel:0489987299" className="text-[22px] sm:text-[26px] md:text-[32px] font-bold tracking-tight hover:opacity-90 transition-opacity font-sans" style={{ color: '#dca626' }}>
+                                0489 987 299
                             </a>
                         </div>
 

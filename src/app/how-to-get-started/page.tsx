@@ -206,7 +206,7 @@ export default function HowToGetStartedPage() {
                                         Are you ready to begin home care services with MidAid?
                                     </p>
                                     <p className="text-white text-[15.5px] mb-8 leading-relaxed">
-                                        Contact your nearest home care location or call 489 987 299 today to schedule
+                                        Contact your nearest home care location or call 0489 987 299 today to schedule
                                         your free home care consultation.
                                     </p>
                                     <Link

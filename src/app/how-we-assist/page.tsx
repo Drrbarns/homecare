@@ -373,7 +373,7 @@ export default function HowWeAssistPage() {
                                 </p>
                                 <p className="mb-0 text-[15.5px]">
                                     When you're ready to learn more about our compassionate in-home services, contact your
-                                    nearest MidAid <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location</Link> today or call <a href="tel:489987299" className="underline text-[#3b7ea1] hover:text-[#043b67]">489 987 299</a>.
+                                    nearest MidAid <Link href="/office-locator" className="underline text-[#3b7ea1] hover:text-[#043b67]">home care location</Link> today or call <a href="tel:0489987299" className="underline text-[#3b7ea1] hover:text-[#043b67]">0489 987 299</a>.
                                 </p>
                             </div>
                             <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">

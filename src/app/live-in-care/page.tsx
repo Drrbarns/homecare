@@ -177,7 +177,7 @@ export default function LiveInCarePage() {
                                     Don't face the challenges of live-in home care alone. Contact MidAid to discover how our home care services can support your loved one and give you confidence they are receiving attentive, compassionate care.
                                 </p>
                                 <p className="text-[15.5px]">
-                                    Call <a href="tel:489987299" className="text-[#3b7ea1] hover:underline">489 987 299</a> or <Link href="/contact-us" className="text-[#3b7ea1] hover:underline">Complete Our Online Form</Link> to schedule a free in-home consultation.
+                                    Call <a href="tel:0489987299" className="text-[#3b7ea1] hover:underline">0489 987 299</a> or <Link href="/contact-us" className="text-[#3b7ea1] hover:underline">Complete Our Online Form</Link> to schedule a free in-home consultation.
                                 </p>
                             </div>
                             
