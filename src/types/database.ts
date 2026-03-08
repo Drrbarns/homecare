@@ -167,6 +167,24 @@ export interface Staff {
     updated_at: string;
 }
 
+export interface StaffQuestionnaire {
+    id: string;
+    staff_id: string;
+    staff_name: string;
+    availability: string;
+    preferred_shifts: string | null;
+    transport_mode: string | null;
+    max_travel_distance: string | null;
+    special_skills: string | null;
+    certifications: string | null;
+    languages: string | null;
+    emergency_contact_name: string | null;
+    emergency_contact_phone: string | null;
+    health_conditions: string | null;
+    additional_notes: string | null;
+    submitted_at: string;
+}
+
 export interface DashboardStats {
     total_leads: number;
     new_leads: number;

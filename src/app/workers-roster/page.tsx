@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Search } from "lucide-react";
+import Link from "next/link";
+import { Search, ClipboardList } from "lucide-react";
 
 interface StaffResult {
     staff_id: string;
@@ -161,7 +162,14 @@ export default function WorkersRosterPage() {
                                 <h2 className="text-[22px] font-bold text-gray-900 mb-1">
                                     {staff.first_name} {staff.last_name}
                                 </h2>
-                                <p className="text-[#3b7ea1] font-semibold text-[15px] mb-4">{staff.role}</p>
+                                <p className="text-[#3b7ea1] font-semibold text-[15px] mb-3">{staff.role}</p>
+
+                                {/* Duty message */}
+                                <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 mb-4 text-left">
+                                    <p className="text-[13px] text-amber-900 leading-relaxed">
+                                        Dear <span className="font-bold">{staff.first_name}</span>, no duty is scheduled for you at the moment. Click the link below to let us know more about you and how to prepare your daily duty.
+                                    </p>
+                                </div>
 
                                 {/* Details */}
                                 <div className="bg-gray-50 rounded-xl p-4 space-y-3 text-left text-sm">
@@ -198,10 +206,19 @@ export default function WorkersRosterPage() {
                             </div>
                         </div>
 
-                        <div className="text-center mt-5">
-                            <button onClick={handleReset} className="text-sm text-[#3b7ea1] hover:text-[#043b67] font-medium underline underline-offset-2 transition-colors">
-                                Search for another staff member
-                            </button>
+                        <div className="text-center mt-5 space-y-3">
+                            <Link
+                                href={`/workers-roster/questionnaire/${staff.staff_id}`}
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-[#043b67] text-white rounded-xl font-semibold text-sm hover:bg-[#032d50] transition-colors"
+                            >
+                                <ClipboardList className="w-4 h-4" />
+                                Fill Out Duty Readiness Form
+                            </Link>
+                            <div>
+                                <button onClick={handleReset} className="text-sm text-[#3b7ea1] hover:text-[#043b67] font-medium underline underline-offset-2 transition-colors">
+                                    Search for another staff member
+                                </button>
+                            </div>
                         </div>
                     </div>
                 )}
