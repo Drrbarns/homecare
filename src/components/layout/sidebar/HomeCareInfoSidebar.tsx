@@ -7,6 +7,27 @@ import { usePathname } from "next/navigation";
 export function HomeCareInfoSidebar() {
     const pathname = usePathname();
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [submitting, setSubmitting] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
+    const [sideForm, setSideForm] = useState({ type: "Home Care Services", name: "", email: "", phone: "", zip: "", person: "", heard: "" });
+
+    const handleSidebarSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setSubmitting(true);
+        try {
+            const res = await fetch("/api/lead", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: sideForm.name, email: sideForm.email, phone: sideForm.phone,
+                    zip_code: sideForm.zip, care_type: sideForm.type,
+                    person_needing_care: sideForm.person, heard_about_us: sideForm.heard,
+                }),
+            });
+            if (res.ok) { setSubmitted(true); setSideForm({ type: "Home Care Services", name: "", email: "", phone: "", zip: "", person: "", heard: "" }); }
+        } catch { /* silent */ }
+        setSubmitting(false);
+    };
 
     const menuItems = [
         { label: "Caregivers", href: "/caregivers" },
@@ -69,16 +90,16 @@ export function HomeCareInfoSidebar() {
                     Call <a href="tel:0489987299" className="text-[#3b7ea1] hover:underline">0489 987 299</a> or fill out the form below.
                 </p>
 
-                <form className="space-y-4">
+                <form className="space-y-4" onSubmit={handleSidebarSubmit}>
                     <div className="space-y-2 mb-5">
                         <label className="text-[12px] font-bold text-[#333333] uppercase tracking-widest">PLEASE SELECT</label>
                         <div className="flex flex-col space-y-2 mt-2">
                             <label className="flex items-center cursor-pointer">
-                                <input type="radio" name="type" value="Home Care Services" defaultChecked className="mr-2 w-3.5 h-3.5 border-gray-300 text-[#043b67]" />
+                                <input type="radio" name="type" value="Home Care Services" checked={sideForm.type === "Home Care Services"} onChange={(e) => setSideForm({...sideForm, type: e.target.value})} className="mr-2 w-3.5 h-3.5 border-gray-300 text-[#043b67]" />
                                 <span className="text-[14.5px] text-[#333333]">Home Care Services</span>
                             </label>
                             <label className="flex items-center cursor-pointer">
-                                <input type="radio" name="type" value="Employment Opportunities" className="mr-2 w-3.5 h-3.5 border-gray-300 text-[#043b67]" />
+                                <input type="radio" name="type" value="Employment Opportunities" checked={sideForm.type === "Employment Opportunities"} onChange={(e) => setSideForm({...sideForm, type: e.target.value})} className="mr-2 w-3.5 h-3.5 border-gray-300 text-[#043b67]" />
                                 <span className="text-[14.5px] text-[#333333]">Employment Opportunities</span>
                             </label>
                         </div>
@@ -86,20 +107,20 @@ export function HomeCareInfoSidebar() {
 
                     <div className="space-y-3">
                         <div>
-                            <input type="text" placeholder="Name *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                            <input type="text" placeholder="Name *" required value={sideForm.name} onChange={(e) => setSideForm({...sideForm, name: e.target.value})} className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
                         </div>
                         <div>
-                            <input type="email" placeholder="Email Address *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                            <input type="email" placeholder="Email Address *" required value={sideForm.email} onChange={(e) => setSideForm({...sideForm, email: e.target.value})} className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
                         </div>
                         <div>
-                            <input type="tel" placeholder="Phone *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                            <input type="tel" placeholder="Phone *" required value={sideForm.phone} onChange={(e) => setSideForm({...sideForm, phone: e.target.value})} className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
                         </div>
                         <div>
-                            <input type="text" placeholder="Zip Code *" required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
+                            <input type="text" placeholder="Zip Code *" required value={sideForm.zip} onChange={(e) => setSideForm({...sideForm, zip: e.target.value})} className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm placeholder:text-gray-500" />
                         </div>
                         
                         <div className="relative">
-                            <select required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] text-gray-500 shadow-sm appearance-none">
+                            <select required value={sideForm.person} onChange={(e) => setSideForm({...sideForm, person: e.target.value})} className={`w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm appearance-none ${sideForm.person ? "text-gray-800" : "text-gray-500"}`}>
                                 <option value="" disabled hidden>Person who needs care: Please select</option>
                                 <option value="Self">Self</option>
                                 <option value="Parent">Parent</option>
@@ -114,7 +135,7 @@ export function HomeCareInfoSidebar() {
                         </div>
 
                         <div className="relative">
-                            <select required className="w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] text-gray-500 shadow-sm appearance-none">
+                            <select required value={sideForm.heard} onChange={(e) => setSideForm({...sideForm, heard: e.target.value})} className={`w-full bg-white border border-transparent rounded-[2px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[14.5px] shadow-sm appearance-none ${sideForm.heard ? "text-gray-800" : "text-gray-500"}`}>
                                 <option value="" disabled hidden>How did you hear about us? Please select</option>
                                 <option value="Google">Google</option>
                                 <option value="Facebook">Facebook</option>
@@ -129,8 +150,8 @@ export function HomeCareInfoSidebar() {
                         </div>
                     </div>
 
-                    <button type="submit" className="w-full mt-6 transition-opacity hover:opacity-90 rounded-[3px] py-3.5 font-bold shadow-sm" style={{ backgroundColor: '#dca626', color: '#043b67', fontSize: '15px' }}>
-                        Send Message
+                    <button type="submit" disabled={submitting} className="w-full mt-6 transition-opacity hover:opacity-90 rounded-[3px] py-3.5 font-bold shadow-sm disabled:opacity-50" style={{ backgroundColor: '#dca626', color: '#043b67', fontSize: '15px' }}>
+                        {submitted ? "✓ Sent!" : submitting ? "Sending..." : "Send Message"}
                     </button>
 
                     <p className="text-[12px] text-[#666666] leading-[1.6] mt-4">

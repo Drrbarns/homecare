@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { StateSelector } from "@/components/office-locator/StateSelector";
 import { Newsletter } from "@/components/marketing/Newsletter";
+import { NoOfficesContactForm } from "@/components/locations/NoOfficesContactForm";
 
 export async function generateMetadata({ params }: { params: { state: string } }) {
     const stateCode = params.state.toUpperCase();
@@ -167,130 +168,7 @@ export default async function StateLocationPage({ params }: { params: { state: s
                                 </p>
                             </div>
                             
-                            {/* Contact Form Block */}
-                            <div className="bg-white border border-gray-200 shadow-lg rounded-[8px] overflow-hidden">
-                                <div className="bg-white py-6 text-center border-b border-gray-200">
-                                    <h3 className="text-[24px] font-bold text-[#043b67]">Contact Us About Senior Home Care Services</h3>
-                                </div>
-                                <div className="bg-[#043b67] py-6 text-center text-white">
-                                    <p className="text-[14px] uppercase tracking-wider mb-2 font-semibold">Please Select An Option:</p>
-                                    <h4 className="text-[24px] font-bold">What Are You Interested In?</h4>
-                                </div>
-                                <div className="p-8 md:p-10 bg-white">
-                                    <p className="text-[14px] text-gray-500 mb-6">Items marked with * are required.</p>
-                                    
-                                    <form className="space-y-6">
-                                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                            <div>
-                                                <label className="block text-[14px] text-[#333] mb-2">Your Name <span className="text-red-500">*</span></label>
-                                                <input type="text" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                            </div>
-                                            <div>
-                                                <label className="block text-[14px] text-[#333] mb-2">Phone <span className="text-red-500">*</span></label>
-                                                <input type="tel" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                                <div className="mt-2 text-[13px] text-gray-600 flex items-center gap-4">
-                                                    <span>Is this a cell phone?</span>
-                                                    <label className="flex items-center gap-1"><input type="radio" name="cell" /> Yes</label>
-                                                    <label className="flex items-center gap-1"><input type="radio" name="cell" /> No</label>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <label className="block text-[14px] text-[#333] mb-2">Email Address <span className="text-red-500">*</span></label>
-                                                <input type="email" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                            </div>
-                                        </div>
-                                        
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">Your Contact Preference:</label>
-                                            <div className="flex items-center gap-4 text-[14px] text-[#333]">
-                                                <label className="flex items-center gap-1"><input type="radio" name="pref" /> Email</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="pref" /> Phone</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="pref" /> Text</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="pref" /> No Preference</label>
-                                            </div>
-                                        </div>
-                                        
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">Address:</label>
-                                            <input type="text" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                        </div>
-                                        
-                                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                            <div>
-                                                <label className="block text-[14px] text-[#333] mb-2">City:</label>
-                                                <input type="text" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                            </div>
-                                            <div>
-                                                <label className="block text-[14px] text-[#333] mb-2">State: <span className="text-red-500">*</span></label>
-                                                <select className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1] bg-white">
-                                                    <option></option>
-                                                    {US_STATES.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
-                                                </select>
-                                            </div>
-                                            <div>
-                                                <label className="block text-[14px] text-[#333] mb-2">Zip Code:</label>
-                                                <input type="text" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                            </div>
-                                        </div>
-                                        
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">Person who needs care: <span className="text-red-500">*</span></label>
-                                            <select className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1] bg-white">
-                                                <option>Please select</option>
-                                                <option>Self</option>
-                                                <option>Parent</option>
-                                                <option>Spouse</option>
-                                                <option>Other</option>
-                                            </select>
-                                        </div>
-
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">When would you like services to begin? (Please select one)</label>
-                                            <div className="flex flex-wrap items-center gap-4 text-[14px] text-[#333]">
-                                                <label className="flex items-center gap-1"><input type="radio" name="when" /> Immediately</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="when" /> Within 2 Weeks</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="when" /> Within 4 Weeks</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="when" /> Within 8 Weeks</label>
-                                            </div>
-                                        </div>
-
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">Best to Contact During: <span className="text-red-500">*</span></label>
-                                            <input type="text" className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                        </div>
-
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">How did you hear about us? <span className="text-red-500">*</span></label>
-                                            <select className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1] bg-white">
-                                                <option></option>
-                                                <option>Internet Search</option>
-                                                <option>TV</option>
-                                                <option>Friend/Family</option>
-                                                <option>Other</option>
-                                            </select>
-                                        </div>
-
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">ZIP Code where care is needed: <span className="text-red-500">*</span></label>
-                                            <input type="text" defaultValue={stateObj.value === "ID" ? "10001" : ""} className="w-full border border-gray-300 rounded-[4px] px-4 py-2.5 focus:outline-none focus:border-[#3b7ea1]" />
-                                        </div>
-
-                                        <div>
-                                            <label className="block text-[14px] text-[#333] mb-2">Do you have an interest in receiving a Free In Home Care Consultation?</label>
-                                            <div className="flex items-center gap-4 text-[14px] text-[#333]">
-                                                <label className="flex items-center gap-1"><input type="radio" name="consult" /> Yes</label>
-                                                <label className="flex items-center gap-1"><input type="radio" name="consult" /> No</label>
-                                            </div>
-                                        </div>
-                                        
-                                        <div className="pt-4">
-                                            <button type="button" className="bg-[#dca626] hover:bg-[#c59522] text-black font-bold py-3 px-8 rounded-[4px] transition-colors">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                            <NoOfficesContactForm stateCode={stateCode} />
                         </div>
                     )}
                     

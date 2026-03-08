@@ -8,6 +8,29 @@ import { FloatingGetStarted } from "@/components/layout/FloatingGetStarted";
 export default function ContactUsPage() {
     const [interest, setInterest] = useState<"home-care" | "employment">("home-care");
     const [isCellPhone, setIsCellPhone] = useState<boolean | null>(null);
+    const [name, setName] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+    const [submitting, setSubmitting] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleContactSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setSubmitting(true);
+        try {
+            const res = await fetch("/api/lead", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name, email, phone,
+                    care_type: interest === "home-care" ? "Home Care Services" : "Employment Opportunities",
+                    is_cell_phone: isCellPhone,
+                }),
+            });
+            if (res.ok) { setSubmitted(true); setName(""); setPhone(""); setEmail(""); }
+        } catch { /* silent */ }
+        setSubmitting(false);
+    };
 
     return (
         <div className="bg-white min-h-screen">
@@ -73,7 +96,7 @@ export default function ContactUsPage() {
                             Items marked with <span className="text-red-500">*</span> are required.
                         </p>
 
-                        <form className="space-y-6">
+                        <form className="space-y-6" onSubmit={handleContactSubmit}>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 {/* Name */}
                                 <div className="space-y-2">
@@ -83,6 +106,8 @@ export default function ContactUsPage() {
                                     <input 
                                         type="text" 
                                         required
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
                                         className="w-full bg-white border border-gray-300 rounded-[4px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[15px]" 
                                     />
                                 </div>
@@ -95,6 +120,8 @@ export default function ContactUsPage() {
                                     <input 
                                         type="tel" 
                                         required
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
                                         className="w-full bg-white border border-gray-300 rounded-[4px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[15px]" 
                                     />
                                     <div className="flex items-center gap-4 mt-2 pt-1 text-[14.5px] text-[#333333]">
@@ -128,14 +155,16 @@ export default function ContactUsPage() {
                                     <input 
                                         type="email" 
                                         required
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
                                         className="w-full bg-white border border-gray-300 rounded-[4px] px-4 py-3 outline-none focus:border-[#3b7ea1] text-[15px]" 
                                     />
                                 </div>
                             </div>
 
                             <div className="flex justify-center pt-8">
-                                <button type="submit" className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold text-[16px] px-12 py-3.5 rounded-[4px] transition-colors shadow-sm">
-                                    Next
+                                <button type="submit" disabled={submitting} className="bg-[#dca626] hover:bg-[#c99722] text-[#043b67] font-bold text-[16px] px-12 py-3.5 rounded-[4px] transition-colors shadow-sm disabled:opacity-50">
+                                    {submitted ? "✓ Submitted!" : submitting ? "Submitting..." : "Next"}
                                 </button>
                             </div>
                         </form>

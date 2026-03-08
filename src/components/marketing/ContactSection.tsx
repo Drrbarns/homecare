@@ -19,10 +19,32 @@ export function ContactSection() {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const [submitting, setSubmitting] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        // Handle form submission
-        console.log(formData);
+        setSubmitting(true);
+        try {
+            const res = await fetch("/api/lead", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: formData.name,
+                    email: formData.email,
+                    phone: formData.phone,
+                    zip_code: formData.zipCode,
+                    care_type: formData.type,
+                    person_needing_care: formData.personNeedingCare,
+                    heard_about_us: formData.hearAboutUs,
+                }),
+            });
+            if (res.ok) {
+                setSubmitted(true);
+                setFormData({ type: "Home Care Services", name: "", email: "", phone: "", zipCode: "", personNeedingCare: "", hearAboutUs: "", vaId: "" });
+            }
+        } catch { /* silent */ }
+        setSubmitting(false);
     };
 
     return (
@@ -133,8 +155,8 @@ export function ContactSection() {
                             </div>
 
                             <div className="pt-2 pb-2">
-                                <button type="submit" className="transition-opacity hover:opacity-90 rounded-[4px] px-8 py-[12px] font-bold shadow-sm inline-flex font-sans tracking-wide w-full sm:w-[200px] justify-center" style={{ backgroundColor: '#ce9b36', color: '#000000', fontSize: '15px' }}>
-                                    Send Message
+                                <button type="submit" disabled={submitting} className="transition-opacity hover:opacity-90 rounded-[4px] px-8 py-[12px] font-bold shadow-sm inline-flex font-sans tracking-wide w-full sm:w-[200px] justify-center disabled:opacity-50" style={{ backgroundColor: '#ce9b36', color: '#000000', fontSize: '15px' }}>
+                                    {submitted ? "✓ Message Sent!" : submitting ? "Sending..." : "Send Message"}
                                 </button>
                             </div>
 

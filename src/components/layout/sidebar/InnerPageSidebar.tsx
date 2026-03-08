@@ -7,6 +7,27 @@ import { usePathname } from "next/navigation";
 export function InnerPageSidebar() {
     const pathname = usePathname();
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [submitting, setSubmitting] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
+    const [sideForm, setSideForm] = useState({ type: "Home Care Services", name: "", email: "", phone: "", zip: "", person: "", heard: "" });
+
+    const handleSidebarSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setSubmitting(true);
+        try {
+            const res = await fetch("/api/lead", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: sideForm.name, email: sideForm.email, phone: sideForm.phone,
+                    zip_code: sideForm.zip, care_type: sideForm.type,
+                    person_needing_care: sideForm.person, heard_about_us: sideForm.heard,
+                }),
+            });
+            if (res.ok) { setSubmitted(true); setSideForm({ type: "Home Care Services", name: "", email: "", phone: "", zip: "", person: "", heard: "" }); }
+        } catch { /* silent */ }
+        setSubmitting(false);
+    };
 
     const menuItems = [
         { label: "24-Hour Care", href: "/24-hour-home-care" },
@@ -70,36 +91,36 @@ export function InnerPageSidebar() {
                     Call <a href="tel:0489987299" className="text-[#3b7ea1] hover:underline">0489 987 299</a> or fill out the form below.
                 </p>
 
-                <form className="space-y-4">
+                <form className="space-y-4" onSubmit={handleSidebarSubmit}>
                     <div className="space-y-2 mb-4">
                         <label className="text-[11px] font-bold text-[#333333] uppercase tracking-widest">PLEASE SELECT</label>
                         <div className="flex flex-col space-y-2 mt-1">
                             <label className="flex items-center cursor-pointer">
-                                <input type="radio" name="type" value="Home Care Services" defaultChecked className="mr-2 w-3 h-3 border-gray-300 text-[#043b67]" />
+                                <input type="radio" name="sidebar-type" value="Home Care Services" checked={sideForm.type === "Home Care Services"} onChange={(e) => setSideForm({...sideForm, type: e.target.value})} className="mr-2 w-3 h-3 border-gray-300 text-[#043b67]" />
                                 <span className="text-[14px] text-[#333333]">Home Care Services</span>
                             </label>
                             <label className="flex items-center cursor-pointer">
-                                <input type="radio" name="type" value="Employment Opportunities" className="mr-2 w-3 h-3 border-gray-300 text-[#043b67]" />
+                                <input type="radio" name="sidebar-type" value="Employment Opportunities" checked={sideForm.type === "Employment Opportunities"} onChange={(e) => setSideForm({...sideForm, type: e.target.value})} className="mr-2 w-3 h-3 border-gray-300 text-[#043b67]" />
                                 <span className="text-[14px] text-[#333333]">Employment Opportunities</span>
                             </label>
                         </div>
                     </div>
 
                     <div>
-                        <input type="text" placeholder="Name *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
+                        <input type="text" placeholder="Name *" required value={sideForm.name} onChange={(e) => setSideForm({...sideForm, name: e.target.value})} className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
                     </div>
                     <div>
-                        <input type="email" placeholder="Email Address *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
+                        <input type="email" placeholder="Email Address *" required value={sideForm.email} onChange={(e) => setSideForm({...sideForm, email: e.target.value})} className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
                     </div>
                     <div>
-                        <input type="tel" placeholder="Phone *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
+                        <input type="tel" placeholder="Phone *" required value={sideForm.phone} onChange={(e) => setSideForm({...sideForm, phone: e.target.value})} className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
                     </div>
                     <div>
-                        <input type="text" placeholder="Zip Code *" required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
+                        <input type="text" placeholder="Zip Code *" required value={sideForm.zip} onChange={(e) => setSideForm({...sideForm, zip: e.target.value})} className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] text-[14px]" />
                     </div>
                     
                     <div>
-                        <select required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] bg-white text-[14px] text-gray-500">
+                        <select required value={sideForm.person} onChange={(e) => setSideForm({...sideForm, person: e.target.value})} className={`w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] bg-white text-[14px] ${sideForm.person ? "text-gray-800" : "text-gray-500"}`}>
                             <option value="" disabled hidden>Person who needs care: Please select</option>
                             <option value="Self">Self</option>
                             <option value="Parent">Parent</option>
@@ -109,7 +130,7 @@ export function InnerPageSidebar() {
                     </div>
 
                     <div>
-                        <select required className="w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] bg-white text-[14px] text-gray-500">
+                        <select required value={sideForm.heard} onChange={(e) => setSideForm({...sideForm, heard: e.target.value})} className={`w-full border border-gray-200 rounded-[3px] px-3 py-2 outline-none focus:border-[#3b7ea1] bg-white text-[14px] ${sideForm.heard ? "text-gray-800" : "text-gray-500"}`}>
                             <option value="" disabled hidden>How did you hear about us? Please select</option>
                             <option value="Google">Google</option>
                             <option value="Facebook">Facebook</option>
@@ -118,8 +139,8 @@ export function InnerPageSidebar() {
                         </select>
                     </div>
 
-                    <button type="submit" className="w-full mt-4 transition-opacity hover:opacity-90 rounded-[3px] py-3 font-bold shadow-sm" style={{ backgroundColor: '#dca626', color: '#000000', fontSize: '15px' }}>
-                        Send Message
+                    <button type="submit" disabled={submitting} className="w-full mt-4 transition-opacity hover:opacity-90 rounded-[3px] py-3 font-bold shadow-sm disabled:opacity-50" style={{ backgroundColor: '#dca626', color: '#000000', fontSize: '15px' }}>
+                        {submitted ? "✓ Sent!" : submitting ? "Sending..." : "Send Message"}
                     </button>
                 </form>
             </div>
