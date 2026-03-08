@@ -11,7 +11,12 @@ import { Newsletter } from "@/components/marketing/Newsletter";
 
 export const metadata = {
   title: "Compassionate In-Home Senior Care",
-  description: "Compassionate in-home senior care services across Australia. MidAid — trusted care since 1998.",
+  description: "MidAid provides compassionate, professional in-home senior care across Australia. Our experienced caregivers help your loved ones thrive at home with personalised care plans, companion care, dementia care, and more.",
+  openGraph: {
+    title: "MidAid | Compassionate In-Home Senior Care",
+    description: "Professional in-home senior care you can trust. Personalised care plans, experienced caregivers, and compassionate support across Australia.",
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630 }],
+  },
 }
 
 export default function Home() {
