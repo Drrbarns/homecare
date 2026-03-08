@@ -12,7 +12,7 @@ import type { Staff } from "@/types/database";
 const emptyForm = {
     staff_id: "", first_name: "", last_name: "", role: "Caregiver",
     department: "Care Services", phone: "", email: "", avatar_url: "",
-    status: "active" as const, start_date: "", published: true,
+    status: "active" as "active" | "inactive" | "on_leave", start_date: "", published: true,
 };
 
 export default function StaffPage() {
