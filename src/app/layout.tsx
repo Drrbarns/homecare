@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { UtilityBar } from "@/components/layout/UtilityBar";
+import { LayoutShell } from "@/components/layout/LayoutShell";
 import { brand } from "@/config/brand";
 
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-sans" });
@@ -32,10 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${outfit.variable} font-sans antialiased flex flex-col min-h-screen overflow-x-hidden`}>
-        <UtilityBar />
-        <Header />
-        <main className="flex-grow pb-14 lg:pb-0">{children}</main>
-        <Footer />
+        <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
   );
