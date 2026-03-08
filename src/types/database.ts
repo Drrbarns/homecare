@@ -152,6 +152,7 @@ export interface AdminActivityLog {
 export interface Staff {
     id: string;
     staff_id: string;
+    passport_number: string | null;
     first_name: string;
     last_name: string;
     role: string;

@@ -10,7 +10,7 @@ import { toast } from "sonner";
 import type { Staff } from "@/types/database";
 
 const emptyForm = {
-    staff_id: "", first_name: "", last_name: "", role: "Caregiver",
+    staff_id: "", passport_number: "", first_name: "", last_name: "", role: "Caregiver",
     department: "Care Services", phone: "", email: "", avatar_url: "",
     status: "active" as "active" | "inactive" | "on_leave", start_date: "", published: true,
 };
@@ -39,7 +39,8 @@ export default function StaffPage() {
     const startEdit = (s: Staff) => {
         setEditing(s); setIsNew(false);
         setForm({
-            staff_id: s.staff_id, first_name: s.first_name, last_name: s.last_name,
+            staff_id: s.staff_id, passport_number: s.passport_number ?? "",
+            first_name: s.first_name, last_name: s.last_name,
             role: s.role, department: s.department ?? "", phone: s.phone ?? "",
             email: s.email ?? "", avatar_url: s.avatar_url ?? "",
             status: s.status, start_date: s.start_date ?? "", published: s.published,
@@ -57,6 +58,7 @@ export default function StaffPage() {
         const payload = {
             ...form,
             staff_id: form.staff_id.toUpperCase(),
+            passport_number: form.passport_number.trim() || null,
             department: form.department || null,
             phone: form.phone || null,
             email: form.email || null,
@@ -108,10 +110,14 @@ export default function StaffPage() {
                         <button onClick={cancelEdit} className="p-1.5 hover:bg-gray-100 rounded-lg"><X className="w-5 h-5 text-gray-400" /></button>
                     </div>
                     <div className="space-y-4">
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                             <div>
                                 <label className="block text-sm font-medium text-gray-700 mb-1.5">Staff ID *</label>
                                 <input type="text" value={form.staff_id} onChange={(e) => setForm({ ...form, staff_id: e.target.value.toUpperCase() })} className="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm outline-none focus:ring-2 focus:ring-[#043b67]/20 focus:border-[#043b67] font-mono" placeholder="MID-00123" />
+                            </div>
+                            <div>
+                                <label className="block text-sm font-medium text-gray-700 mb-1.5">Passport Number</label>
+                                <input type="text" value={form.passport_number} onChange={(e) => setForm({ ...form, passport_number: e.target.value })} className="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm outline-none focus:ring-2 focus:ring-[#043b67]/20 focus:border-[#043b67] font-mono" placeholder="PA1234567" />
                             </div>
                             <div>
                                 <label className="block text-sm font-medium text-gray-700 mb-1.5">First Name *</label>

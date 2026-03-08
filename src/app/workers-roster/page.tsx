@@ -6,6 +6,7 @@ import { Search } from "lucide-react";
 
 interface StaffResult {
     staff_id: string;
+    passport_number: string | null;
     first_name: string;
     last_name: string;
     role: string;
@@ -79,7 +80,7 @@ export default function WorkersRosterPage() {
                         Workers Roster
                     </h1>
                     <p className="text-white/80 text-[15px] sm:text-[16px] leading-relaxed">
-                        Verify a MidAid staff member by entering their Passport Number or Staff ID below.
+                        Verify a MidAid staff member by entering their Staff ID or Passport Number below.
                     </p>
                 </div>
             </div>
@@ -88,7 +89,7 @@ export default function WorkersRosterPage() {
             <div className="max-w-[480px] mx-auto px-5 -mt-8">
                 <form onSubmit={handleLookup} className="bg-white rounded-2xl shadow-xl border border-gray-100 p-6 sm:p-8">
                     <label htmlFor="staff-id" className="block text-sm font-semibold text-gray-700 mb-2">
-                        Staff Passport Number / Staff ID
+                        Staff ID or Passport Number
                     </label>
                     <div className="flex gap-3">
                         <input
@@ -168,6 +169,12 @@ export default function WorkersRosterPage() {
                                         <span className="text-gray-500">Staff ID</span>
                                         <span className="font-mono font-bold text-gray-900">{staff.staff_id}</span>
                                     </div>
+                                    {staff.passport_number && (
+                                        <div className="flex justify-between border-t border-gray-100 pt-3">
+                                            <span className="text-gray-500">Passport No.</span>
+                                            <span className="font-mono font-bold text-gray-900">{staff.passport_number}</span>
+                                        </div>
+                                    )}
                                     {staff.department && (
                                         <div className="flex justify-between border-t border-gray-100 pt-3">
                                             <span className="text-gray-500">Department</span>
