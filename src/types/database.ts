@@ -182,6 +182,7 @@ export interface StaffQuestionnaire {
     emergency_contact_phone: string | null;
     health_conditions: string | null;
     additional_notes: string | null;
+    form_data: Record<string, unknown> | null;
     submitted_at: string;
 }
 

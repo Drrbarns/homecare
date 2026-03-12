@@ -68,24 +68,28 @@ export default function QuestionnairesPage() {
                                 <p className="text-xs text-gray-400 mt-1">Submitted {formatDate(viewing.submitted_at)}</p>
                             </div>
 
-                            <DetailRow label="Availability" value={viewing.availability} />
-                            <DetailRow label="Preferred Shifts" value={viewing.preferred_shifts} />
-                            <DetailRow label="Transport Mode" value={viewing.transport_mode} />
-                            <DetailRow label="Max Travel Distance" value={viewing.max_travel_distance} />
-                            <DetailRow label="Special Skills" value={viewing.special_skills} />
-                            <DetailRow label="Certifications" value={viewing.certifications} />
-                            <DetailRow label="Languages" value={viewing.languages} />
-
-                            {(viewing.emergency_contact_name || viewing.emergency_contact_phone) && (
-                                <div className="border-t border-gray-100 pt-4">
-                                    <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Emergency Contact</p>
-                                    <DetailRow label="Name" value={viewing.emergency_contact_name} />
-                                    <DetailRow label="Phone" value={viewing.emergency_contact_phone} />
-                                </div>
+                            {viewing.form_data ? (
+                                <FormDataDetail formData={viewing.form_data as Record<string, unknown>} />
+                            ) : (
+                                <>
+                                    <DetailRow label="Availability" value={viewing.availability} />
+                                    <DetailRow label="Preferred Shifts" value={viewing.preferred_shifts} />
+                                    <DetailRow label="Transport Mode" value={viewing.transport_mode} />
+                                    <DetailRow label="Max Travel Distance" value={viewing.max_travel_distance} />
+                                    <DetailRow label="Special Skills" value={viewing.special_skills} />
+                                    <DetailRow label="Certifications" value={viewing.certifications} />
+                                    <DetailRow label="Languages" value={viewing.languages} />
+                                    {(viewing.emergency_contact_name || viewing.emergency_contact_phone) && (
+                                        <div className="border-t border-gray-100 pt-4">
+                                            <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Emergency Contact</p>
+                                            <DetailRow label="Name" value={viewing.emergency_contact_name} />
+                                            <DetailRow label="Phone" value={viewing.emergency_contact_phone} />
+                                        </div>
+                                    )}
+                                    <DetailRow label="Health Conditions" value={viewing.health_conditions} />
+                                    <DetailRow label="Additional Notes" value={viewing.additional_notes} />
+                                </>
                             )}
-
-                            <DetailRow label="Health Conditions" value={viewing.health_conditions} />
-                            <DetailRow label="Additional Notes" value={viewing.additional_notes} />
                         </div>
                     </div>
                 </div>
@@ -134,12 +138,100 @@ export default function QuestionnairesPage() {
     );
 }
 
-function DetailRow({ label, value }: { label: string; value: string | null }) {
-    if (!value) return null;
+function DetailRow({ label, value }: { label: string; value: string | null | undefined }) {
+    if (value == null || value === "") return null;
+    if (typeof value === "boolean") return null;
     return (
         <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4 py-1.5">
             <span className="text-sm text-gray-500 sm:w-40 shrink-0">{label}</span>
-            <span className="text-sm font-medium text-gray-900">{value}</span>
+            <span className="text-sm font-medium text-gray-900">{String(value)}</span>
         </div>
+    );
+}
+
+const FORM_DATA_LABELS: Record<string, string> = {
+    full_name: "Full Name",
+    phone: "Phone",
+    email: "Email",
+    address: "Address",
+    can_drive: "Can drive (car)",
+    has_license: "Driver's license",
+    willing_travel: "Willing to travel to clients",
+    years_experience: "Years of experience",
+    client_types: "Client types",
+    client_types_other: "Client types (other)",
+    difficult_patient_situation: "Difficult patient situation",
+    mobility_care_explain: "Mobility care experience",
+    cleaner_fields: "Cleaning experience (fields)",
+    comfortable_preparing_meals: "Comfortable preparing meals",
+    meal_types: "Types of meals",
+    dish_1: "Dish 1",
+    dish_2: "Dish 2",
+    dish_3: "Dish 3",
+    special_dietary_meals: "Special dietary meals",
+    handle_new_meal_request: "New meal request – approach",
+    comfortable_assisting_feeding: "Comfortable assisting feeding",
+    how_often_upset: "How often upset/frustrated",
+    manage_stress: "How you manage stress",
+    difficult_client_reaction: "Difficult/rude client – reaction",
+    patient_qualities: "Patient qualities",
+    calm_confused_person: "Calming confused/anxious person",
+    client_refuses_medication: "Client refuses medication",
+    communicate_updates: "Communicating updates to family",
+    client_falls_bathroom: "Client falls in bathroom",
+    client_refuses_eat: "Client refuses to eat",
+    client_aggressive: "Client becomes aggressive",
+    client_crying_lonely: "Client crying and lonely",
+    client_asks_outside_duties: "Client asks outside duties",
+    task_bathing: "Bathing and grooming",
+    task_dressing: "Dressing assistance",
+    task_medication: "Medication reminders",
+    task_meal_prep: "Meal preparation",
+    task_housekeeping: "Light housekeeping",
+    task_laundry: "Laundry",
+    task_mobility: "Mobility assistance",
+    task_companionship: "Companionship",
+    why_caregiver: "Why work as caregiver",
+    what_makes_good: "What makes you a good caregiver",
+    describe_personality: "Describe your personality",
+    enjoy_most: "Enjoy most about helping",
+};
+
+function FormDataDetail({ formData }: { formData: Record<string, unknown> }) {
+    const sections: { title: string; keys: string[] }[] = [
+        { title: "1. Personal Information", keys: ["full_name", "phone", "email", "address", "can_drive", "has_license", "willing_travel"] },
+        { title: "2. Caregiving Experience", keys: ["years_experience", "client_types", "client_types_other", "difficult_patient_situation", "mobility_care_explain", "cleaner_fields"] },
+        { title: "3. Cooking Ability", keys: ["comfortable_preparing_meals", "meal_types", "dish_1", "dish_2", "dish_3", "special_dietary_meals", "handle_new_meal_request", "comfortable_assisting_feeding"] },
+        { title: "4. Emotional Control", keys: ["how_often_upset", "manage_stress", "difficult_client_reaction", "patient_qualities", "calm_confused_person", "client_refuses_medication", "communicate_updates"] },
+        { title: "5. Problem-Solving", keys: ["client_falls_bathroom", "client_refuses_eat", "client_aggressive", "client_crying_lonely", "client_asks_outside_duties"] },
+        { title: "6. Daily Care Tasks", keys: ["task_bathing", "task_dressing", "task_medication", "task_meal_prep", "task_housekeeping", "task_laundry", "task_mobility", "task_companionship"] },
+        { title: "7. Character and Attitude", keys: ["why_caregiver", "what_makes_good", "describe_personality", "enjoy_most"] },
+    ];
+
+    const formatVal = (key: string, val: unknown): string | null => {
+        if (val == null) return null;
+        if (typeof val === "boolean") return val ? "Yes" : "No";
+        if (Array.isArray(val)) return val.join(", ");
+        return String(val);
+    };
+
+    return (
+        <div className="space-y-6">
+                            {sections.map((sec) => (
+                                <div key={sec.title}>
+                                    <h3 className="text-sm font-bold text-[#043b67] border-b border-gray-100 pb-1.5 mb-2">{sec.title}</h3>
+                                    <div className="space-y-1">
+                                        {sec.keys.map((key) => {
+                                            const val = formData[key];
+                                            const display = formatVal(key, val);
+                                            if (display == null || display === "") return null;
+                                            return (
+                                                <DetailRow key={key} label={FORM_DATA_LABELS[key] ?? key} value={display} />
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
     );
 }

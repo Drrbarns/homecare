@@ -90,6 +90,9 @@ export function UtilityBar() {
                                     <Link href="/articles" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                         Articles
                                     </Link>
+                                    <Link href="/workers-roster" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
+                                        Staff Roster
+                                    </Link>
                                     <Link href="/employment" onClick={handleLinkClick} className="text-lg font-medium hover:text-[#5cb3b1] uppercase text-[#1b3664] py-3">
                                         Caregiver Jobs
                                     </Link>

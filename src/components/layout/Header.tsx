@@ -103,6 +103,7 @@ export function Header() {
                         </div>
                     </div>
                     <Link href="/articles" className="hover:text-[#5cb3b1] transition-colors">Articles</Link>
+                    <Link href="/workers-roster" className="hover:text-[#5cb3b1] transition-colors">Staff Roster</Link>
                     <Link href="/employment" className="hover:text-[#5cb3b1] transition-colors uppercase">Caregiver Jobs</Link>
                     <Link href="/contact-us" className="hover:text-[#5cb3b1] transition-colors">Contact Us</Link>
 
