@@ -143,6 +143,7 @@ export default function QuestionnairePage() {
     const [loading, setLoading] = useState(true);
     const [submitting, setSubmitting] = useState(false);
     const [submitted, setSubmitted] = useState(false);
+    const [error, setError] = useState("");
     const [form, setForm] = useState<QuestionnaireFormData>(initialForm);
 
     useEffect(() => {
@@ -184,7 +185,11 @@ export default function QuestionnairePage() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        if (!staffInfo || !form.full_name.trim() || !form.email.trim()) return;
+        setError("");
+
+        if (!staffInfo) { setError("Staff info not loaded. Please go back and try again."); return; }
+        if (!form.full_name.trim()) { setError("Full name is required."); return; }
+        if (!form.email.trim()) { setError("Email address is required."); return; }
 
         setSubmitting(true);
         try {
@@ -197,10 +202,22 @@ export default function QuestionnairePage() {
                     form_data: form,
                 }),
             });
+
+            if (!res.ok) {
+                const errData = await res.json().catch(() => null);
+                setError(errData?.error || `Submission failed (${res.status}). Please try again.`);
+                setSubmitting(false);
+                return;
+            }
+
             const data = await res.json();
-            if (data.success) setSubmitted(true);
+            if (data.success) {
+                setSubmitted(true);
+            } else {
+                setError(data.error || "Submission failed. Please try again.");
+            }
         } catch {
-            // silent fail
+            setError("Network error — please check your connection and try again.");
         }
         setSubmitting(false);
     };
@@ -510,6 +527,12 @@ export default function QuestionnairePage() {
                             </div>
                         </div>
                     </section>
+
+                    {error && (
+                        <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3 text-sm text-red-700 font-medium">
+                            {error}
+                        </div>
+                    )}
 
                     <button
                         type="submit"
