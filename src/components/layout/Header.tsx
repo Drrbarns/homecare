@@ -41,7 +41,7 @@ export function Header() {
             <div className="container mx-auto flex h-[64px] md:h-[88px] items-center justify-center xl:justify-between px-4 lg:px-6 max-w-[1440px]">
                 {/* Left: Logo */}
                 <Link href="/" className="flex items-center h-full">
-                    <div className="relative w-[200px] h-[50px] sm:w-[220px] sm:h-[55px] md:w-[320px] md:h-[75px] lg:w-[380px] lg:h-[85px]">
+                    <div className="relative w-[200px] h-[50px] sm:w-[220px] sm:h-[55px] md:w-[320px] md:h-[75px] xl:w-[280px] xl:h-[70px] 2xl:w-[340px] 2xl:h-[80px]">
                         <Image
                             src="/images/midaid-logo.png"
                             alt="MidAid Logo"
@@ -53,7 +53,7 @@ export function Header() {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <nav className="hidden xl:flex items-center space-x-6 text-[14px] text-[#1b3664] uppercase tracking-wider font-semibold">
+                <nav className="hidden xl:flex items-center space-x-4 2xl:space-x-6 text-[12.5px] 2xl:text-[13.5px] text-[#1b3664] uppercase tracking-wide font-semibold">
                     <Link href="/office-locator" className="hover:text-[#5cb3b1] transition-colors">Find Care</Link>
                     <Link href="/about-us" className="text-[#5cb3b1] transition-colors">About Us</Link>
 
@@ -107,7 +107,7 @@ export function Header() {
                     <Link href="/employment" className="hover:text-[#5cb3b1] transition-colors uppercase">Caregiver Jobs</Link>
                     <Link href="/contact-us" className="hover:text-[#5cb3b1] transition-colors">Contact Us</Link>
 
-                    <button className="hover:text-[#5cb3b1] transition-colors ml-2" aria-label="Search">
+                    <button className="hover:text-[#5cb3b1] transition-colors ml-1" aria-label="Search">
                         <Search className="w-5 h-5" strokeWidth={2.5} />
                     </button>
                 </nav>
