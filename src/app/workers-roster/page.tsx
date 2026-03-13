@@ -208,7 +208,7 @@ export default function WorkersRosterPage() {
 
                         <div className="text-center mt-5 space-y-3">
                             <Link
-                                href={`/workers-roster/questionnaire/${staff.staff_id}`}
+                                href={`/workers-roster/questionnaire/${encodeURIComponent(staff.staff_id)}`}
                                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#043b67] text-white rounded-xl font-semibold text-sm hover:bg-[#032d50] transition-colors"
                             >
                                 <ClipboardList className="w-4 h-4" />

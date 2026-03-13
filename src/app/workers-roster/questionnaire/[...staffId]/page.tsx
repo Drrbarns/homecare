@@ -137,7 +137,8 @@ const DAILY_TASKS = [
 
 export default function QuestionnairePage() {
     const params = useParams();
-    const staffId = (params.staffId as string)?.toUpperCase();
+    const rawSegments = params.staffId as string | string[];
+    const staffId = (Array.isArray(rawSegments) ? rawSegments.map(decodeURIComponent).join("/") : decodeURIComponent(rawSegments)).toUpperCase();
 
     const [staffInfo, setStaffInfo] = useState<StaffInfo | null>(null);
     const [loading, setLoading] = useState(true);
