@@ -79,11 +79,13 @@ export function Footer() {
                         <div className="flex flex-wrap gap-x-5 gap-y-2 text-[14.5px] md:text-[15.5px] font-medium tracking-wide mt-2">
                             <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">MidAid UK</Link>
                             <span className="hidden md:inline text-white/40">|</span>
-                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">MidAid Korea</Link>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">Germany</Link>
                             <span className="hidden md:inline text-white/40">|</span>
-                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">MidAid Mexico</Link>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">Canada</Link>
                             <span className="hidden md:inline text-white/40">|</span>
-                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:opacity-80 transition-colors font-semibold" style={{ color: '#dca626' }}>Senior Home Care By Angels Canada</Link>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:text-white/80 transition-colors font-semibold">New Zealand</Link>
+                            <span className="hidden md:inline text-white/40">|</span>
+                            <Link href="#" className="underline decoration-1 underline-offset-[3px] hover:opacity-80 transition-colors font-semibold" style={{ color: '#dca626' }}>Senior Home Care By MidAid Australia</Link>
                         </div>
                     </div>
 

@@ -24,6 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${BASE_URL}/veterans-benefits`, changeFrequency: "monthly" as const, priority: 0.6 },
         { url: `${BASE_URL}/give-us-a-review`, changeFrequency: "monthly" as const, priority: 0.5 },
         { url: `${BASE_URL}/guide-model-program`, changeFrequency: "monthly" as const, priority: 0.5 },
+        { url: `${BASE_URL}/resources`, changeFrequency: "monthly" as const, priority: 0.7 },
+        { url: `${BASE_URL}/office-locator`, changeFrequency: "monthly" as const, priority: 0.8 },
+        { url: `${BASE_URL}/why-us`, changeFrequency: "monthly" as const, priority: 0.7 },
+        { url: `${BASE_URL}/careers`, changeFrequency: "monthly" as const, priority: 0.5 },
     ];
 
     const carePages = [
