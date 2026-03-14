@@ -2,6 +2,9 @@ import type { MetadataRoute } from "next";
 
 const BASE_URL = "https://midaid.com";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function sitemap(): MetadataRoute.Sitemap {
     const now = new Date().toISOString();
 
